@@ -1,0 +1,1048 @@
+[
+  {
+    "id": "home",
+    "title": "Home: Search, Media and eCommerce Growth",
+    "url": "index.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "Main landing page for Shashi Kant profile.",
+    "excerpt": "Search, media and ecommerce growth across Japan and APAC.",
+    "keywords": [
+      "home",
+      "Shashi Kant",
+      "growth marketing",
+      "SEO",
+      "SEM",
+      "ecommerce",
+      "APAC",
+      "Japan",
+      "resume"
+    ],
+    "tags": [
+      "Home",
+      "Profile",
+      "Growth"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 10,
+    "contentSummary": "Main landing page for Shashi Kant profile. Search, media and ecommerce growth across Japan and APAC."
+  },
+  {
+    "id": "about",
+    "title": "About Shashi Kant",
+    "url": "about.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "Professional profile across growth, search, ecommerce and cross-border execution.",
+    "excerpt": "A practical growth profile built across markets and business environments.",
+    "keywords": [
+      "about",
+      "resume",
+      "experience",
+      "growth",
+      "Japan",
+      "APAC"
+    ],
+    "tags": [
+      "About",
+      "Profile"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 9,
+    "contentSummary": "Professional profile across growth, search, ecommerce and cross-border execution. A practical growth profile built across markets and business environments."
+  },
+  {
+    "id": "journey",
+    "title": "My Journey",
+    "url": "journey.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "Career journey across sales, industrial execution, technology, SEO, ecommerce, performance media and Japan/APAC execution.",
+    "excerpt": "Each stage added a practical capability.",
+    "keywords": [
+      "journey",
+      "resume",
+      "experience",
+      "career",
+      "POSCO",
+      "Samsung",
+      "IBM",
+      "Google Play",
+      "Thirdwave",
+      "H&M",
+      "Estee Lauder"
+    ],
+    "tags": [
+      "Journey",
+      "Experience"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 10,
+    "contentSummary": "Career journey across sales, industrial execution, technology, SEO, ecommerce, performance media and Japan/APAC execution. Each stage added a practical capability."
+  },
+  {
+    "id": "what-i-do",
+    "title": "Search, Media and eCommerce Growth",
+    "url": "search-media-ecommerce.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "How SEO, SEM, paid media, ecommerce discovery, agency coordination and analytics work together.",
+    "excerpt": "Growth improves when search, media and product discovery work together.",
+    "keywords": [
+      "SEO",
+      "SEM",
+      "paid search",
+      "ecommerce",
+      "agency coordination",
+      "analytics",
+      "Search Console",
+      "Googlebot"
+    ],
+    "tags": [
+      "SEO",
+      "SEM",
+      "eCommerce"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 10,
+    "contentSummary": "How SEO, SEM, paid media, ecommerce discovery, agency coordination and analytics work together. Growth improves when search, media and product discovery work together."
+  },
+  {
+    "id": "selected-work",
+    "title": "Selected Work",
+    "url": "selected-work.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "Public-safe work themes across search, media, ecommerce, marketplace, B2B campaigns and cross-cultural execution.",
+    "excerpt": "Experience themes written safely and clearly.",
+    "keywords": [
+      "selected work",
+      "case studies",
+      "SEO",
+      "SEM",
+      "Google Play",
+      "IBM",
+      "marketplace",
+      "B2B demand generation"
+    ],
+    "tags": [
+      "Selected Work"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 8,
+    "contentSummary": "Public-safe work themes across search, media, ecommerce, marketplace, B2B campaigns and cross-cultural execution. Experience themes written safely and clearly."
+  },
+  {
+    "id": "services",
+    "title": "Services",
+    "url": "services.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "Selected support for SEO, SEM, ecommerce discovery, agency coordination, Japan/APAC execution and training.",
+    "excerpt": "Support for selected growth, search and execution problems.",
+    "keywords": [
+      "services",
+      "SEO review",
+      "SEM review",
+      "ecommerce review",
+      "Japan",
+      "APAC",
+      "training"
+    ],
+    "tags": [
+      "Services"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 9,
+    "contentSummary": "Selected support for SEO, SEM, ecommerce discovery, agency coordination, Japan/APAC execution and training. Support for selected growth, search and execution problems."
+  },
+  {
+    "id": "japan-apac",
+    "title": "Japan and APAC Market Execution",
+    "url": "japan-apac.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "Japan/APAC digital execution across search, ecommerce, marketplaces, media and cross-cultural coordination.",
+    "excerpt": "Global strategy needs local execution discipline.",
+    "keywords": [
+      "Japan",
+      "APAC",
+      "Korea",
+      "India",
+      "Doshisha",
+      "MBA",
+      "ecommerce behavior"
+    ],
+    "tags": [
+      "Japan",
+      "APAC"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 8,
+    "contentSummary": "Japan/APAC digital execution across search, ecommerce, marketplaces, media and cross-cultural coordination. Global strategy needs local execution discipline."
+  },
+  {
+    "id": "insights",
+    "title": "Writing",
+    "url": "insights.html",
+    "type": "Page",
+    "status": "Coming Soon",
+    "description": "Future writing on SEO, SEM, ecommerce, agency coordination and Japan/APAC execution.",
+    "excerpt": "This section is being expanded with public-safe notes.",
+    "keywords": [
+      "writing",
+      "insights",
+      "SEO",
+      "SEM",
+      "ecommerce",
+      "Japan",
+      "agency coordination"
+    ],
+    "tags": [
+      "Writing",
+      "Coming Soon"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 4,
+    "contentSummary": "Future writing on SEO, SEM, ecommerce, agency coordination and Japan/APAC execution. This section is being expanded with public-safe notes."
+  },
+  {
+    "id": "contact",
+    "title": "Contact",
+    "url": "contact.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "Contact page for relevant growth, search, ecommerce, Japan/APAC or professional conversations.",
+    "excerpt": "Start with the business problem.",
+    "keywords": [
+      "contact",
+      "email",
+      "LinkedIn",
+      "conversation"
+    ],
+    "tags": [
+      "Contact"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 6,
+    "contentSummary": "Contact page for relevant growth, search, ecommerce, Japan/APAC or professional conversations. Start with the business problem."
+  },
+  {
+    "id": "seo-review",
+    "title": "SEO & Search Growth Review",
+    "url": "services.html#seo-review",
+    "type": "Service",
+    "status": "Live",
+    "description": "For businesses whose websites need stronger qualified organic visibility.",
+    "excerpt": "A clear action roadmap showing what to fix first, why it matters and how it supports growth.",
+    "keywords": [
+      "SEO",
+      "Search Console",
+      "Googlebot",
+      "organic visibility",
+      "technical SEO",
+      "content",
+      "SEO & Search Growth Review",
+      "services"
+    ],
+    "tags": [
+      "SEO",
+      "Search Console",
+      "Googlebot",
+      "organic visibility",
+      "technical SEO",
+      "content"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [
+      "SEO",
+      "Search Console",
+      "Googlebot",
+      "organic visibility",
+      "technical SEO",
+      "content"
+    ],
+    "priority": 8,
+    "contentSummary": "For businesses whose websites need stronger qualified organic visibility. A clear action roadmap showing what to fix first, why it matters and how it supports growth."
+  },
+  {
+    "id": "sem-review",
+    "title": "SEM & Paid Search Review",
+    "url": "services.html#sem-review",
+    "type": "Service",
+    "status": "Live",
+    "description": "For teams that need better clarity from paid search, PMax and performance media.",
+    "excerpt": "A practical improvement plan for clearer decisions and stronger media discipline.",
+    "keywords": [
+      "SEM",
+      "paid search",
+      "PMax",
+      "Google Ads",
+      "Yahoo Japan",
+      "Bing",
+      "performance marketing",
+      "SEM & Paid Search Review",
+      "services"
+    ],
+    "tags": [
+      "SEM",
+      "paid search",
+      "PMax",
+      "Google Ads",
+      "Yahoo Japan",
+      "Bing",
+      "performance marketing"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [
+      "SEM",
+      "paid search",
+      "PMax",
+      "Google Ads",
+      "Yahoo Japan",
+      "Bing",
+      "performance marketing"
+    ],
+    "priority": 8,
+    "contentSummary": "For teams that need better clarity from paid search, PMax and performance media. A practical improvement plan for clearer decisions and stronger media discipline."
+  },
+  {
+    "id": "ecommerce-review",
+    "title": "eCommerce Discovery Review",
+    "url": "services.html#ecommerce-review",
+    "type": "Service",
+    "status": "Live",
+    "description": "For brands or marketplaces where products are not easy enough to find, understand or buy.",
+    "excerpt": "A prioritized discovery plan connecting search demand, product information and user experience.",
+    "keywords": [
+      "ecommerce",
+      "marketplace",
+      "metadata",
+      "catalogue",
+      "merchandising",
+      "UX",
+      "eCommerce Discovery Review",
+      "services"
+    ],
+    "tags": [
+      "ecommerce",
+      "marketplace",
+      "metadata",
+      "catalogue",
+      "merchandising",
+      "UX"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [
+      "ecommerce",
+      "marketplace",
+      "metadata",
+      "catalogue",
+      "merchandising",
+      "UX"
+    ],
+    "priority": 8,
+    "contentSummary": "For brands or marketplaces where products are not easy enough to find, understand or buy. A prioritized discovery plan connecting search demand, product information and user experience."
+  },
+  {
+    "id": "agency-review",
+    "title": "Agency Coordination Review",
+    "url": "services.html#agency-review",
+    "type": "Service",
+    "status": "Live",
+    "description": "For businesses working with multiple agencies or vendors where accountability is unclear.",
+    "excerpt": "A cleaner operating rhythm between business teams and agency partners.",
+    "keywords": [
+      "agency coordination",
+      "reporting",
+      "quality checks",
+      "performance media",
+      "Agency Coordination Review",
+      "services"
+    ],
+    "tags": [
+      "agency coordination",
+      "reporting",
+      "quality checks",
+      "performance media"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [
+      "agency coordination",
+      "reporting",
+      "quality checks",
+      "performance media"
+    ],
+    "priority": 8,
+    "contentSummary": "For businesses working with multiple agencies or vendors where accountability is unclear. A cleaner operating rhythm between business teams and agency partners."
+  },
+  {
+    "id": "apac-review",
+    "title": "Japan & APAC Execution Review",
+    "url": "services.html#apac-review",
+    "type": "Service",
+    "status": "Live",
+    "description": "For teams trying to make digital growth work in Japan and APAC markets.",
+    "excerpt": "A practical market execution view that connects global goals with local realities.",
+    "keywords": [
+      "Japan",
+      "APAC",
+      "Korea",
+      "India",
+      "local execution",
+      "market strategy",
+      "Japan & APAC Execution Review",
+      "services"
+    ],
+    "tags": [
+      "Japan",
+      "APAC",
+      "Korea",
+      "India",
+      "local execution",
+      "market strategy"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [
+      "Japan",
+      "APAC",
+      "Korea",
+      "India",
+      "local execution",
+      "market strategy"
+    ],
+    "priority": 8,
+    "contentSummary": "For teams trying to make digital growth work in Japan and APAC markets. A practical market execution view that connects global goals with local realities."
+  },
+  {
+    "id": "training",
+    "title": "Training & Working Sessions",
+    "url": "services.html#training",
+    "type": "Service",
+    "status": "Live",
+    "description": "For teams that need clearer understanding of SEO, SEM, ecommerce discovery or agency coordination.",
+    "excerpt": "A focused learning session with examples, checklists and action points.",
+    "keywords": [
+      "training",
+      "workshop",
+      "SEO",
+      "SEM",
+      "ecommerce",
+      "agency coordination",
+      "Training & Working Sessions",
+      "services"
+    ],
+    "tags": [
+      "training",
+      "workshop",
+      "SEO",
+      "SEM",
+      "ecommerce",
+      "agency coordination"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [
+      "training",
+      "workshop",
+      "SEO",
+      "SEM",
+      "ecommerce",
+      "agency coordination"
+    ],
+    "priority": 8,
+    "contentSummary": "For teams that need clearer understanding of SEO, SEM, ecommerce discovery or agency coordination. A focused learning session with examples, checklists and action points."
+  },
+  {
+    "id": "journey-damask",
+    "title": "My Journey: Sales and marketing foundation",
+    "url": "journey.html#damask",
+    "type": "Experience",
+    "status": "Live",
+    "description": "Damask Rose Tours - Early career",
+    "excerpt": "Early business work required direct customer understanding, trust-building and end-to-end follow-through.",
+    "keywords": [
+      "sales",
+      "marketing",
+      "business development",
+      "customer handling",
+      "India",
+      "Sales and marketing foundation",
+      "Damask Rose Tours",
+      "Customer understanding",
+      "resume",
+      "experience"
+    ],
+    "tags": [
+      "sales",
+      "marketing",
+      "business development",
+      "customer handling",
+      "India"
+    ],
+    "relatedCompanies": [
+      "Damask Rose Tours"
+    ],
+    "relatedSkills": [
+      "Customer understanding",
+      "Sales foundation"
+    ],
+    "priority": 7,
+    "contentSummary": "Early business work required direct customer understanding, trust-building and end-to-end follow-through. Worked on sales, marketing, customer handling and business development for travel and tour services. Turning interest into trust and trust into completed customer transactions. Built a practical base in communication, service delivery, follow-through and business development. Resume-supported early sales, marketing and business development experience."
+  },
+  {
+    "id": "journey-posco",
+    "title": "My Journey: B2B industrial execution",
+    "url": "journey.html#posco",
+    "type": "Experience",
+    "status": "Live",
+    "description": "POSCO Steel - 2007-2010",
+    "excerpt": "Industrial business required accuracy, documentation, vendor coordination and practical project discipline.",
+    "keywords": [
+      "POSCO",
+      "B2B",
+      "industrial",
+      "finance",
+      "accounts",
+      "automotive steel",
+      "vendor coordination",
+      "B2B industrial execution",
+      "POSCO Steel",
+      "B2B execution",
+      "resume",
+      "experience"
+    ],
+    "tags": [
+      "POSCO",
+      "B2B",
+      "industrial",
+      "finance",
+      "accounts",
+      "automotive steel",
+      "vendor coordination"
+    ],
+    "relatedCompanies": [
+      "POSCO Steel"
+    ],
+    "relatedSkills": [
+      "B2B execution",
+      "Operational discipline"
+    ],
+    "priority": 7,
+    "contentSummary": "Industrial business required accuracy, documentation, vendor coordination and practical project discipline. Worked across finance/accounts, letters of credit, automotive steel business development, vendor coordination and steel processing plant project support. Complex work slows down when finance, operations, vendors and project teams are not aligned. Strengthened operating discipline, commercial awareness and cross-functional follow-through. Resume-supported experience in steel business, finance/accounts, vendor coordination and plant project support."
+  },
+  {
+    "id": "journey-samsung",
+    "title": "My Journey: India-Korea coordination",
+    "url": "journey.html#samsung",
+    "type": "Experience",
+    "status": "Live",
+    "description": "Samsung Electronics - 2010-2011",
+    "excerpt": "Korean and Indian engineering teams needed clearer communication across language, culture and work styles.",
+    "keywords": [
+      "Samsung",
+      "Korea",
+      "India",
+      "R&D",
+      "language support",
+      "cross-cultural",
+      "India-Korea coordination",
+      "Samsung Electronics",
+      "Cross-cultural coordination",
+      "resume",
+      "experience"
+    ],
+    "tags": [
+      "Samsung",
+      "Korea",
+      "India",
+      "R&D",
+      "language support",
+      "cross-cultural"
+    ],
+    "relatedCompanies": [
+      "Samsung Electronics"
+    ],
+    "relatedSkills": [
+      "Cross-cultural coordination",
+      "Team alignment"
+    ],
+    "priority": 7,
+    "contentSummary": "Korean and Indian engineering teams needed clearer communication across language, culture and work styles. Supported R&D coordination, Korean/Indian communication, documentation and language bridging between technical teams. Technical work can slow down when teams misunderstand context, tone, timing or documentation. Helped reduce communication friction and support smoother India-Korea project work. Resume-supported experience in R&D project coordination, Korean language support and documentation."
+  },
+  {
+    "id": "journey-ibm",
+    "title": "My Journey: Enterprise SEO and demand generation",
+    "url": "journey.html#ibm",
+    "type": "Experience",
+    "status": "Live",
+    "description": "IBM Demand Programs - 2011-2014",
+    "excerpt": "Enterprise campaigns needed stronger search visibility, structured execution, landing pages, web optimization and localized campaign operations.",
+    "keywords": [
+      "IBM",
+      "SEO",
+      "B2B demand generation",
+      "Unica",
+      "landing pages",
+      "web optimization",
+      "campaign planning",
+      "Enterprise SEO and demand generation",
+      "IBM Demand Programs",
+      "Enterprise SEO and B2B demand generation",
+      "resume",
+      "experience"
+    ],
+    "tags": [
+      "IBM",
+      "SEO",
+      "B2B demand generation",
+      "Unica",
+      "landing pages",
+      "web optimization",
+      "campaign planning"
+    ],
+    "relatedCompanies": [
+      "IBM Demand Programs"
+    ],
+    "relatedSkills": [
+      "Enterprise SEO and B2B demand generation",
+      "Demand operations"
+    ],
+    "priority": 7,
+    "contentSummary": "Enterprise campaigns needed stronger search visibility, structured execution, landing pages, web optimization and localized campaign operations. Worked on SEO, web optimization, campaign planning, analytics, keyword research, landing pages, nurture assets and Unica campaign execution. Campaigns are weaker when search, landing pages, data and execution assets are disconnected. Connected search visibility, web performance and campaign operations into clearer execution. Resume-supported experience in search/web optimization, SEO reporting, campaign planning, Unica execution and demand generation."
+  },
+  {
+    "id": "journey-doshisha",
+    "title": "My Journey: Japan ecommerce behavior research",
+    "url": "journey.html#doshisha",
+    "type": "Experience",
+    "status": "Live",
+    "description": "Doshisha University MBA - Japan MBA",
+    "excerpt": "Japan market execution requires more than translation; it requires understanding trust, behavior and digital adoption.",
+    "keywords": [
+      "Doshisha",
+      "MBA",
+      "Japan",
+      "ecommerce behavior",
+      "research",
+      "Japan ecommerce behavior research",
+      "Doshisha University MBA",
+      "Japan market understanding",
+      "resume",
+      "experience"
+    ],
+    "tags": [
+      "Doshisha",
+      "MBA",
+      "Japan",
+      "ecommerce behavior",
+      "research"
+    ],
+    "relatedCompanies": [
+      "Doshisha University MBA"
+    ],
+    "relatedSkills": [
+      "Japan market understanding",
+      "Market insight"
+    ],
+    "priority": 7,
+    "contentSummary": "Japan market execution requires more than translation; it requires understanding trust, behavior and digital adoption. Studied business in Japan and researched Japanese smartphone ecommerce behavior. Global digital tactics can fail when local user behavior and trust factors are not understood. Added academic and market context to practical digital growth work in Japan. Resume-supported MBA in Japan with research on Japanese ecommerce behavior."
+  },
+  {
+    "id": "journey-google-play",
+    "title": "My Journey: Marketplace merchandising",
+    "url": "journey.html#google-play",
+    "type": "Experience",
+    "status": "Live",
+    "description": "Google Play via Hays - 2015-2016",
+    "excerpt": "Digital marketplace growth needed content planning, catalogue quality, metadata discipline and local market coordination.",
+    "keywords": [
+      "Google Play",
+      "Hays",
+      "marketplace",
+      "metadata",
+      "catalogue",
+      "A/B testing",
+      "APAC",
+      "SEA",
+      "Marketplace merchandising",
+      "Google Play via Hays",
+      "Marketplace growth",
+      "resume",
+      "experience"
+    ],
+    "tags": [
+      "Google Play",
+      "Hays",
+      "marketplace",
+      "metadata",
+      "catalogue",
+      "A/B testing",
+      "APAC",
+      "SEA"
+    ],
+    "relatedCompanies": [
+      "Google Play via Hays"
+    ],
+    "relatedSkills": [
+      "Marketplace growth",
+      "Marketplace discovery"
+    ],
+    "priority": 7,
+    "contentSummary": "Digital marketplace growth needed content planning, catalogue quality, metadata discipline and local market coordination. Supported Books and Movies merchandising, APAC/SEA coordination, A/B testing, metadata hygiene, catalogue prioritization and partner workflows. Marketplace content does not perform well when discovery, metadata, catalogue quality and local relevance are weak. Built experience connecting merchandising, metadata, testing, partners and platform execution. Resume-supported Google Play via Hays merchandising, APAC/SEA support, A/B testing and metadata work."
+  },
+  {
+    "id": "journey-japan-contract",
+    "title": "My Journey: Japan digital execution",
+    "url": "journey.html#japan-contract",
+    "type": "Experience",
+    "status": "Live",
+    "description": "DAZN / Perform Group and Japan contract roles - 2018-2019",
+    "excerpt": "Different businesses needed practical support across web, product, ecommerce, PR, SEO, analytics and local execution.",
+    "keywords": [
+      "DAZN",
+      "Perform Group",
+      "Japan",
+      "product",
+      "web",
+      "SEO",
+      "analytics",
+      "PR",
+      "Japan digital execution",
+      "DAZN / Perform Group and Japan contract roles",
+      "Hands-on Japan execution",
+      "resume",
+      "experience"
+    ],
+    "tags": [
+      "DAZN",
+      "Perform Group",
+      "Japan",
+      "product",
+      "web",
+      "SEO",
+      "analytics",
+      "PR"
+    ],
+    "relatedCompanies": [
+      "DAZN / Perform Group and Japan contract roles"
+    ],
+    "relatedSkills": [
+      "Hands-on Japan execution",
+      "Flexible execution"
+    ],
+    "priority": 7,
+    "contentSummary": "Different businesses needed practical support across web, product, ecommerce, PR, SEO, analytics and local execution. Worked across product, digital marketing, web development, SEO, PR, ecommerce, analytics and local business execution. Fast-moving environments need hands-on execution across several digital and business areas. Strengthened the ability to move between strategy, implementation, web work, marketing and local coordination. Resume-supported product, web, ecommerce, PR, SEO and analytics roles in Japan."
+  },
+  {
+    "id": "journey-thirdwave",
+    "title": "My Journey: Product-led ecommerce SEO",
+    "url": "journey.html#thirdwave",
+    "type": "Experience",
+    "status": "Live",
+    "description": "Thirdwave - 2019-2021",
+    "excerpt": "Ecommerce SEO needed more than keywords; it needed search intent, developers, UX and product thinking.",
+    "keywords": [
+      "Thirdwave",
+      "SEO",
+      "ecommerce",
+      "search intent",
+      "UX",
+      "UI",
+      "A/B testing",
+      "product backlog",
+      "Product-led ecommerce SEO",
+      "Thirdwave",
+      "Product-led SEO",
+      "resume",
+      "experience"
+    ],
+    "tags": [
+      "Thirdwave",
+      "SEO",
+      "ecommerce",
+      "search intent",
+      "UX",
+      "UI",
+      "A/B testing",
+      "product backlog"
+    ],
+    "relatedCompanies": [
+      "Thirdwave"
+    ],
+    "relatedSkills": [
+      "Product-led SEO",
+      "SEO and product"
+    ],
+    "priority": 7,
+    "contentSummary": "Ecommerce SEO needed more than keywords; it needed search intent, developers, UX and product thinking. Worked on ecommerce SEO, search intent, developer coordination, Japanese content, UX/UI, wireframes, product backlog, user stories and A/B testing. SEO performance is limited when content, technical work, UX and development priorities are disconnected. Connected search strategy with page experience, development and ecommerce growth. Resume-supported ecommerce SEO, developer guidance, UX/UI, product backlog and A/B testing experience."
+  },
+  {
+    "id": "journey-hm",
+    "title": "My Journey: Regional performance media",
+    "url": "journey.html#hm",
+    "type": "Experience",
+    "status": "Live",
+    "description": "H&M - 2022",
+    "excerpt": "Performance media required better coordination across SEM/SEO, paid social, affiliate, display and agencies.",
+    "keywords": [
+      "H&M",
+      "performance media",
+      "SEM",
+      "SEO",
+      "paid social",
+      "affiliate",
+      "display",
+      "agency coordination",
+      "Regional performance media",
+      "H&M",
+      "Media and agency coordination",
+      "resume",
+      "experience"
+    ],
+    "tags": [
+      "H&M",
+      "performance media",
+      "SEM",
+      "SEO",
+      "paid social",
+      "affiliate",
+      "display",
+      "agency coordination"
+    ],
+    "relatedCompanies": [
+      "H&M"
+    ],
+    "relatedSkills": [
+      "Media and agency coordination",
+      "Channel coordination"
+    ],
+    "priority": 7,
+    "contentSummary": "Performance media required better coordination across SEM/SEO, paid social, affiliate, display and agencies. Worked with performance media channels, regional teams, agencies, quality checks and website/app issue identification. Media performance can suffer when channels, agencies, technical issues and local execution do not work together. Improved ability to manage cross-channel performance work and agency execution rhythm. Resume-supported experience in performance media, SEM/SEO, paid social, affiliate, display and regional agency coordination."
+  },
+  {
+    "id": "journey-elc",
+    "title": "My Journey: Growth marketing and search performance",
+    "url": "journey.html#elc",
+    "type": "Experience",
+    "status": "Live",
+    "description": "Estee Lauder - 2022-Present",
+    "excerpt": "Growth work needed search, paid media, SEO, PMax, Google/Yahoo Japan/Bing and agency coordination to connect with business outcomes.",
+    "keywords": [
+      "Estee Lauder",
+      "growth marketing",
+      "paid search",
+      "SEO",
+      "PMax",
+      "Google Ads",
+      "Yahoo Japan",
+      "Bing",
+      "agency coordination",
+      "Growth marketing and search performance",
+      "Estee Lauder",
+      "Growth marketing",
+      "resume",
+      "experience"
+    ],
+    "tags": [
+      "Estee Lauder",
+      "growth marketing",
+      "paid search",
+      "SEO",
+      "PMax",
+      "Google Ads",
+      "Yahoo Japan",
+      "Bing",
+      "agency coordination"
+    ],
+    "relatedCompanies": [
+      "Estee Lauder"
+    ],
+    "relatedSkills": [
+      "Growth marketing",
+      "Growth systems"
+    ],
+    "priority": 7,
+    "contentSummary": "Growth work needed search, paid media, SEO, PMax, Google/Yahoo Japan/Bing and agency coordination to connect with business outcomes. Worked on growth marketing, paid search, SEO, keyword research, web/ad copy optimization, performance analysis and media agency coordination. Growth slows when search, media, content, agencies and reporting do not create clear decisions. Connected search, media, ecommerce and agency work into a stronger performance marketing rhythm. Resume-supported growth marketing, paid search, SEO, PMax, Google/Yahoo Japan/Bing and agency coordination experience."
+  },
+  {
+    "id": "work-0",
+    "title": "Search and paid media optimization",
+    "url": "selected-work.html",
+    "type": "Selected Work",
+    "status": "Live",
+    "description": "Connecting SEO, SEM, paid search and performance analysis to improve decision clarity.",
+    "excerpt": "Connecting SEO, SEM, paid search and performance analysis to improve decision clarity.",
+    "keywords": [
+      "SEO",
+      "SEM",
+      "paid search",
+      "performance marketing",
+      "Search and paid media optimization",
+      "selected work"
+    ],
+    "tags": [
+      "SEO",
+      "SEM",
+      "paid search",
+      "performance marketing"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 6,
+    "contentSummary": "Connecting SEO, SEM, paid search and performance analysis to improve decision clarity. Connecting SEO, SEM, paid search and performance analysis to improve decision clarity."
+  },
+  {
+    "id": "work-1",
+    "title": "Product-led ecommerce SEO",
+    "url": "selected-work.html",
+    "type": "Selected Work",
+    "status": "Live",
+    "description": "Linking search intent, developers, UX/UI, content, product backlog and A/B testing.",
+    "excerpt": "Linking search intent, developers, UX/UI, content, product backlog and A/B testing.",
+    "keywords": [
+      "Thirdwave",
+      "SEO",
+      "ecommerce",
+      "UX",
+      "A/B testing",
+      "Product-led ecommerce SEO",
+      "selected work"
+    ],
+    "tags": [
+      "Thirdwave",
+      "SEO",
+      "ecommerce",
+      "UX",
+      "A/B testing"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 6,
+    "contentSummary": "Linking search intent, developers, UX/UI, content, product backlog and A/B testing. Linking search intent, developers, UX/UI, content, product backlog and A/B testing."
+  },
+  {
+    "id": "work-2",
+    "title": "Marketplace merchandising",
+    "url": "selected-work.html",
+    "type": "Selected Work",
+    "status": "Live",
+    "description": "Improving content discovery through merchandising calendars, metadata, catalogue planning and local relevance.",
+    "excerpt": "Improving content discovery through merchandising calendars, metadata, catalogue planning and local relevance.",
+    "keywords": [
+      "Google Play",
+      "marketplace",
+      "metadata",
+      "catalogue",
+      "APAC",
+      "Marketplace merchandising",
+      "selected work"
+    ],
+    "tags": [
+      "Google Play",
+      "marketplace",
+      "metadata",
+      "catalogue",
+      "APAC"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 6,
+    "contentSummary": "Improving content discovery through merchandising calendars, metadata, catalogue planning and local relevance. Improving content discovery through merchandising calendars, metadata, catalogue planning and local relevance."
+  },
+  {
+    "id": "work-3",
+    "title": "B2B demand generation",
+    "url": "selected-work.html",
+    "type": "Selected Work",
+    "status": "Live",
+    "description": "Supporting enterprise campaigns through SEO, landing pages, campaign assets and campaign operations.",
+    "excerpt": "Supporting enterprise campaigns through SEO, landing pages, campaign assets and campaign operations.",
+    "keywords": [
+      "IBM",
+      "B2B",
+      "demand generation",
+      "Unica",
+      "landing pages",
+      "B2B demand generation",
+      "selected work"
+    ],
+    "tags": [
+      "IBM",
+      "B2B",
+      "demand generation",
+      "Unica",
+      "landing pages"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 6,
+    "contentSummary": "Supporting enterprise campaigns through SEO, landing pages, campaign assets and campaign operations. Supporting enterprise campaigns through SEO, landing pages, campaign assets and campaign operations."
+  },
+  {
+    "id": "work-4",
+    "title": "Cross-cultural execution",
+    "url": "selected-work.html",
+    "type": "Selected Work",
+    "status": "Live",
+    "description": "Bridging language, culture, documentation and team coordination across India, Korea, Japan and APAC.",
+    "excerpt": "Bridging language, culture, documentation and team coordination across India, Korea, Japan and APAC.",
+    "keywords": [
+      "Samsung",
+      "Korea",
+      "India",
+      "Japan",
+      "cross-cultural",
+      "Cross-cultural execution",
+      "selected work"
+    ],
+    "tags": [
+      "Samsung",
+      "Korea",
+      "India",
+      "Japan",
+      "cross-cultural"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 6,
+    "contentSummary": "Bridging language, culture, documentation and team coordination across India, Korea, Japan and APAC. Bridging language, culture, documentation and team coordination across India, Korea, Japan and APAC."
+  },
+  {
+    "id": "work-5",
+    "title": "Industrial project coordination",
+    "url": "selected-work.html",
+    "type": "Selected Work",
+    "status": "Live",
+    "description": "Building practical execution discipline through finance, vendor, project and business development work.",
+    "excerpt": "Building practical execution discipline through finance, vendor, project and business development work.",
+    "keywords": [
+      "POSCO",
+      "industrial",
+      "B2B",
+      "finance",
+      "vendor coordination",
+      "Industrial project coordination",
+      "selected work"
+    ],
+    "tags": [
+      "POSCO",
+      "industrial",
+      "B2B",
+      "finance",
+      "vendor coordination"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 6,
+    "contentSummary": "Building practical execution discipline through finance, vendor, project and business development work. Building practical execution discipline through finance, vendor, project and business development work."
+  }
+]
