@@ -62,22 +62,38 @@
   </header>
 
   <section class="section">
-    <div class="contact-box fade-in">
-      <h2>まず、ビジネス課題を教えてください</h2>
-      <p>
-        成長、検索、有料メディア、eコマース、エージェンシー連携、日本・APAC実行、アドバイザリー、トレーニング、役割について、関連する対話を歓迎します。
-      </p>
-      <p style="color:var(--accent);font-size:1.1rem;margin:1.5rem 0;">
-        <!-- ここに実際のメールアドレスを入れてください -->
-        contact@shashikant.jp
-      </p>
-      <p style="font-size:0.9rem;color:var(--text-soft);">
-        ※ 公開前に、実際のメールアドレスとLinkedIn URLに置き換えてください。
-      </p>
-      <div style="margin-top:2rem;">
-        <a href="mailto:contact@shashikant.jp" class="btn btn-primary">メールを送る →</a>
-      </div>
+   <div class="contact-box fade-in">
+  <h2>まず、ビジネス課題を教えてください</h2>
+  <p>
+    成長、検索、有料メディア、eコマース、エージェンシー連携、日本・APAC実行、アドバイザリー、トレーニング、役割について、関連する対話を歓迎します。
+  </p>
+
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="margin-top: 2rem;">
+    <div style="margin-bottom: 1.2rem;">
+      <label for="name" style="display:block; margin-bottom:0.4rem; font-weight:500;">お名前</label>
+      <input type="text" id="name" name="name" required
+        style="width:100%; padding:0.7rem; border:1px solid #ccc; border-radius:4px; font-size:1rem;">
     </div>
+
+    <div style="margin-bottom: 1.2rem;">
+      <label for="email" style="display:block; margin-bottom:0.4rem; font-weight:500;">メールアドレス</label>
+      <input type="email" id="email" name="email" required
+        style="width:100%; padding:0.7rem; border:1px solid #ccc; border-radius:4px; font-size:1rem;">
+    </div>
+
+    <div style="margin-bottom: 1.5rem;">
+      <label for="message" style="display:block; margin-bottom:0.4rem; font-weight:500;">メッセージ</label>
+      <textarea id="message" name="message" rows="6" required
+        style="width:100%; padding:0.7rem; border:1px solid #ccc; border-radius:4px; font-size:1rem;"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">送信する</button>
+  </form>
+
+  <p style="margin-top: 1.5rem;">
+    または <a href="https://www.linkedin.com/in/mrkant/">LinkedIn</a> でつながる
+  </p>
+</div>
   </section>
 
   <footer>
