@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서비스 | Shashi Kant</title>
+  <style>
+    :root { --bg:#0a1628; --text:#e8eef6; --muted:#8ba3bc; --accent:#2dd4a8; --card:#12263a; --border:#1e3a52; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+    a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+    header { position:sticky; top:0; z-index:50; background:rgba(10,22,40,0.92); backdrop-filter:blur(10px); border-bottom:1px solid var(--border); padding:0.9rem 1.5rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
+    .logo { display:flex; align-items:center; gap:0.6rem; font-weight:700; color:var(--text); }
+    .logo-badge { width:36px; height:36px; border-radius:50%; background:linear-gradient(135deg,#2dd4a8,#3b82f6); display:grid; place-items:center; font-size:0.75rem; font-weight:800; color:#0a1628; }
+    nav { display:flex; flex-wrap:wrap; gap:0.75rem 1.1rem; font-size:0.9rem; }
+    nav a { color:var(--muted); } nav a:hover, nav a.active { color:var(--text); }
+    .lang { font-size:0.85rem; } .lang a { margin-left:0.5rem; color:var(--muted); } .lang a.active { color:var(--accent); }
+    main { max-width:900px; margin:0 auto; padding:2.5rem 1.5rem 4rem; }
+    .eyebrow { color:var(--accent); font-size:0.8rem; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:1rem; }
+    h1 { font-size:clamp(1.8rem,4vw,2.6rem); margin-bottom:1rem; }
+    .lead { color:var(--muted); margin-bottom:2rem; }
+    .svc { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1.5rem; margin-bottom:1.25rem; }
+    .svc h2 { font-size:1.25rem; margin-bottom:0.75rem; }
+    .svc .for, .svc .review, .svc .get { margin-top:0.75rem; }
+    .svc .label { font-size:0.8rem; color:var(--accent); margin-bottom:0.2rem; }
+    .svc p { color:var(--muted); }
+    .tags { margin-top:0.75rem; font-size:0.85rem; color:var(--muted); }
+    footer { border-top:1px solid var(--border); padding:2rem 1.5rem; text-align:center; color:var(--muted); font-size:0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html"><span class="logo-badge">SK</span><span>Shashi Kant</span></a>
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="journey.html">여정</a>
+      <a href="search-media-ecommerce.html">하는 일</a>
+      <a href="selected-work.html">선별 작업</a>
+      <a href="services.html" class="active">서비스</a>
+      <a href="japan-apac.html">일본·APAC</a>
+      <a href="contact.html">연락</a>
+    </nav>
+    <div class="lang">
+      <a href="../index.html">EN</a>
+      <a href="../ja/">日本語</a>
+      <a href="index.html" class="active">한국어</a>
+      <a href="../hi/index.html">हिंदी</a>
+    </div>
+  </header>
+  <main>
+    <p class="eyebrow">Services</p>
+    <h1>선별된 성장·검색·실행 과제 지원</h1>
+    <p class="lead">전문적 의무와 충돌하지 않는, 공개 가능한 옵션으로 작성된 서비스입니다. 관련 대화에 적합합니다.</p>
+
+    <article class="svc" id="seo-review">
+      <h2>SEO &amp; 검색 성장 리뷰</h2>
+      <div class="for"><div class="label">대상</div><p>유기적 가시성을 더 강하고 질 높게 만들고 싶은 웹사이트.</p></div>
+      <div class="review"><div class="label">리뷰 내용</div><p>검색 의도, 기술 SEO, 메타데이터, 콘텐츠 갭, 페이지 구조, 내부 링크, 검색 성과 신호.</p></div>
+      <div class="get"><div class="label">결과물</div><p>무엇을 먼저 고칠지, 왜 중요한지, 성장에 어떻게 기여하는지 보여주는 명확한 액션 로드맵.</p></div>
+      <div class="tags">SEO · Search Console · Googlebot · 유기적 가시성 · 기술 SEO · 콘텐츠</div>
+    </article>
+
+    <article class="svc" id="sem-review">
+      <h2>SEM &amp; 유료 검색 리뷰</h2>
+      <div class="for"><div class="label">대상</div><p>유료 검색, PMax, 성과 미디어에서 더 명확한 판단이 필요한 팀.</p></div>
+      <div class="review"><div class="label">리뷰 내용</div><p>캠페인 구조, 쿼리 로직, 유료/오가닉 중복, 예산 압력, 전환 신호, 리포팅 흐름.</p></div>
+      <div class="get"><div class="label">결과물</div><p>더 명확한 결정과 강한 미디어 규율을 위한 실무 개선 계획.</p></div>
+      <div class="tags">SEM · 유료 검색 · PMax · Google Ads · Yahoo Japan · Bing · 성과 마케팅</div>
+    </article>
+
+    <article class="svc" id="ecommerce-review">
+      <h2>이커머스 발견성 리뷰</h2>
+      <div class="for"><div class="label">대상</div><p>제품을 찾고, 이해하고, 구매하기 어려운 브랜드 또는 마켓플레이스.</p></div>
+      <div class="review"><div class="label">리뷰 내용</div><p>제품 페이지, 메타데이터, 내비게이션, 머천다이징 로직, 온사이트 검색 신호, 콘텐츠 구조.</p></div>
+      <div class="get"><div class="label">결과물</div><p>검색 수요, 제품 정보, UX를 연결하는 우선순위 발견성 계획.</p></div>
+      <div class="tags">이커머스 · 마켓플레이스 · 메타데이터 · 카탈로그 · 머천다이징 · UX</div>
+    </article>
+
+    <article class="svc" id="agency-review">
+      <h2>에이전시 조율 리뷰</h2>
+      <div class="for"><div class="label">대상</div><p>여러 에이전시·벤더와 일하면서 책임이 불분명한 비즈니스.</p></div>
+      <div class="review"><div class="label">리뷰 내용</div><p>워크플로, 리포팅 리듬, KPI 명확성, 품질 점검, 에스컬레이션, 의사결정 소유권.</p></div>
+      <div class="get"><div class="label">결과물</div><p>비즈니스 팀과 에이전시 파트너 간 더 깨끗한 운영 리듬.</p></div>
+      <div class="tags">에이전시 조율 · 리포팅 · 품질 점검 · 성과 미디어</div>
+    </article>
+
+    <article class="svc" id="japan-apac">
+      <h2>일본 &amp; APAC 실행 리뷰</h2>
+      <div class="for"><div class="label">대상</div><p>일본·APAC 시장에서 디지털 성장을 만들고자 하는 팀.</p></div>
+      <div class="review"><div class="label">리뷰 내용</div><p>현지 시장 행동, 검색 패턴, 메시징, 이해관계자 정렬, 에이전시 역할, 실행 리스크.</p></div>
+      <div class="get"><div class="label">결과물</div><p>글로벌 목표와 현지 현실을 연결하는 실무 시장 실행 뷰.</p></div>
+      <div class="tags">일본 · APAC · 한국 · 인도 · 현지 실행 · 시장 전략</div>
+    </article>
+
+    <article class="svc">
+      <h2>교육 &amp; 워킹 세션</h2>
+      <div class="for"><div class="label">대상</div><p>SEO, SEM, 이커머스 발견성, 에이전시 조율에 대한 더 명확한 이해가 필요한 팀.</p></div>
+      <div class="review"><div class="label">리뷰 내용</div><p>현재 팀 지식, 비즈니스 목표, 실행 갭, 실무 유스케이스.</p></div>
+      <div class="get"><div class="label">결과물</div><p>예시, 체크리스트, 액션 포인트가 포함된 집중 학습 세션.</p></div>
+      <div class="tags">교육 · 워크숍 · SEO · SEM · 이커머스 · 에이전시 조율</div>
+    </article>
+  </main>
+  <footer>© Shashi Kant · Search, Media &amp; eCommerce Growth · Japan / APAC</footer>
+</body>
+</html>
