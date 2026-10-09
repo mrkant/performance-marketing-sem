@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shashi Kant | सर्च · मीडिया · ईकॉमर्स ग्रोथ | जापान·APAC</title>
+  <meta name="description" content="जापान और APAC में SEO, SEM, पेड मीडिया, ईकॉमर्स मर्चेंडाइजिंग, एजेंसी समन्वय, एनालिटिक्स और लोकल एक्ज़ीक्यूशन को जोड़कर डिजिटल ग्रोथ में मदद।">
+  <style>
+    :root {
+      --bg: #0a1628;
+      --bg2: #0d1f33;
+      --text: #e8eef6;
+      --muted: #8ba3bc;
+      --accent: #2dd4a8;
+      --card: #12263a;
+      --border: #1e3a52;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Devanagari", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(10,22,40,0.92); backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 0.9rem 1.5rem;
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .logo { display: flex; align-items: center; gap: 0.6rem; font-weight: 700; color: var(--text); }
+    .logo-badge {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: linear-gradient(135deg, #2dd4a8, #3b82f6);
+      display: grid; place-items: center; font-size: 0.75rem; font-weight: 800; color: #0a1628;
+    }
+    nav { display: flex; flex-wrap: wrap; gap: 0.75rem 1.1rem; font-size: 0.9rem; }
+    nav a { color: var(--muted); }
+    nav a:hover, nav a.active { color: var(--text); }
+    .lang { font-size: 0.85rem; color: var(--muted); }
+    .lang a { margin-left: 0.5rem; color: var(--muted); }
+    .lang a.active { color: var(--accent); }
+    main { max-width: 1100px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .eyebrow { color: var(--accent); font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 1rem; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.2; font-weight: 700; margin-bottom: 1.25rem; }
+    .lead { font-size: 1.1rem; color: var(--muted); max-width: 720px; margin-bottom: 2rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 3rem; }
+    .tag {
+      background: var(--card); border: 1px solid var(--border);
+      padding: 0.35rem 0.75rem; border-radius: 999px; font-size: 0.85rem; color: var(--muted);
+    }
+    section { margin-bottom: 3.5rem; }
+    h2 { font-size: 1.5rem; margin-bottom: 1rem; }
+    h3 { font-size: 1.15rem; margin-bottom: 0.5rem; }
+    .paths {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem; margin-top: 1.5rem;
+    }
+    .path-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.25rem;
+    }
+    .path-card strong { display: block; margin-bottom: 0.4rem; color: var(--accent); }
+    .path-card p { color: var(--muted); font-size: 0.95rem; }
+    .grid-3 {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.25rem;
+    }
+    .card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.5rem;
+    }
+    .card .num { color: var(--accent); font-size: 0.85rem; margin-bottom: 0.5rem; }
+    .skills { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .skill {
+      background: var(--bg2); border: 1px solid var(--border);
+      padding: 0.5rem 0.9rem; border-radius: 8px; font-size: 0.9rem;
+    }
+    .work-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+    .work-item {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.25rem;
+    }
+    .work-item .meta { color: var(--muted); font-size: 0.85rem; margin-top: 0.6rem; }
+    .services-list { display: grid; gap: 1rem; }
+    .service-row {
+      display: grid; grid-template-columns: auto 1fr auto;
+      gap: 1rem; align-items: start;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.25rem;
+    }
+    .service-row .num {
+      width: 36px; height: 36px; border-radius: 8px;
+      background: rgba(45,212,168,0.15); color: var(--accent);
+      display: grid; place-items: center; font-weight: 700;
+    }
+    .cta-box {
+      background: linear-gradient(135deg, #12263a, #0d2a3a);
+      border: 1px solid var(--border); border-radius: 16px;
+      padding: 2rem; text-align: center;
+    }
+    .btn {
+      display: inline-block; margin-top: 1rem;
+      background: var(--accent); color: #0a1628;
+      padding: 0.75rem 1.4rem; border-radius: 999px;
+      font-weight: 600; text-decoration: none;
+    }
+    .btn:hover { opacity: 0.9; text-decoration: none; }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2rem 1.5rem; text-align: center; color: var(--muted); font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html">
+      <span class="logo-badge">SK</span>
+      <span>Shashi Kant</span>
+    </a>
+    <nav>
+      <a href="index.html" class="active">होम</a>
+      <a href="journey.html">यात्रा</a>
+      <a href="search-media-ecommerce.html">मेरा काम</a>
+      <a href="selected-work.html">चयनित कार्य</a>
+      <a href="services.html">सेवाएँ</a>
+      <a href="japan-apac.html">जापान·APAC</a>
+      <a href="contact.html">संपर्क</a>
+    </nav>
+    <div class="lang">
+      <a href="../index.html">EN</a>
+      <a href="../ja/">日本語</a>
+      <a href="../ko/index.html">한국어</a>
+      <a href="index.html" class="active">हिंदी</a>
+    </div>
+  </header>
+
+  <main>
+    <p class="eyebrow">Growth · Search · eCommerce · Japan / APAC</p>
+    <h1>जापान और APAC में<br>सर्च, मीडिया और ईकॉमर्स ग्रोथ को जोड़ते हैं।</h1>
+    <p class="lead">
+      SEO, SEM, पेड मीडिया, ईकॉमर्स मर्चेंडाइजिंग, एजेंसी समन्वय, एनालिटिक्स और लोकल एक्ज़ीक्यूशन को एक साथ लाकर
+      बिज़नेस चुनौतियों का सीधा सामना करते हैं। इंडस्ट्रियल बिज़नेस, टेक्नोलॉजी, एंटरप्राइज़ कैंपेन, मार्केटप्लेस,
+      ईकॉमर्स, रिटेल और ब्यूटी तक — हमेशा “सही काम को सही समस्या से जोड़ने” पर फोकस।
+    </p>
+    <div class="tags">
+      <span class="tag">SEO</span>
+      <span class="tag">SEM</span>
+      <span class="tag">पेड सर्च</span>
+      <span class="tag">ईकॉमर्स</span>
+      <span class="tag">मार्केटप्लेस</span>
+      <span class="tag">जापान·APAC</span>
+      <span class="tag">एजेंसी समन्वय</span>
+      <span class="tag">एनालिटिक्स</span>
+    </div>
+
+    <section>
+      <h2>अपने लिए सही रास्ता चुनें</h2>
+      <p style="color:var(--muted);margin-bottom:0.5rem;">कहानी का वह हिस्सा चुनें जो अभी ज़रूरी है।</p>
+      <div class="paths">
+        <div class="path-card">
+          <strong>भर्ती पर विचार कर रहे हैं</strong>
+          <p>ग्रोथ, सर्च, मीडिया और मार्केट जहाँ एक साथ काम करते हैं — इस बैकग्राउंड का फिट देखें।</p>
+        </div>
+        <div class="path-card">
+          <strong>ग्रोथ सपोर्ट चाहिए</strong>
+          <p>SEO, SEM, ईकॉमर्स, एजेंसी और एनालिटिक्स को और स्पष्ट बनाने के तरीके देखें।</p>
+        </div>
+        <div class="path-card">
+          <strong>SEO/SEM मदद चाहिए</strong>
+          <p>सर्च विज़िबिलिटी, पेड मीडिया संरचना और परफ़ॉर्मेंस सिग्नल की समीक्षा करें।</p>
+        </div>
+        <div class="path-card">
+          <strong>जापान·APAC सपोर्ट चाहिए</strong>
+          <p>ग्लोबल लक्ष्यों को लोकल मार्केट व्यवहार और एक्ज़ीक्यूशन वास्तविकताओं से जोड़ें।</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>मैं क्या करता हूँ</h2>
+      <div class="grid-3">
+        <div class="card">
+          <div class="num">01</div>
+          <h3>सर्च · मीडिया · ईकॉमर्स</h3>
+          <p style="color:var(--muted);margin:0.6rem 0 1rem;">SEO, SEM, पेड मीडिया, ईकॉमर्स मर्चेंडाइजिंग, एजेंसी समन्वय, एनालिटिक्स और लोकल एक्ज़ीक्यूशन को कवर करता हूँ। लक्ष्य: डिजिटल ग्रोथ को समझना, मैनेज करना और सुधारना आसान बनाना।</p>
+          <a href="search-media-ecommerce.html">यह क्षेत्र खोलें →</a>
+        </div>
+        <div class="card">
+          <div class="num">02</div>
+          <h3>करियर यात्रा</h3>
+          <p style="color:var(--muted);margin:0.6rem 0 1rem;">इंडस्ट्रियल बिज़नेस, टेक्नोलॉजी, एंटरप्राइज़ कैंपेन, मार्केटप्लेस, ईकॉमर्स, रिटेल, ब्यूटी। हर चरण ने नया मूल्य जोड़ा।</p>
+          <a href="journey.html">यात्रा देखें →</a>
+        </div>
+        <div class="card">
+          <div class="num">03</div>
+          <h3>साइट सर्च</h3>
+          <p style="color:var(--muted);margin:0.6rem 0 1rem;">अनुभव, स्किल, सेवाएँ, कंपनी नाम और विषय ईकॉमर्स-स्टाइल स्टैटिक सर्च से तेज़ी से खोजें।</p>
+          <a href="../search.html">सर्च करें →</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>हासिल की गई स्किल्स</h2>
+      <div class="skills">
+        <span class="skill">ग्राहक समझ</span>
+        <span class="skill">B2B एक्ज़ीक्यूशन</span>
+        <span class="skill">क्रॉस-कल्चरल समन्वय</span>
+        <span class="skill">एंटरप्राइज़ SEO</span>
+        <span class="skill">B2B डिमांड जनरेशन</span>
+        <span class="skill">जापान मार्केट समझ</span>
+        <span class="skill">मार्केटप्लेस ग्रोथ</span>
+        <span class="skill">जापान लोकल एक्ज़ीक्यूशन</span>
+        <span class="skill">प्रोडक्ट-लेड SEO</span>
+        <span class="skill">मीडिया·एजेंसी समन्वय</span>
+        <span class="skill">ग्रोथ मार्केटिंग</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>चयनित कार्य थीम्स</h2>
+      <p style="color:var(--muted);margin-bottom:1.25rem;">वास्तविक अनुभव से केवल सार्वजनिक-सुरक्षित विषय।</p>
+      <div class="work-grid">
+        <div class="work-item">
+          <h3>सर्च और पेड मीडिया ऑप्टिमाइज़ेशन</h3>
+          <p style="color:var(--muted);">SEO, SEM, पेड सर्च और परफ़ॉर्मेंस एनालिसिस को जोड़कर निर्णय स्पष्टता बढ़ाते हैं।</p>
+          <div class="meta">SEO · SEM · परफ़ॉर्मेंस मार्केटिंग</div>
+        </div>
+        <div class="work-item">
+          <h3>प्रोडक्ट-लेड ईकॉमर्स SEO</h3>
+          <p style="color:var(--muted);">सर्च इंटेंट, डेवलपर्स, UX/UI, कंटेंट, प्रोडक्ट बैकलॉग और A/B टेस्टिंग को लिंक करते हैं।</p>
+          <div class="meta">ईकॉमर्स · UX · प्रोडक्ट</div>
+        </div>
+        <div class="work-item">
+          <h3>मार्केटप्लेस मर्चेंडाइजिंग</h3>
+          <p style="color:var(--muted);">मर्चेंडाइजिंग कैलेंडर, मेटाडेटा, कैटलॉग प्लानिंग और लोकल प्रासंगिकता से डिस्कवरी सुधारते हैं।</p>
+          <div class="meta">Google Play · मेटाडेटा · कैटलॉग</div>
+        </div>
+        <div class="work-item">
+          <h3>B2B डिमांड जनरेशन</h3>
+          <p style="color:var(--muted);">SEO, लैंडिंग पेज, कैंपेन एसेट्स और कैंपेन ऑपरेशंस से एंटरप्राइज़ कैंपेन सपोर्ट।</p>
+          <div class="meta">IBM · Unica · डिमांड जनरेशन</div>
+        </div>
+        <div class="work-item">
+          <h3>क्रॉस-कल्चरल एक्ज़ीक्यूशन</h3>
+          <p style="color:var(--muted);">भारत, कोरिया, जापान, APAC को भाषा, संस्कृति, दस्तावेज़ और टीम समन्वय से जोड़ते हैं।</p>
+          <div class="meta">Samsung · क्रॉसबॉर्डर</div>
+        </div>
+        <div class="work-item">
+          <h3>इंडस्ट्रियल प्रोजेक्ट समन्वय</h3>
+          <p style="color:var(--muted);">फाइनेंस, वेंडर, प्रोजेक्ट और बिज़नेस डेवलपमेंट से प्रैक्टिकल एक्ज़ीक्यूशन अनुशासन।</p>
+          <div class="meta">POSCO · B2B · फाइनेंस</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>चयनित बिज़नेस समस्याओं के लिए सपोर्ट</h2>
+      <div class="services-list">
+        <div class="service-row">
+          <div class="num">01</div>
+          <div>
+            <h3>SEO &amp; सर्च ग्रोथ रिव्यू</h3>
+            <p style="color:var(--muted);">जिन वेबसाइटों को मज़बूत, उच्च-गुणवत्ता ऑर्गेनिक विज़िबिलिटी चाहिए।</p>
+          </div>
+          <a href="services.html#seo-review">और पढ़ें →</a>
+        </div>
+        <div class="service-row">
+          <div class="num">02</div>
+          <div>
+            <h3>SEM &amp; पेड सर्च रिव्यू</h3>
+            <p style="color:var(--muted);">पेड सर्च, PMax और परफ़ॉर्मेंस मीडिया में स्पष्टता चाहिए वाली टीमों के लिए।</p>
+          </div>
+          <a href="services.html#sem-review">और पढ़ें →</a>
+        </div>
+        <div class="service-row">
+          <div class="num">03</div>
+          <div>
+            <h3>ईकॉमर्स डिस्कवरी रिव्यू</h3>
+            <p style="color:var(--muted);">जहाँ प्रोडक्ट खोजने, समझने या खरीदने में कठिनाई हो।</p>
+          </div>
+          <a href="services.html#ecommerce-review">और पढ़ें →</a>
+        </div>
+        <div class="service-row">
+          <div class="num">04</div>
+          <div>
+            <h3>एजेंसी समन्वय रिव्यू</h3>
+            <p style="color:var(--muted);">कई एजेंसियों/वेंडर्स के साथ काम करते समय ज़िम्मेदारी अस्पष्ट हो।</p>
+          </div>
+          <a href="services.html#agency-review">और पढ़ें →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-box">
+      <h2>बिज़नेस समस्या से शुरू करें</h2>
+      <p style="color:var(--muted);max-width:560px;margin:0.75rem auto 0;">
+        ग्रोथ, सर्च, मीडिया, ईकॉमर्स, जापान·APAC एक्ज़ीक्यूशन, सलाह, ट्रेनिंग या रोल पर प्रासंगिक बातचीत के लिए।
+      </p>
+      <a class="btn" href="contact.html">बातचीत शुरू करें</a>
+    </section>
+  </main>
+
+  <footer>
+    © Shashi Kant · Search, Media &amp; eCommerce Growth · Japan / APAC
+  </footer>
+</body>
+</html>

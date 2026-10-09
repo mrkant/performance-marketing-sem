@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>सेवाएँ | Shashi Kant</title>
+  <style>
+    :root { --bg:#0a1628; --text:#e8eef6; --muted:#8ba3bc; --accent:#2dd4a8; --card:#12263a; --border:#1e3a52; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans Devanagari",sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+    a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+    header { position:sticky; top:0; z-index:50; background:rgba(10,22,40,0.92); backdrop-filter:blur(10px); border-bottom:1px solid var(--border); padding:0.9rem 1.5rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
+    .logo { display:flex; align-items:center; gap:0.6rem; font-weight:700; color:var(--text); }
+    .logo-badge { width:36px; height:36px; border-radius:50%; background:linear-gradient(135deg,#2dd4a8,#3b82f6); display:grid; place-items:center; font-size:0.75rem; font-weight:800; color:#0a1628; }
+    nav { display:flex; flex-wrap:wrap; gap:0.75rem 1.1rem; font-size:0.9rem; }
+    nav a { color:var(--muted); } nav a:hover, nav a.active { color:var(--text); }
+    .lang { font-size:0.85rem; } .lang a { margin-left:0.5rem; color:var(--muted); } .lang a.active { color:var(--accent); }
+    main { max-width:900px; margin:0 auto; padding:2.5rem 1.5rem 4rem; }
+    .eyebrow { color:var(--accent); font-size:0.8rem; letter-spacing:0.12em; text-transform:uppercase; margin-bottom:1rem; }
+    h1 { font-size:clamp(1.8rem,4vw,2.6rem); margin-bottom:1rem; }
+    .lead { color:var(--muted); margin-bottom:2rem; }
+    .svc { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:1.5rem; margin-bottom:1.25rem; }
+    .svc h2 { font-size:1.25rem; margin-bottom:0.75rem; }
+    .svc .label { font-size:0.8rem; color:var(--accent); margin-bottom:0.2rem; }
+    .svc p { color:var(--muted); }
+    .svc .for, .svc .review, .svc .get { margin-top:0.75rem; }
+    .tags { margin-top:0.75rem; font-size:0.85rem; color:var(--muted); }
+    footer { border-top:1px solid var(--border); padding:2rem 1.5rem; text-align:center; color:var(--muted); font-size:0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="index.html"><span class="logo-badge">SK</span><span>Shashi Kant</span></a>
+    <nav>
+      <a href="index.html">होम</a>
+      <a href="journey.html">यात्रा</a>
+      <a href="search-media-ecommerce.html">मेरा काम</a>
+      <a href="selected-work.html">चयनित कार्य</a>
+      <a href="services.html" class="active">सेवाएँ</a>
+      <a href="japan-apac.html">जापान·APAC</a>
+      <a href="contact.html">संपर्क</a>
+    </nav>
+    <div class="lang">
+      <a href="../index.html">EN</a>
+      <a href="../ja/">日本語</a>
+      <a href="../ko/index.html">한국어</a>
+      <a href="index.html" class="active">हिंदी</a>
+    </div>
+  </header>
+  <main>
+    <p class="eyebrow">Services</p>
+    <h1>चयनित ग्रोथ, सर्च और एक्ज़ीक्यूशन समस्याओं के लिए सपोर्ट</h1>
+    <p class="lead">ये सेवाएँ पेशेवर दायित्वों से टकराव के बिना, सार्वजनिक-सुरक्षित विकल्पों के रूप में लिखी गई हैं। प्रासंगिक बातचीत के लिए उपयुक्त।</p>
+
+    <article class="svc" id="seo-review">
+      <h2>SEO &amp; सर्च ग्रोथ रिव्यू</h2>
+      <div class="for"><div class="label">किसके लिए</div><p>जिन वेबसाइटों को मज़बूत, उच्च-गुणवत्ता ऑर्गेनिक विज़िबिलिटी चाहिए।</p></div>
+      <div class="review"><div class="label">क्या रिव्यू करते हैं</div><p>सर्च इंटेंट, टेक्निकल SEO, मेटाडेटा, कंटेंट गैप, पेज संरचना, इंटरनल लिंक और सर्च परफ़ॉर्मेंस सिग्नल।</p></div>
+      <div class="get"><div class="label">आपको क्या मिलता है</div><p>क्या पहले ठीक करना है, क्यों मायने रखता है और ग्रोथ को कैसे सपोर्ट करता है — स्पष्ट एक्शन रोडमैप।</p></div>
+      <div class="tags">SEO · Search Console · Googlebot · ऑर्गेनिक विज़िबिलिटी · टेक्निकल SEO · कंटेंट</div>
+    </article>
+
+    <article class="svc" id="sem-review">
+      <h2>SEM &amp; पेड सर्च रिव्यू</h2>
+      <div class="for"><div class="label">किसके लिए</div><p>पेड सर्च, PMax और परफ़ॉर्मेंस मीडिया से बेहतर स्पष्टता चाहने वाली टीमें।</p></div>
+      <div class="review"><div class="label">क्या रिव्यू करते हैं</div><p>कैंपेन संरचना, क्वेरी लॉजिक, पेड/ऑर्गेनिक ओवरलैप, बजट दबाव, कन्वर्ज़न सिग्नल और रिपोर्टिंग फ्लो।</p></div>
+      <div class="get"><div class="label">आपको क्या मिलता है</div><p>स्पष्ट निर्णयों और मज़बूत मीडिया अनुशासन के लिए व्यावहारिक सुधार योजना।</p></div>
+      <div class="tags">SEM · पेड सर्च · PMax · Google Ads · Yahoo Japan · Bing · परफ़ॉर्मेंस मार्केटिंग</div>
+    </article>
+
+    <article class="svc" id="ecommerce-review">
+      <h2>ईकॉमर्स डिस्कवरी रिव्यू</h2>
+      <div class="for"><div class="label">किसके लिए</div><p>ब्रांड या मार्केटप्लेस जहाँ प्रोडक्ट खोजना, समझना या खरीदना आसान नहीं।</p></div>
+      <div class="review"><div class="label">क्या रिव्यू करते हैं</div><p>प्रोडक्ट पेज, मेटाडेटा, नेविगेशन, मर्चेंडाइजिंग लॉजिक, ऑनसाइट सर्च सिग्नल और कंटेंट संरचना।</p></div>
+      <div class="get"><div class="label">आपको क्या मिलता है</div><p>सर्च डिमांड, प्रोडक्ट जानकारी और यूज़र एक्सपीरियंस को जोड़ने वाली प्राथमिकता वाली डिस्कवरी योजना।</p></div>
+      <div class="tags">ईकॉमर्स · मार्केटप्लेस · मेटाडेटा · कैटलॉग · मर्चेंडाइजिंग · UX</div>
+    </article>
+
+    <article class="svc" id="agency-review">
+      <h2>एजेंसी समन्वय रिव्यू</h2>
+      <div class="for"><div class="label">किसके लिए</div><p>कई एजेंसियों या वेंडर्स के साथ काम करते समय ज़िम्मेदारी अस्पष्ट हो।</p></div>
+      <div class="review"><div class="label">क्या रिव्यू करते हैं</div><p>वर्कफ़्लो, रिपोर्टिंग रिदम, KPI स्पष्टता, क्वालिटी चेक, एस्केलेशन पॉइंट और निर्णय स्वामित्व।</p></div>
+      <div class="get"><div class="label">आपको क्या मिलता है</div><p>बिज़नेस टीमों और एजेंसी पार्टनर्स के बीच साफ़ ऑपरेटिंग रिदम।</p></div>
+      <div class="tags">एजेंसी समन्वय · रिपोर्टिंग · क्वालिटी चेक · परफ़ॉर्मेंस मीडिया</div>
+    </article>
+
+    <article class="svc" id="japan-apac">
+      <h2>जापान &amp; APAC एक्ज़ीक्यूशन रिव्यू</h2>
+      <div class="for"><div class="label">किसके लिए</div><p>जापान और APAC मार्केट में डिजिटल ग्रोथ चलाने वाली टीमें।</p></div>
+      <div class="review"><div class="label">क्या रिव्यू करते हैं</div><p>लोकल मार्केट व्यवहार, सर्च पैटर्न, मैसेजिंग, स्टेकहोल्डर अलाइनमेंट, एजेंसी भूमिकाएँ और एक्ज़ीक्यूशन जोखिम।</p></div>
+      <div class="get"><div class="label">आपको क्या मिलता है</div><p>ग्लोबल लक्ष्यों को लोकल वास्तविकताओं से जोड़ने वाला व्यावहारिक मार्केट एक्ज़ीक्यूशन व्यू।</p></div>
+      <div class="tags">जापान · APAC · कोरिया · भारत · लोकल एक्ज़ीक्यूशन · मार्केट रणनीति</div>
+    </article>
+
+    <article class="svc">
+      <h2>ट्रेनिंग &amp; वर्किंग सेशन</h2>
+      <div class="for"><div class="label">किसके लिए</div><p>SEO, SEM, ईकॉमर्स डिस्कवरी या एजेंसी समन्वय की स्पष्ट समझ चाहने वाली टीमें।</p></div>
+      <div class="review"><div class="label">क्या रिव्यू करते हैं</div><p>वर्तमान टीम ज्ञान, बिज़नेस लक्ष्य, एक्ज़ीक्यूशन गैप और व्यावहारिक यूज़ केस।</p></div>
+      <div class="get"><div class="label">आपको क्या मिलता है</div><p>उदाहरण, चेकलिस्ट और एक्शन पॉइंट्स के साथ फोकस्ड लर्निंग सेशन।</p></div>
+      <div class="tags">ट्रेनिंग · वर्कशॉप · SEO · SEM · ईकॉमर्स · एजेंसी समन्वय</div>
+    </article>
+  </main>
+  <footer>© Shashi Kant · Search, Media &amp; eCommerce Growth · Japan / APAC</footer>
+</body>
+</html>
