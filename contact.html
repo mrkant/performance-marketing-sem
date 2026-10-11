@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3MNSKHPTR"></script>
   <script>
@@ -13,22 +14,27 @@
 
     gtag('config', 'G-L3MNSKHPTR');
   </script>
+
   <title>Contact | Shashi Kant</title>
+
   <meta name="description"
     content="Contact Shashi Kant for relevant growth, search, ecommerce, Japan/APAC or professional conversations.">
   <meta name="robots" content="index, follow, max-image-preview:large">
+
   <link rel="canonical" href="https://shashikant.jp/contact.html">
+
   <meta property="og:type" content="website">
   <meta property="og:title" content="Contact | Shashi Kant">
   <meta property="og:description"
     content="Contact Shashi Kant for relevant growth, search, ecommerce, Japan/APAC or professional conversations.">
   <meta property="og:url" content="https://shashikant.jp/contact.html">
   <meta property="og:site_name" content="Shashi Kant">
+
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#08111f">
+
   <link rel="stylesheet" href="assets/css/style.css">
-<head>
-  <!-- existing meta, title, etc. -->
+
   <style>
     .privacy-note {
       font-size: 0.9rem;
@@ -36,10 +42,12 @@
       margin-top: 1rem;
       line-height: 1.5;
     }
+
     .privacy-note a {
       color: #2dd4a8;
       text-decoration: none;
     }
+
     .privacy-note a:hover {
       text-decoration: underline;
     }
@@ -48,23 +56,31 @@
       color: #8ba3bc;
       text-decoration: none;
     }
+
     footer a:hover {
       color: #2dd4a8;
       text-decoration: underline;
     }
   </style>
 </head>
-</head>
 
 <body>
+
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="shell nav-shell">
+
       <a class="brand" href="index.html" aria-label="Shashi Kant home">
         <span class="brand-mark">SK</span>
         <span>Shashi Kant</span>
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+      <button class="nav-toggle" type="button"
+        aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="journey.html">Journey</a>
@@ -76,70 +92,187 @@
         <a href="search.html">Search</a>
         <a class="active" href="contact.html">Contact</a>
       </nav>
+
     </div>
   </header>
+
   <main id="main">
+
     <section class="page-hero">
       <div class="shell reveal">
         <p class="eyebrow">Contact</p>
         <h1>Start with the business problem.</h1>
-        <p>Use this page for relevant professional conversations where the topic is clear and public-safe.</p>
+        <p>
+          Use this page for relevant professional conversations
+          where the topic is clear and public-safe.
+        </p>
       </div>
     </section>
+
     <section class="content-section">
-  <div class="shell contact-card reveal">
-    <h2>Tell me the business problem first.</h2>
-    <p>For relevant conversations about growth, search, paid media, ecommerce, agency coordination, Japan/APAC
-      execution, selected advisory discussions, training or roles.</p>
+      <div class="shell contact-card reveal">
 
-    <form action="https://formspree.io/f/xyekedqg" method="POST" style="margin-top:2rem; max-width:520px;">
-      <div style="margin-bottom:1.25rem;">
-        <label for="name" style="display:block; margin-bottom:0.4rem; color:var(--muted); font-weight:600;">Name</label>
-        <input type="text" id="name" name="name" required
-          style="width:100%; padding:0.85rem 1rem; border:1px solid var(--line); border-radius:12px; background:var(--panel); color:var(--text);">
+        <h2>Tell me the business problem first.</h2>
+
+        <p>
+          For relevant conversations about growth, search, paid media,
+          ecommerce, agency coordination, Japan/APAC execution,
+          selected advisory discussions, training or roles.
+        </p>
+
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/xyekedqg"
+          method="POST"
+          style="margin-top:2rem; max-width:520px;"
+        >
+
+          <div style="margin-bottom:1.25rem;">
+            <label for="name"
+              style="display:block; margin-bottom:0.4rem; color:var(--muted); font-weight:600;">
+              Name
+            </label>
+
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              style="width:100%; padding:0.85rem 1rem; border:1px solid var(--line); border-radius:12px; background:var(--panel); color:var(--text);"
+            >
+          </div>
+
+          <div style="margin-bottom:1.25rem;">
+            <label for="email"
+              style="display:block; margin-bottom:0.4rem; color:var(--muted); font-weight:600;">
+              Email
+            </label>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              style="width:100%; padding:0.85rem 1rem; border:1px solid var(--line); border-radius:12px; background:var(--panel); color:var(--text);"
+            >
+          </div>
+
+          <div style="margin-bottom:1.75rem;">
+            <label for="message"
+              style="display:block; margin-bottom:0.4rem; color:var(--muted); font-weight:600;">
+              Message
+            </label>
+
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              required
+              style="width:100%; padding:0.85rem 1rem; border:1px solid var(--line); border-radius:12px; background:var(--panel); color:var(--text); resize:vertical;"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn primary">
+            Send Message
+          </button>
+
+        </form>
+
+        <!-- Form submission feedback -->
+        <p
+          id="form-status"
+          class="muted"
+          role="status"
+          aria-live="polite"
+          style="margin-top:1rem;"
+          hidden
+        ></p>
+
+        <p class="muted" style="margin-top:1.8rem;">
+          Or connect on
+          <a href="https://www.linkedin.com/in/mrkant/">LinkedIn</a>
+        </p>
+
+        <p class="privacy-note">
+          By sending this message, your details will be processed according
+          to our
+          <a href="/privacy.html">Privacy Policy</a>.
+        </p>
+
       </div>
+    </section>
 
-      <div style="margin-bottom:1.25rem;">
-        <label for="email"
-          style="display:block; margin-bottom:0.4rem; color:var(--muted); font-weight:600;">Email</label>
-        <input type="email" id="email" name="email" required
-          style="width:100%; padding:0.85rem 1rem; border:1px solid var(--line); border-radius:12px; background:var(--panel); color:var(--text);">
-      </div>
-
-      <div style="margin-bottom:1.75rem;">
-        <label for="message"
-          style="display:block; margin-bottom:0.4rem; color:var(--muted); font-weight:600;">Message</label>
-        <textarea id="message" name="message" rows="6" required
-          style="width:100%; padding:0.85rem 1rem; border:1px solid var(--line); border-radius:12px; background:var(--panel); color:var(--text); resize:vertical;"></textarea>
-      </div>
-
-      <button type="submit" class="btn primary">Send Message</button>
-    </form>
-
-    <p class="muted" style="margin-top:1.8rem;">
-      Or connect on <a href="https://www.linkedin.com/in/mrkant/">LinkedIn</a>
-    </p>
-    <p class="privacy-note">
-  By sending this message, your details will be processed according to our
-  <a href="/privacy.html">Privacy Policy</a>.
-</p>
-  </div>
-</section>
   </main>
+
   <footer class="site-footer">
     <div class="shell footer-grid">
+
       <div>
         <strong>Shashi Kant</strong>
-        <p>Growth, search, performance marketing and ecommerce execution across Japan, India, Korea and APAC.</p>
+        <p>
+          Growth, search, performance marketing and ecommerce execution
+          across Japan, India, Korea and APAC.
+        </p>
       </div>
+
       <div class="footer-links">
         <a href="professional-boundaries.html">Professional note</a>
         <a href="search.html">Search</a>
         <a href="contact.html">Contact</a>
       </div>
+
     </div>
   </footer>
-  <script src="assets/js/main.js" defer></script>
-</body>
 
+  <script src="assets/js/main.js" defer></script>
+
+  <!-- AJAX form submission: keeps visitors on this page -->
+  <script>
+    const contactForm = document.getElementById("contact-form");
+    const formStatus = document.getElementById("form-status");
+
+    contactForm.addEventListener("submit", async function (event) {
+      event.preventDefault();
+
+      const submitButton = contactForm.querySelector(
+        'button[type="submit"]'
+      );
+
+      const originalButtonText = submitButton.textContent.trim();
+
+      submitButton.disabled = true;
+      submitButton.textContent = "Sending...";
+
+      formStatus.hidden = false;
+      formStatus.textContent = "Sending your message...";
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: "POST",
+          body: new FormData(contactForm),
+          headers: {
+            Accept: "application/json"
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error("Form submission failed");
+        }
+
+        contactForm.hidden = true;
+
+        formStatus.textContent =
+          "Thank you for your message! It has been sent successfully. I'll get back to you soon.";
+
+      } catch (error) {
+        formStatus.textContent =
+          "Sorry, your message could not be sent. Please try again. If the problem continues, please contact me on LinkedIn.";
+
+        submitButton.disabled = false;
+        submitButton.textContent = originalButtonText;
+      }
+    });
+  </script>
+
+</body>
 </html>
