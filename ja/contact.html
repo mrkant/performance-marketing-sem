@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -68,7 +69,7 @@
     成長、検索、有料メディア、eコマース、エージェンシー連携、日本・APAC実行、アドバイザリー、トレーニング、役割について、関連する対話を歓迎します。
   </p>
 
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="margin-top: 2rem;">
+  <form id="contact-form" action="https://formspree.io/f/xyekedqg" method="POST" style="margin-top: 2rem;">
     <div style="margin-bottom: 1.2rem;">
       <label for="name" style="display:block; margin-bottom:0.4rem; font-weight:500;">お名前</label>
       <input type="text" id="name" name="name" required
@@ -90,6 +91,8 @@
     <button type="submit" class="btn btn-primary">送信する</button>
   </form>
 
+  <p id="form-status" role="status" aria-live="polite" style="margin-top:1rem;" hidden></p>
+
   <p style="margin-top: 1.5rem;">
     または <a href="https://www.linkedin.com/in/mrkant/">LinkedIn</a> でつながる
   </p>
@@ -105,5 +108,48 @@
     <p>© Shashi Kant · お問い合わせ</p>
   </footer>
   <script src="script.js"></script>
+
+  <script>
+    const contactForm = document.getElementById('contact-form');
+    const formStatus = document.getElementById('form-status');
+
+    contactForm.addEventListener('submit', async function(event) {
+      event.preventDefault();
+
+      const submitButton = contactForm.querySelector('button[type="submit"]');
+      const originalButtonText = submitButton.textContent;
+
+      submitButton.disabled = true;
+      submitButton.textContent = '送信中...';
+
+      formStatus.hidden = false;
+      formStatus.textContent = 'メッセージを送信しています...';
+
+      try {
+        const response = await fetch(contactForm.action, {
+          method: 'POST',
+          body: new FormData(contactForm),
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error('Form submission failed');
+        }
+
+        contactForm.style.display = 'none';
+        formStatus.textContent =
+          'お問い合わせありがとうございます。メッセージを送信しました。';
+
+      } catch (error) {
+        formStatus.textContent =
+          '送信できませんでした。通信状況をご確認のうえ、もう一度お試しください。';
+
+        submitButton.disabled = false;
+        submitButton.textContent = originalButtonText;
+      }
+    });
+  </script>
 </body>
 </html>
