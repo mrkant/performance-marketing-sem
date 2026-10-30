@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Clone Wars: Amazon Japan Case Study</title>
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+<!-- GSAP for Animations -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<style>
+/* --- GLOBAL STYLES --- */
+:root {
+--bg-color: #050505;
+--surface: #121212;
+--surface-light: #1e1e1e;
+--text-main: #f5f5f5;
+--text-muted: #888888;
+--accent: #ff4500; /* Neon Orange */
+--accent-glow: rgba(255, 69, 0, 0.4);
+--success: #00ff88;
+--danger: #ff3333;
+}
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+background-color: var(--bg-color);
+color: var(--text-main);
+font-family: 'Inter', sans-serif;
+overflow-x: hidden;
+line-height: 1.6;
+/* Subtle grid background */
+background-image:
+linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+background-size: 50px 50px;
+}
+h1, h2, h3 {
+font-family: 'Space Grotesk', sans-serif;
+font-weight: 700;
+line-height: 1.2;
+}
+.container {
+max-width: 1100px;
+margin: 0 auto;
+padding: 0 20px;
+}
+/* --- HERO SECTION --- */
+.hero {
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+perspective: 1000px;
+}
+.hero-tag {
+color: var(--accent);
+font-weight: 600;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-bottom: 20px;
+font-size: 0.9rem;
+}
+.hero h1 {
+font-size: clamp(2.5rem, 6vw, 4.5rem);
+margin-bottom: 20px;
+background: linear-gradient(to right, #fff, #aaa);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.hero p {
+max-width: 600px;
+color: var(--text-muted);
+font-size: 1.1rem;
+margin-bottom: 40px;
+}
+/* 3D Floating Cards */
+.floating-cards {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+pointer-events: none;
+z-index: -1;
+transform-style: preserve-3d;
+}
+.f-card {
+position: absolute;
+width: 250px;
+height: 350px;
+background: var(--surface);
+border: 1px solid rgba(255,255,255,0.1);
+border-radius: 15px;
+box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+.f-card.left {
+top: 20%;
+left: 10%;
+transform: rotateY(15deg) rotateX(10deg);
+}
+.f-card.right {
+bottom: 20%;
+right: 10%;
+transform: rotateY(-15deg) rotateX(10deg);
+}
+.f-card img {
+width: 100%;
+height: 70%;
+object-fit: cover;
+border-radius: 10px;
+margin-bottom: 15px;
+filter: grayscale(80%); /* Desaturate to look generic */
+}
+.f-card span {
+font-family: 'Space Grotesk';
+font-weight: bold;
+color: var(--accent);
+}
+.scroll-indicator {
+position: absolute;
+bottom: 40px;
+animation: bounce 2s infinite;
+}
+@keyframes bounce {
+0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+40% { transform: translateY(-15px); }
+60% { transform: translateY(-7px); }
+}
+/* --- SECTION 2: THE DISCOVERY SLIDER --- */
+.section-discovery {
+padding: 100px 0;
+text-align: center;
+}
+.section-discovery h2 {
+font-size: 2.5rem;
+margin-bottom: 20px;
+}
+.slider-container {
+position: relative;
+width: 100%;
+max-width: 600px;
+height: 400px;
+margin: 40px auto;
+border-radius: 20px;
+overflow: hidden;
+box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+background: var(--surface);
+}
+/* We use the same image for both, but tint one slightly to simulate different brands */
+.img-right, .img-left {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url('https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1000&auto=format&fit=crop'); /* Placeholder Jacket */
+background-size: cover;
+background-position: center;
+}
+.img-right {
+filter: hue-rotate(10deg) brightness(1.1); /* Brand A */
+}
+.img-left {
+width: 50%; /* Controlled by JS */
+border-right: 3px solid var(--accent);
+filter: hue-rotate(-10deg) brightness(0.9); /* Brand B */
+}
+.slider-handle {
+position: absolute;
+top: 0;
+left: 50%;
+width: 4px;
+height: 100%;
+background: var(--accent);
+transform: translateX(-50%);
+pointer-events: none;
+z-index: 10;
+}
+.slider-handle::after {
+content: '↔';
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 40px;
+height: 40px;
+background: var(--accent);
+color: white;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+box-shadow: 0 0 20px var(--accent-glow);
+}
+/* The actual range input is invisible but controls the slider */
+input[type=range] {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+cursor: ew-resize;
+z-index: 20;
+}
+.floating-tags {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+.tag {
+background: rgba(255,255,255,0.05);
+border: 1px solid rgba(255,255,255,0.1);
+padding: 10px 20px;
+border-radius: 50px;
+font-size: 0.9rem;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.tag span { color: var(--accent); font-weight: bold; }
+/* --- SECTION 3: DATA DASHBOARD --- */
+.section-data {
+padding: 100px 0;
+background: linear-gradient(to bottom, transparent, var(--surface), transparent);
+}
+.data-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+.data-card {
+background: var(--surface-light);
+padding: 40px;
+border-radius: 20px;
+border: 1px solid rgba(255,255,255,0.05);
+text-align: center;
+transition: transform 0.3s;
+}
+.data-card:hover {
+transform: translateY(-10px);
+border-color: var(--accent);
+box-shadow: 0 10px 30px rgba(255, 69, 0, 0.1);
+}
+.data-number {
+font-family: 'Space Grotesk';
+font-size: 3.5rem;
+color: var(--accent);
+font-weight: 700;
+margin-bottom: 10px;
+}
+.data-label {
+color: var(--text-muted);
+font-size: 1rem;
+}
+/* --- SECTION 4: STRATEGY CARDS (FLIP) --- */
+.section-strategy {
+padding: 100px 0;
+}
+.strategy-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+margin-top: 50px;
+}
+.flip-card {
+background-color: transparent;
+perspective: 1000px;
+height: 250px;
+cursor: pointer;
+}
+.flip-card-inner {
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+border-radius: 20px;
+padding: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.flip-card-front {
+background-color: var(--surface-light);
+border: 1px solid rgba(255,255,255,0.1);
+}
+.flip-card-front h3 {
+font-size: 1.5rem;
+margin-bottom: 10px;
+}
+.flip-card-front p {
+color: var(--text-muted);
+font-size: 0.9rem;
+}
+.flip-card-back {
+background: linear-gradient(135deg, var(--accent), #cc3700);
+color: white;
+transform: rotateY(180deg);
+}
+.flip-card-back h4 {
+font-size: 1.2rem;
+margin-bottom: 15px;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.flip-card-back p {
+font-weight: 600;
+font-size: 1rem;
+}
+/* --- SECTION 5: INTERACTIVE QUIZ --- */
+.section-quiz {
+padding: 100px 0;
+text-align: center;
+}
+.quiz-container {
+max-width: 800px;
+margin: 40px auto;
+background: var(--surface-light);
+padding: 40px;
+border-radius: 20px;
+border: 1px solid rgba(255,255,255,0.1);
+}
+.quiz-question {
+font-size: 1.5rem;
+margin-bottom: 30px;
+font-family: 'Space Grotesk';
+}
+.quiz-options {
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.quiz-btn {
+background: transparent;
+border: 2px solid rgba(255,255,255,0.2);
+color: white;
+padding: 15px 20px;
+border-radius: 10px;
+font-size: 1rem;
+cursor: pointer;
+transition: all 0.3s;
+text-align: left;
+font-family: 'Inter';
+}
+.quiz-btn:hover {
+border-color: var(--accent);
+background: rgba(255, 69, 0, 0.1);
+}
+.quiz-result {
+margin-top: 20px;
+font-weight: bold;
+font-size: 1.1rem;
+display: none;
+padding: 20px;
+border-radius: 10px;
+}
+.result-danger { background: rgba(255, 51, 51, 0.2); color: var(--danger); border: 1px solid var(--danger); }
+.result-success { background: rgba(0, 255, 136, 0.2); color: var(--success); border: 1px solid var(--success); }
+/* --- FOOTER --- */
+footer {
+text-align: center;
+padding: 50px 0;
+border-top: 1px solid rgba(255,255,255,0.1);
+margin-top: 50px;
+}
+.cta-btn {
+display: inline-block;
+background: var(--accent);
+color: white;
+padding: 15px 40px;
+border-radius: 50px;
+text-decoration: none;
+font-weight: bold;
+font-family: 'Space Grotesk';
+margin-top: 20px;
+transition: transform 0.3s, box-shadow 0.3s;
+}
+.cta-btn:hover {
+transform: translateY(-3px);
+box-shadow: 0 10px 20px var(--accent-glow);
+}
+/* Animation Classes for GSAP */
+.gsap-reveal { opacity: 0; transform: translateY(50px); }
+/* Responsive */
+@media (max-width: 768px) {
+.f-card { display: none; }
+.hero h1 { font-size: 2.5rem; }
+}
+</style>
+</head>
+<body>
+<!-- HERO SECTION -->
+<section class="hero">
+<div class="floating-cards" id="parallax-container">
+<div class="f-card left">
+<img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=500&auto=format&fit=crop" alt="Jacket A">
+<span>InnoBase</span>
+<small style="color:#888">¥8,100</small>
+</div>
+<div class="f-card right">
+<img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=500&auto=format&fit=crop" alt="Jacket B">
+<span>JausQarq</span>
+<small style="color:#888">¥8,180</small>
+</div>
+</div>
+<div class="container">
+<div class="hero-tag gsap-reveal">Case Study: Amazon Japan</div>
+<h1 class="gsap-reveal">The Clone Wars:<br>Surviving the Red Ocean.</h1>
+<p class="gsap-reveal">What happens when two brands sell the exact same jacket, with the exact same photos, at the exact same price? We deconstruct the anatomy of a generic listing—and how you can beat it.</p>
+<div class="scroll-indicator">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+</div>
+</div>
+</section>
+<!-- SECTION 2: INTERACTIVE SLIDER -->
+<section class="section-discovery">
+<div class="container">
+<h2 class="gsap-reveal">Spot the Difference.</h2>
+<p style="color: var(--text-muted);" class="gsap-reveal">Drag the slider to compare the listings.</p>
+<div class="slider-container gsap-reveal">
+<div class="img-right"></div>
+<div class="img-left" id="top-image"></div>
+<div class="slider-handle" id="handle"></div>
+<input type="range" min="1" max="99" value="50" id="slider">
+</div>
+<div class="floating-tags gsap-reveal">
+<div class="tag">👤 <span>Same Model</span></div>
+<div class="tag">🧵 <span>Same Polyester Spec</span></div>
+<div class="tag">📉 <span>Same Price Drop (-17%)</span></div>
+</div>
+<p style="margin-top: 40px; color: var(--text-muted); max-width: 600px; margin-left: auto; margin-right: auto;" class="gsap-reveal">
+Spoiler Alert: They are the same product. The "brands" are just shell companies sourcing from the same factory.
+</p>
+</div>
+</section>
+<!-- SECTION 3: DATA DASHBOARD -->
+<section class="section-data">
+<div class="container">
+<h2 class="gsap-reveal" style="text-align: center;">The Marketplace Reality</h2>
+<div class="data-grid">
+<div class="data-card gsap-reveal">
+<div class="data-number" data-target="90">0%</div>
+<div class="data-label">of Japanese buyers check sizing guides meticulously before purchasing.</div>
+</div>
+<div class="data-card gsap-reveal">
+<div class="data-number" data-target="47">0%</div>
+<div class="data-label">research product details and specifications deeply.</div>
+</div>
+<div class="data-card gsap-reveal">
+<div class="data-number" data-target="0">0</div>
+<div class="data-label">Unique selling points between these two competitors.</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: STRATEGY CARDS -->
+<section class="section-strategy">
+<div class="container">
+<h2 class="gsap-reveal" style="text-align: center;">The Battle Plan</h2>
+<p class="gsap-reveal" style="text-align: center; color: var(--text-muted);">Hover to reveal your tactical advantage.</p>
+<div class="strategy-grid">
+<!-- Card 1 -->
+<div class="flip-card gsap-reveal">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<h3>1. Escape the Image War</h3>
+<p>Stop using supplier photos.</p>
+</div>
+<div class="flip-card-back">
+<h4>Execution</h4>
+<p>Rent a local Japanese model. Shoot detailed lifestyle images showing texture and fit.</p>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="flip-card gsap-reveal">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<h3>2. The "Fit" Advantage</h3>
+<p>General sizing doesn't work here.</p>
+</div>
+<div class="flip-card-back">
+<h4>Execution</h4>
+<p>Provide a specific Japanese size guide (肩幅, 身幅, 着丈). Show the jacket on different body types.</p>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="flip-card gsap-reveal">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<h3>3. Build a Real Brand</h3>
+<p>Shell trademarks are vulnerable.</p>
+</div>
+<div class="flip-card-back">
+<h4>Execution</h4>
+<p>Register a Japanese trademark (商標) to unlock Amazon Brand Registry and block copycats.</p>
+</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="flip-card gsap-reveal">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<h3>4. Quality Over Clones</h3>
+<p>Price wars kill margins.</p>
+</div>
+<div class="flip-card-back">
+<h4>Execution</h4>
+<p>Upgrade the material (e.g., real down). Good quality justifies a higher price point and better reviews.</p>
+</div>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="flip-card gsap-reveal">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<h3>5. SEO Localization</h3>
+<p>Machine translation fails.</p>
+</div>
+<div class="flip-card-back">
+<h4>Execution</h4>
+<p>Use natural Japanese keywords: "メンズ ダウンジャケット ファー付き 暖かい". Hire a native copywriter.</p>
+</div>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="flip-card gsap-reveal">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<h3>6. New Channels</h3>
+<p>Don't fight the red ocean.</p>
+</div>
+<div class="flip-card-back">
+<h4>Execution</h4>
+<p>List on Amazon Haul (the low-price platform) to capture price-sensitive buyers separately from your main brand.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: INTERACTIVE QUIZ -->
+<section class="section-quiz">
+<div class="container">
+<h2 class="gsap-reveal">Test Your Strategy</h2>
+<div class="quiz-container gsap-reveal">
+<div class="quiz-question">You have $5,000 to launch your jacket. What is your first move?</div>
+<div class="quiz-options">
+<button class="quiz-btn" onclick="checkAnswer('wrong')">A) Cut the price by 10% to beat InnoBase.</button>
+<button class="quiz-btn" onclick="checkAnswer('correct')">B) Spend it on a custom photoshoot and Japanese localization.</button>
+<button class="quiz-btn" onclick="checkAnswer('wrong')">C) Copy their listing exactly and use more ads.</button>
+</div>
+<div id="quiz-result" class="quiz-result"></div>
+</div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer>
+<div class="container">
+<h2>Stop competing on price.<br>Start competing on value.</h2>
+<a href="#" class="cta-btn">Ready to dominate the Japanese market? Let's talk.</a>
+<p style="margin-top: 40px; color: #555; font-size: 0.8rem;">&copy; 2024 E-Commerce Strategy Case Study. All rights reserved.</p>
+</div>
+</footer>
+<!-- JAVASCRIPT LOGIC -->
+<script>
+// --- GSAP ANIMATIONS ---
+gsap.registerPlugin(ScrollTrigger);
+// Initial Hero Animations
+gsap.to(".hero .gsap-reveal", {
+opacity: 1,
+y: 0,
+duration: 1,
+stagger: 0.2,
+ease: "power3.out"
+});
+// Scroll Reveal Animations
+const reveals = document.querySelectorAll('.gsap-reveal:not(.hero .gsap-reveal)');
+reveals.forEach((el) => {
+gsap.to(el, {
+scrollTrigger: {
+trigger: el,
+start: "top 85%",
+toggleActions: "play none none none"
+},
+opacity: 1,
+y: 0,
+duration: 0.8,
+ease: "power2.out"
+});
+});
+// Number Counter Animation
+const counters = document.querySelectorAll('.data-number');
+counters.forEach(counter => {
+ScrollTrigger.create({
+trigger: counter,
+start: "top 90%",
+onEnter: () => {
+const target = +counter.getAttribute('data-target');
+const duration = 2000; // ms
+const stepTime = Math.abs(Math.floor(duration / target));
+let current = 0;
+// Handle the '0' edge case
+if(target === 0) {
+counter.innerText = '0';
+return;
+}
+const timer = setInterval(() => {
+current += Math.ceil(target / 50); // Increment speed
+if (current >= target) {
+counter.innerText = target + (target === 90 || target === 47 ? '%' : '');
+clearInterval(timer);
+} else {
+counter.innerText = current + '%';
+}
+}, stepTime);
+},
+once: true
+});
+});
+// 3D Parallax Effect on Hero Mouse Move
+const hero = document.querySelector('.hero');
+const cards = document.querySelector('.floating-cards');
+hero.addEventListener('mousemove', (e) => {
+const xAxis = (window.innerWidth / 2 - e.pageX) / 50;
+const yAxis = (window.innerHeight / 2 - e.pageY) / 50;
+cards.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+});
+// Reset on mouse leave
+hero.addEventListener('mouseleave', () => {
+cards.style.transform = `rotateY(0deg) rotateX(0deg)`;
+cards.style.transition = "transform 0.5s ease";
+});
+hero.addEventListener('mouseenter', () => {
+cards.style.transition = "none";
+});
+
+// --- INTERACTIVE SLIDER LOGIC ---
+const slider = document.getElementById('slider');
+const topImage = document.getElementById('top-image');
+const handle = document.getElementById('handle');
+slider.addEventListener('input', (e) => {
+const value = e.target.value;
+topImage.style.width = `${value}%`;
+handle.style.left = `${value}%`;
+});
+// --- QUIZ LOGIC ---
+function checkAnswer(type) {
+const resultDiv = document.getElementById('quiz-result');
+resultDiv.style.display = 'block';
+if (type === 'wrong') {
+resultDiv.className = 'quiz-result result-danger';
+resultDiv.innerHTML = "❌ Wrong. You just entered a race to the bottom. Margins are dead. The factory will just sell the same jacket to 10 other sellers.";
+} else if (type === 'correct') {
+resultDiv.className = 'quiz-result result-success';
+resultDiv.innerHTML = "✅ Correct! You just built a moat. By improving the perceived value, you are no longer competing with the clones. You are now a premium brand.";
+}
+}
+</script>
+</body>
+</html>
