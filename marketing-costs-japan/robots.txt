@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shashikant.jp/marketing-costs-japan/sitemap.xml
