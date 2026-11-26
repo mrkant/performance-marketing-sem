@@ -1,12 +1,12 @@
 [
   {
     "id": "home",
-    "title": "Home: Search, Media and eCommerce Growth",
-    "url": "index.html",
+    "title": "Home: Marketing Intelligence & Growth Systems",
+    "url": "/",
     "type": "Page",
     "status": "Live",
     "description": "Main landing page for Shashi Kant profile.",
-    "excerpt": "Search, media and ecommerce growth across Japan and APAC.",
+    "excerpt": "Most marketing activity looks measurable but is not truly incremental. A clear look at marketing intelligence, decision quality, search, and growth systems — with practical frameworks for Japan and beyond.",
     "keywords": [
       "home",
       "Shashi Kant",
@@ -16,7 +16,10 @@
       "ecommerce",
       "APAC",
       "Japan",
-      "resume"
+      "resume",
+      "marketing intelligence",
+      "decision quality",
+      "growth systems"
     ],
     "tags": [
       "Home",
@@ -26,12 +29,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 10,
-    "contentSummary": "Main landing page for Shashi Kant profile. Search, media and ecommerce growth across Japan and APAC."
+    "contentSummary": "Main landing page for Shashi Kant profile. Search, media and ecommerce growth across Japan and APAC. · Most marketing activity looks measurable but is not truly incremental. A clear look at marketing intelligence, decision quality, search, and growth systems — with practical frameworks for Japan and beyond. · Most marketing looks measurable. Much of it is not incremental. · Six questions before serious spend · Measurement creates false confidence · Cost structures shape behaviour · Built to improve judgement, not just activity. · Different problems, same underlying need for clearer judgement. · For hiring and evaluation · Marketing intelligence first. Search is one of the tools. · Where the thinking becomes practical. · Activity vs incrementality · Search inside a system · Japan cost & incentive reality · Readiness before reach · Dashboards can show healthy numbers while the underlying business effect stays weak. The gap between activity and real commercial progress is where money and attention are quietly lost. · This site is built around that problem — how market understanding, consumer insight, commercial logic and system design determine whether search, media and ecommerce actually create value.",
+    "language": "en"
   },
   {
     "id": "about",
     "title": "About Shashi Kant",
-    "url": "about.html",
+    "url": "/about.html",
     "type": "Page",
     "status": "Live",
     "description": "Professional profile across growth, search, ecommerce and cross-border execution.",
@@ -51,12 +55,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 9,
-    "contentSummary": "Professional profile across growth, search, ecommerce and cross-border execution. A practical growth profile built across markets and business environments."
+    "contentSummary": "Professional profile across growth, search, ecommerce and cross-border execution. A practical growth profile built across markets and business environments. · About Shashi Kant: growth, search, ecommerce and Japan/APAC execution professional. · A practical growth profile built across markets and business environments. · Professional focus · Where I create value · I am a cross-border growth, search, performance marketing and ecommerce professional based in Tokyo, with experience across Japan, India, Korea and APAC. · My work connects search, paid media, ecommerce, analytics, agency coordination and market execution. I have worked across B2B and B2C environments, from industrial business and enterprise campaigns to marketplace merchandising, ecommerce, retail and beauty.",
+    "language": "en"
   },
   {
     "id": "journey",
     "title": "My Journey",
-    "url": "journey.html",
+    "url": "/journey.html",
     "type": "Page",
     "status": "Live",
     "description": "Career journey across sales, industrial execution, technology, SEO, ecommerce, performance media and Japan/APAC execution.",
@@ -72,7 +77,8 @@
       "Google Play",
       "Thirdwave",
       "H&M",
-      "Estee Lauder"
+      "Estee Lauder",
+      "marketing intelligence"
     ],
     "tags": [
       "Journey",
@@ -81,12 +87,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 10,
-    "contentSummary": "Career journey across sales, industrial execution, technology, SEO, ecommerce, performance media and Japan/APAC execution. Each stage added a practical capability."
+    "contentSummary": "Career journey across sales, industrial execution, technology, SEO, ecommerce, performance media and Japan/APAC execution. Each stage added a practical capability. · SEO and SEM only work when grounded in marketing intelligence. A career journey showing how market understanding, consumer psychology, commercial logic and systems thinking make search and acquisition effective. · Marketing intelligence first. Search is one of the tools. · Core principle · Customer and commercial foundations · Greenfield business and operational intelligence · Cross-cultural execution intelligence · Demand systems and search as infrastructure · Market and consumer intelligence in Japan · Marketplace intelligence and discovery systems · Operating intelligence across Japanese business contexts · Search connected to product and user understanding · Performance systems and multi-channel governance · Growth systems grounded in commercial intelligence · Acquisition is the outcome. Marketing intelligence is the work. · SEO and SEM can appear to be the main work. In reality they are only as effective as the thinking behind them — market understanding, consumer psychology, commercial logic, data interpretation and systems design. User acquisition is the visible result. The real work happens earlier. · This page traces how that foundation was built, stage by stage. For the full strategic framework, see the Marketing Intelligence hub .",
+    "language": "en"
   },
   {
     "id": "what-i-do",
     "title": "Search, Media and eCommerce Growth",
-    "url": "search-media-ecommerce.html",
+    "url": "/search-media-ecommerce.html",
     "type": "Page",
     "status": "Live",
     "description": "How SEO, SEM, paid media, ecommerce discovery, agency coordination and analytics work together.",
@@ -109,12 +116,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 10,
-    "contentSummary": "How SEO, SEM, paid media, ecommerce discovery, agency coordination and analytics work together. Growth improves when search, media and product discovery work together."
+    "contentSummary": "How SEO, SEM, paid media, ecommerce discovery, agency coordination and analytics work together. Growth improves when search, media and product discovery work together. · How SEO, SEM, paid media, ecommerce discovery, agency coordination and analytics work together. · Growth improves when search, media and product discovery work together. · SEO · SEM · eCommerce · Agency coordination · Analytics · Local execution · Search visibility, paid search, ecommerce pages, product information, agencies and reporting often sit in separate lanes. My work focuses on connecting those lanes into clearer action. · Search intent, technical signals, content structure, metadata, internal links and page quality.",
+    "language": "en"
   },
   {
     "id": "selected-work",
     "title": "Selected Work",
-    "url": "selected-work.html",
+    "url": "/selected-work.html",
     "type": "Page",
     "status": "Live",
     "description": "Public-safe work themes across search, media, ecommerce, marketplace, B2B campaigns and cross-cultural execution.",
@@ -135,12 +143,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 8,
-    "contentSummary": "Public-safe work themes across search, media, ecommerce, marketplace, B2B campaigns and cross-cultural execution. Experience themes written safely and clearly."
+    "contentSummary": "Public-safe work themes across search, media, ecommerce, marketplace, B2B campaigns and cross-cultural execution. Experience themes written safely and clearly. · Selected public-safe work themes across search, media, ecommerce, marketplace, B2B campaigns and cross-cultural execution. · Experience themes written safely and clearly. · Search and paid media optimization · Product-led ecommerce SEO · Marketplace merchandising · B2B demand generation · Cross-cultural execution · Industrial project coordination · This page shows the kinds of business problems I have worked on without publishing confidential employer information or unsupported numbers. · Connecting SEO, SEM, paid search and performance analysis to improve decision clarity.",
+    "language": "en"
   },
   {
     "id": "services",
     "title": "Services",
-    "url": "services.html",
+    "url": "/services.html",
     "type": "Page",
     "status": "Live",
     "description": "Selected support for SEO, SEM, ecommerce discovery, agency coordination, Japan/APAC execution and training.",
@@ -160,12 +169,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 9,
-    "contentSummary": "Selected support for SEO, SEM, ecommerce discovery, agency coordination, Japan/APAC execution and training. Support for selected growth, search and execution problems."
+    "contentSummary": "Selected support for SEO, SEM, ecommerce discovery, agency coordination, Japan/APAC execution and training. Support for selected growth, search and execution problems. · Selected support for SEO, SEM, ecommerce discovery, agency coordination, Japan/APAC execution and training. · Support for selected growth, search and execution problems. · Choose the problem closest to your situation. · SEO & Search Growth Review · SEM & Paid Search Review · eCommerce Discovery Review · Agency Coordination Review · Japan & APAC Execution Review · Training & Working Sessions · These services are written as public-safe options for relevant conversations where there is no conflict with professional obligations. · Useful when organic visibility, technical SEO, content structure or search intent needs clearer priorities.",
+    "language": "en"
   },
   {
     "id": "japan-apac",
     "title": "Japan and APAC Market Execution",
-    "url": "japan-apac.html",
+    "url": "/japan-apac.html",
     "type": "Page",
     "status": "Live",
     "description": "Japan/APAC digital execution across search, ecommerce, marketplaces, media and cross-cultural coordination.",
@@ -186,12 +196,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 8,
-    "contentSummary": "Japan/APAC digital execution across search, ecommerce, marketplaces, media and cross-cultural coordination. Global strategy needs local execution discipline."
+    "contentSummary": "Japan/APAC digital execution across search, ecommerce, marketplaces, media and cross-cultural coordination. Global strategy needs local execution discipline. · Japan/APAC digital execution across search, ecommerce, marketplaces, media and cross-cultural coordination. · Global strategy needs local execution discipline. · Japan market understanding · APAC execution · Cross-cultural work · Useful for · Japan and APAC work often requires more than translation. It requires understanding search behavior, culture, trust, team communication, agency roles and market-specific execution realities. · My Japan experience includes MBA research on Japanese smartphone ecommerce behavior and work across digital, ecommerce, marketplace, SEO and performance marketing environments.",
+    "language": "en"
   },
   {
     "id": "insights",
     "title": "Writing",
-    "url": "insights.html",
+    "url": "/insights.html",
     "type": "Page",
     "status": "Coming Soon",
     "description": "Future writing on SEO, SEM, ecommerce, agency coordination and Japan/APAC execution.",
@@ -212,12 +223,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 4,
-    "contentSummary": "Future writing on SEO, SEM, ecommerce, agency coordination and Japan/APAC execution. This section is being expanded with public-safe notes."
+    "contentSummary": "Future writing on SEO, SEM, ecommerce, agency coordination and Japan/APAC execution. This section is being expanded with public-safe notes.",
+    "language": "en"
   },
   {
     "id": "contact",
     "title": "Contact",
-    "url": "contact.html",
+    "url": "/contact.html",
     "type": "Page",
     "status": "Live",
     "description": "Contact page for relevant growth, search, ecommerce, Japan/APAC or professional conversations.",
@@ -234,12 +246,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 6,
-    "contentSummary": "Contact page for relevant growth, search, ecommerce, Japan/APAC or professional conversations. Start with the business problem."
+    "contentSummary": "Contact page for relevant growth, search, ecommerce, Japan/APAC or professional conversations. Start with the business problem. · Contact Shashi Kant for relevant growth, search, ecommerce, Japan/APAC or professional conversations. · Start with the business problem. · Tell me the business problem first. · Use this page for relevant professional conversations where the topic is clear and public-safe. · For relevant conversations about growth, search, paid media, ecommerce, agency coordination, Japan/APAC execution, selected advisory discussions, training or roles.",
+    "language": "en"
   },
   {
     "id": "seo-review",
     "title": "SEO & Search Growth Review",
-    "url": "services.html#seo-review",
+    "url": "/services.html#seo-review",
     "type": "Service",
     "status": "Live",
     "description": "For businesses whose websites need stronger qualified organic visibility.",
@@ -272,12 +285,13 @@
       "content"
     ],
     "priority": 8,
-    "contentSummary": "For businesses whose websites need stronger qualified organic visibility. A clear action roadmap showing what to fix first, why it matters and how it supports growth."
+    "contentSummary": "For businesses whose websites need stronger qualified organic visibility. A clear action roadmap showing what to fix first, why it matters and how it supports growth.",
+    "language": "en"
   },
   {
     "id": "sem-review",
     "title": "SEM & Paid Search Review",
-    "url": "services.html#sem-review",
+    "url": "/services.html#sem-review",
     "type": "Service",
     "status": "Live",
     "description": "For teams that need better clarity from paid search, PMax and performance media.",
@@ -313,12 +327,13 @@
       "performance marketing"
     ],
     "priority": 8,
-    "contentSummary": "For teams that need better clarity from paid search, PMax and performance media. A practical improvement plan for clearer decisions and stronger media discipline."
+    "contentSummary": "For teams that need better clarity from paid search, PMax and performance media. A practical improvement plan for clearer decisions and stronger media discipline.",
+    "language": "en"
   },
   {
     "id": "ecommerce-review",
     "title": "eCommerce Discovery Review",
-    "url": "services.html#ecommerce-review",
+    "url": "/services.html#ecommerce-review",
     "type": "Service",
     "status": "Live",
     "description": "For brands or marketplaces where products are not easy enough to find, understand or buy.",
@@ -351,12 +366,13 @@
       "UX"
     ],
     "priority": 8,
-    "contentSummary": "For brands or marketplaces where products are not easy enough to find, understand or buy. A prioritized discovery plan connecting search demand, product information and user experience."
+    "contentSummary": "For brands or marketplaces where products are not easy enough to find, understand or buy. A prioritized discovery plan connecting search demand, product information and user experience.",
+    "language": "en"
   },
   {
     "id": "agency-review",
     "title": "Agency Coordination Review",
-    "url": "services.html#agency-review",
+    "url": "/services.html#agency-review",
     "type": "Service",
     "status": "Live",
     "description": "For businesses working with multiple agencies or vendors where accountability is unclear.",
@@ -383,12 +399,13 @@
       "performance media"
     ],
     "priority": 8,
-    "contentSummary": "For businesses working with multiple agencies or vendors where accountability is unclear. A cleaner operating rhythm between business teams and agency partners."
+    "contentSummary": "For businesses working with multiple agencies or vendors where accountability is unclear. A cleaner operating rhythm between business teams and agency partners.",
+    "language": "en"
   },
   {
     "id": "apac-review",
     "title": "Japan & APAC Execution Review",
-    "url": "services.html#apac-review",
+    "url": "/services.html#apac-review",
     "type": "Service",
     "status": "Live",
     "description": "For teams trying to make digital growth work in Japan and APAC markets.",
@@ -421,12 +438,13 @@
       "market strategy"
     ],
     "priority": 8,
-    "contentSummary": "For teams trying to make digital growth work in Japan and APAC markets. A practical market execution view that connects global goals with local realities."
+    "contentSummary": "For teams trying to make digital growth work in Japan and APAC markets. A practical market execution view that connects global goals with local realities.",
+    "language": "en"
   },
   {
     "id": "training",
     "title": "Training & Working Sessions",
-    "url": "services.html#training",
+    "url": "/services.html#training",
     "type": "Service",
     "status": "Live",
     "description": "For teams that need clearer understanding of SEO, SEM, ecommerce discovery or agency coordination.",
@@ -459,12 +477,13 @@
       "agency coordination"
     ],
     "priority": 8,
-    "contentSummary": "For teams that need clearer understanding of SEO, SEM, ecommerce discovery or agency coordination. A focused learning session with examples, checklists and action points."
+    "contentSummary": "For teams that need clearer understanding of SEO, SEM, ecommerce discovery or agency coordination. A focused learning session with examples, checklists and action points.",
+    "language": "en"
   },
   {
     "id": "journey-damask",
     "title": "My Journey: Sales and marketing foundation",
-    "url": "journey.html#damask",
+    "url": "/journey.html#damask",
     "type": "Experience",
     "status": "Live",
     "description": "Damask Rose Tours - Early career",
@@ -496,12 +515,13 @@
       "Sales foundation"
     ],
     "priority": 7,
-    "contentSummary": "Early business work required direct customer understanding, trust-building and end-to-end follow-through. Worked on sales, marketing, customer handling and business development for travel and tour services. Turning interest into trust and trust into completed customer transactions. Built a practical base in communication, service delivery, follow-through and business development. Resume-supported early sales, marketing and business development experience."
+    "contentSummary": "Early business work required direct customer understanding, trust-building and end-to-end follow-through. Worked on sales, marketing, customer handling and business development for travel and tour services. Turning interest into trust and trust into completed customer transactions. Built a practical base in communication, service delivery, follow-through and business development. Resume-supported early sales, marketing and business development experience.",
+    "language": "en"
   },
   {
     "id": "journey-posco",
     "title": "My Journey: B2B industrial execution",
-    "url": "journey.html#posco",
+    "url": "/journey.html#posco",
     "type": "Experience",
     "status": "Live",
     "description": "POSCO Steel - 2007-2010",
@@ -537,12 +557,13 @@
       "Operational discipline"
     ],
     "priority": 7,
-    "contentSummary": "Industrial business required accuracy, documentation, vendor coordination and practical project discipline. Worked across finance/accounts, letters of credit, automotive steel business development, vendor coordination and steel processing plant project support. Complex work slows down when finance, operations, vendors and project teams are not aligned. Strengthened operating discipline, commercial awareness and cross-functional follow-through. Resume-supported experience in steel business, finance/accounts, vendor coordination and plant project support."
+    "contentSummary": "Industrial business required accuracy, documentation, vendor coordination and practical project discipline. Worked across finance/accounts, letters of credit, automotive steel business development, vendor coordination and steel processing plant project support. Complex work slows down when finance, operations, vendors and project teams are not aligned. Strengthened operating discipline, commercial awareness and cross-functional follow-through. Resume-supported experience in steel business, finance/accounts, vendor coordination and plant project support.",
+    "language": "en"
   },
   {
     "id": "journey-samsung",
     "title": "My Journey: India-Korea coordination",
-    "url": "journey.html#samsung",
+    "url": "/journey.html#samsung",
     "type": "Experience",
     "status": "Live",
     "description": "Samsung Electronics - 2010-2011",
@@ -576,12 +597,13 @@
       "Team alignment"
     ],
     "priority": 7,
-    "contentSummary": "Korean and Indian engineering teams needed clearer communication across language, culture and work styles. Supported R&D coordination, Korean/Indian communication, documentation and language bridging between technical teams. Technical work can slow down when teams misunderstand context, tone, timing or documentation. Helped reduce communication friction and support smoother India-Korea project work. Resume-supported experience in R&D project coordination, Korean language support and documentation."
+    "contentSummary": "Korean and Indian engineering teams needed clearer communication across language, culture and work styles. Supported R&D coordination, Korean/Indian communication, documentation and language bridging between technical teams. Technical work can slow down when teams misunderstand context, tone, timing or documentation. Helped reduce communication friction and support smoother India-Korea project work. Resume-supported experience in R&D project coordination, Korean language support and documentation.",
+    "language": "en"
   },
   {
     "id": "journey-ibm",
     "title": "My Journey: Enterprise SEO and demand generation",
-    "url": "journey.html#ibm",
+    "url": "/journey.html#ibm",
     "type": "Experience",
     "status": "Live",
     "description": "IBM Demand Programs - 2011-2014",
@@ -617,12 +639,13 @@
       "Demand operations"
     ],
     "priority": 7,
-    "contentSummary": "Enterprise campaigns needed stronger search visibility, structured execution, landing pages, web optimization and localized campaign operations. Worked on SEO, web optimization, campaign planning, analytics, keyword research, landing pages, nurture assets and Unica campaign execution. Campaigns are weaker when search, landing pages, data and execution assets are disconnected. Connected search visibility, web performance and campaign operations into clearer execution. Resume-supported experience in search/web optimization, SEO reporting, campaign planning, Unica execution and demand generation."
+    "contentSummary": "Enterprise campaigns needed stronger search visibility, structured execution, landing pages, web optimization and localized campaign operations. Worked on SEO, web optimization, campaign planning, analytics, keyword research, landing pages, nurture assets and Unica campaign execution. Campaigns are weaker when search, landing pages, data and execution assets are disconnected. Connected search visibility, web performance and campaign operations into clearer execution. Resume-supported experience in search/web optimization, SEO reporting, campaign planning, Unica execution and demand generation.",
+    "language": "en"
   },
   {
     "id": "journey-doshisha",
     "title": "My Journey: Japan ecommerce behavior research",
-    "url": "journey.html#doshisha",
+    "url": "/journey.html#doshisha",
     "type": "Experience",
     "status": "Live",
     "description": "Doshisha University MBA - Japan MBA",
@@ -654,12 +677,13 @@
       "Market insight"
     ],
     "priority": 7,
-    "contentSummary": "Japan market execution requires more than translation; it requires understanding trust, behavior and digital adoption. Studied business in Japan and researched Japanese smartphone ecommerce behavior. Global digital tactics can fail when local user behavior and trust factors are not understood. Added academic and market context to practical digital growth work in Japan. Resume-supported MBA in Japan with research on Japanese ecommerce behavior."
+    "contentSummary": "Japan market execution requires more than translation; it requires understanding trust, behavior and digital adoption. Studied business in Japan and researched Japanese smartphone ecommerce behavior. Global digital tactics can fail when local user behavior and trust factors are not understood. Added academic and market context to practical digital growth work in Japan. Resume-supported MBA in Japan with research on Japanese ecommerce behavior.",
+    "language": "en"
   },
   {
     "id": "journey-google-play",
-    "title": "My Journey: Marketplace merchandising",
-    "url": "journey.html#google-play",
+    "title": "My Journey: Google Play marketplace merchandising",
+    "url": "/journey.html#google-play",
     "type": "Experience",
     "status": "Live",
     "description": "Google Play via Hays - 2015-2016",
@@ -697,12 +721,13 @@
       "Marketplace discovery"
     ],
     "priority": 7,
-    "contentSummary": "Digital marketplace growth needed content planning, catalogue quality, metadata discipline and local market coordination. Supported Books and Movies merchandising, APAC/SEA coordination, A/B testing, metadata hygiene, catalogue prioritization and partner workflows. Marketplace content does not perform well when discovery, metadata, catalogue quality and local relevance are weak. Built experience connecting merchandising, metadata, testing, partners and platform execution. Resume-supported Google Play via Hays merchandising, APAC/SEA support, A/B testing and metadata work."
+    "contentSummary": "Digital marketplace growth needed content planning, catalogue quality, metadata discipline and local market coordination. Supported Books and Movies merchandising, APAC/SEA coordination, A/B testing, metadata hygiene, catalogue prioritization and partner workflows. Marketplace content does not perform well when discovery, metadata, catalogue quality and local relevance are weak. Built experience connecting merchandising, metadata, testing, partners and platform execution. Resume-supported Google Play via Hays merchandising, APAC/SEA support, A/B testing and metadata work.",
+    "language": "en"
   },
   {
     "id": "journey-japan-contract",
     "title": "My Journey: Japan digital execution",
-    "url": "journey.html#japan-contract",
+    "url": "/journey.html#japan-contract",
     "type": "Experience",
     "status": "Live",
     "description": "DAZN / Perform Group and Japan contract roles - 2018-2019",
@@ -740,12 +765,13 @@
       "Flexible execution"
     ],
     "priority": 7,
-    "contentSummary": "Different businesses needed practical support across web, product, ecommerce, PR, SEO, analytics and local execution. Worked across product, digital marketing, web development, SEO, PR, ecommerce, analytics and local business execution. Fast-moving environments need hands-on execution across several digital and business areas. Strengthened the ability to move between strategy, implementation, web work, marketing and local coordination. Resume-supported product, web, ecommerce, PR, SEO and analytics roles in Japan."
+    "contentSummary": "Different businesses needed practical support across web, product, ecommerce, PR, SEO, analytics and local execution. Worked across product, digital marketing, web development, SEO, PR, ecommerce, analytics and local business execution. Fast-moving environments need hands-on execution across several digital and business areas. Strengthened the ability to move between strategy, implementation, web work, marketing and local coordination. Resume-supported product, web, ecommerce, PR, SEO and analytics roles in Japan.",
+    "language": "en"
   },
   {
     "id": "journey-thirdwave",
     "title": "My Journey: Product-led ecommerce SEO",
-    "url": "journey.html#thirdwave",
+    "url": "/journey.html#thirdwave",
     "type": "Experience",
     "status": "Live",
     "description": "Thirdwave - 2019-2021",
@@ -783,12 +809,13 @@
       "SEO and product"
     ],
     "priority": 7,
-    "contentSummary": "Ecommerce SEO needed more than keywords; it needed search intent, developers, UX and product thinking. Worked on ecommerce SEO, search intent, developer coordination, Japanese content, UX/UI, wireframes, product backlog, user stories and A/B testing. SEO performance is limited when content, technical work, UX and development priorities are disconnected. Connected search strategy with page experience, development and ecommerce growth. Resume-supported ecommerce SEO, developer guidance, UX/UI, product backlog and A/B testing experience."
+    "contentSummary": "Ecommerce SEO needed more than keywords; it needed search intent, developers, UX and product thinking. Worked on ecommerce SEO, search intent, developer coordination, Japanese content, UX/UI, wireframes, product backlog, user stories and A/B testing. SEO performance is limited when content, technical work, UX and development priorities are disconnected. Connected search strategy with page experience, development and ecommerce growth. Resume-supported ecommerce SEO, developer guidance, UX/UI, product backlog and A/B testing experience.",
+    "language": "en"
   },
   {
     "id": "journey-hm",
     "title": "My Journey: Regional performance media",
-    "url": "journey.html#hm",
+    "url": "/journey.html#hm",
     "type": "Experience",
     "status": "Live",
     "description": "H&M - 2022",
@@ -826,12 +853,13 @@
       "Channel coordination"
     ],
     "priority": 7,
-    "contentSummary": "Performance media required better coordination across SEM/SEO, paid social, affiliate, display and agencies. Worked with performance media channels, regional teams, agencies, quality checks and website/app issue identification. Media performance can suffer when channels, agencies, technical issues and local execution do not work together. Improved ability to manage cross-channel performance work and agency execution rhythm. Resume-supported experience in performance media, SEM/SEO, paid social, affiliate, display and regional agency coordination."
+    "contentSummary": "Performance media required better coordination across SEM/SEO, paid social, affiliate, display and agencies. Worked with performance media channels, regional teams, agencies, quality checks and website/app issue identification. Media performance can suffer when channels, agencies, technical issues and local execution do not work together. Improved ability to manage cross-channel performance work and agency execution rhythm. Resume-supported experience in performance media, SEM/SEO, paid social, affiliate, display and regional agency coordination.",
+    "language": "en"
   },
   {
     "id": "journey-elc",
     "title": "My Journey: Growth marketing and search performance",
-    "url": "journey.html#elc",
+    "url": "/journey.html#elc",
     "type": "Experience",
     "status": "Live",
     "description": "Estee Lauder - 2022-Present",
@@ -871,12 +899,13 @@
       "Growth systems"
     ],
     "priority": 7,
-    "contentSummary": "Growth work needed search, paid media, SEO, PMax, Google/Yahoo Japan/Bing and agency coordination to connect with business outcomes. Worked on growth marketing, paid search, SEO, keyword research, web/ad copy optimization, performance analysis and media agency coordination. Growth slows when search, media, content, agencies and reporting do not create clear decisions. Connected search, media, ecommerce and agency work into a stronger performance marketing rhythm. Resume-supported growth marketing, paid search, SEO, PMax, Google/Yahoo Japan/Bing and agency coordination experience."
+    "contentSummary": "Growth work needed search, paid media, SEO, PMax, Google/Yahoo Japan/Bing and agency coordination to connect with business outcomes. Worked on growth marketing, paid search, SEO, keyword research, web/ad copy optimization, performance analysis and media agency coordination. Growth slows when search, media, content, agencies and reporting do not create clear decisions. Connected search, media, ecommerce and agency work into a stronger performance marketing rhythm. Resume-supported growth marketing, paid search, SEO, PMax, Google/Yahoo Japan/Bing and agency coordination experience.",
+    "language": "en"
   },
   {
     "id": "work-0",
     "title": "Search and paid media optimization",
-    "url": "selected-work.html",
+    "url": "/selected-work.html",
     "type": "Selected Work",
     "status": "Live",
     "description": "Connecting SEO, SEM, paid search and performance analysis to improve decision clarity.",
@@ -898,12 +927,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 6,
-    "contentSummary": "Connecting SEO, SEM, paid search and performance analysis to improve decision clarity. Connecting SEO, SEM, paid search and performance analysis to improve decision clarity."
+    "contentSummary": "Connecting SEO, SEM, paid search and performance analysis to improve decision clarity. Connecting SEO, SEM, paid search and performance analysis to improve decision clarity.",
+    "language": "en"
   },
   {
     "id": "work-1",
     "title": "Product-led ecommerce SEO",
-    "url": "selected-work.html",
+    "url": "/selected-work.html",
     "type": "Selected Work",
     "status": "Live",
     "description": "Linking search intent, developers, UX/UI, content, product backlog and A/B testing.",
@@ -927,12 +957,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 6,
-    "contentSummary": "Linking search intent, developers, UX/UI, content, product backlog and A/B testing. Linking search intent, developers, UX/UI, content, product backlog and A/B testing."
+    "contentSummary": "Linking search intent, developers, UX/UI, content, product backlog and A/B testing. Linking search intent, developers, UX/UI, content, product backlog and A/B testing.",
+    "language": "en"
   },
   {
     "id": "work-2",
     "title": "Marketplace merchandising",
-    "url": "selected-work.html",
+    "url": "/selected-work.html",
     "type": "Selected Work",
     "status": "Live",
     "description": "Improving content discovery through merchandising calendars, metadata, catalogue planning and local relevance.",
@@ -956,12 +987,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 6,
-    "contentSummary": "Improving content discovery through merchandising calendars, metadata, catalogue planning and local relevance. Improving content discovery through merchandising calendars, metadata, catalogue planning and local relevance."
+    "contentSummary": "Improving content discovery through merchandising calendars, metadata, catalogue planning and local relevance. Improving content discovery through merchandising calendars, metadata, catalogue planning and local relevance.",
+    "language": "en"
   },
   {
     "id": "work-3",
     "title": "B2B demand generation",
-    "url": "selected-work.html",
+    "url": "/selected-work.html",
     "type": "Selected Work",
     "status": "Live",
     "description": "Supporting enterprise campaigns through SEO, landing pages, campaign assets and campaign operations.",
@@ -985,12 +1017,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 6,
-    "contentSummary": "Supporting enterprise campaigns through SEO, landing pages, campaign assets and campaign operations. Supporting enterprise campaigns through SEO, landing pages, campaign assets and campaign operations."
+    "contentSummary": "Supporting enterprise campaigns through SEO, landing pages, campaign assets and campaign operations. Supporting enterprise campaigns through SEO, landing pages, campaign assets and campaign operations.",
+    "language": "en"
   },
   {
     "id": "work-4",
     "title": "Cross-cultural execution",
-    "url": "selected-work.html",
+    "url": "/selected-work.html",
     "type": "Selected Work",
     "status": "Live",
     "description": "Bridging language, culture, documentation and team coordination across India, Korea, Japan and APAC.",
@@ -1014,12 +1047,13 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 6,
-    "contentSummary": "Bridging language, culture, documentation and team coordination across India, Korea, Japan and APAC. Bridging language, culture, documentation and team coordination across India, Korea, Japan and APAC."
+    "contentSummary": "Bridging language, culture, documentation and team coordination across India, Korea, Japan and APAC. Bridging language, culture, documentation and team coordination across India, Korea, Japan and APAC.",
+    "language": "en"
   },
   {
     "id": "work-5",
     "title": "Industrial project coordination",
-    "url": "selected-work.html",
+    "url": "/selected-work.html",
     "type": "Selected Work",
     "status": "Live",
     "description": "Building practical execution discipline through finance, vendor, project and business development work.",
@@ -1043,6 +1077,1733 @@
     "relatedCompanies": [],
     "relatedSkills": [],
     "priority": 6,
-    "contentSummary": "Building practical execution discipline through finance, vendor, project and business development work. Building practical execution discipline through finance, vendor, project and business development work."
+    "contentSummary": "Building practical execution discipline through finance, vendor, project and business development work. Building practical execution discipline through finance, vendor, project and business development work.",
+    "language": "en"
+  },
+  {
+    "id": "page-agency-governance-japan",
+    "title": "How to hire and govern an agency in Japan: five-stage guide",
+    "url": "/agency-governance-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "A neutral five-stage framework for hiring and governing an advertising agency in Japan: requirement, evaluation, contract, control and measurement, with a scorecard, quote model and legal notes.",
+    "excerpt": "A neutral five-stage framework for hiring and governing an advertising agency in Japan: requirement, evaluation, contract, control and measurement, with a scorecard, quote model and legal notes.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan",
+      "agency coordination",
+      "agency selection",
+      "agency governance"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "A neutral five-stage framework for hiring and governing an advertising agency in Japan: requirement, evaluation, contract, control and measurement, with a scorecard, quote model and legal notes. · Hiring an agency is not buying media. · Where to start · Entering Japan · Running procurement · Already have an agency · Own legal or compliance · The five stages · Who you might be hiring · Full-service advertising agency · Digital media agency · Social management agency · Influencer marketing agency · Creative and production agency · The cost hub explains what advertising costs in Japan. This guide covers the next problem: who signs, what is in scope, which claims are pass or fail, and how you leave. Five stages, each asked as who, what, when, where, why and how, across strategy, law, money, operations and proof. · Headquarters wants a partner. The first risk is hiring a translator of the global plan.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-ecommerce-marketing-agency-japan-ecommerce-market-place-education-clone-wars-amazon-japan-case-study",
+    "title": "Ecommerce Marketing Agency Japan: The Clone Wars – Amazon Japan Case Study",
+    "url": "/ecommerce-marketing-agency-japan-ecommerce-market-place-education-clone-wars-amazon-japan-case-study.html",
+    "type": "Case Study",
+    "status": "Live",
+    "description": "What happens when two brands sell the exact same jacket with the same photos at the same price? A practical Amazon Japan case study on escaping the red ocean of clone products by an ecommerce marketing agency in Japan.",
+    "excerpt": "What happens when two brands sell the exact same jacket with the same photos at the same price? A practical Amazon Japan case study on escaping the red ocean of clone products by an ecommerce marketing agency in Japan.",
+    "keywords": [
+      "marketplace",
+      "ecommerce",
+      "Japan"
+    ],
+    "tags": [
+      "marketplace",
+      "ecommerce"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 7,
+    "contentSummary": "What happens when two brands sell the exact same jacket with the same photos at the same price? A practical Amazon Japan case study on escaping the red ocean of clone products by an ecommerce marketing agency in Japan.",
+    "language": "en",
+    "topics": [
+      "marketplace",
+      "ecommerce",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-hi",
+    "title": "Shashi Kant | सर्च · मीडिया · ईकॉमर्स ग्रोथ | जापान·APAC",
+    "url": "/hi/",
+    "type": "Page",
+    "status": "Live",
+    "description": "जापान और APAC में SEO, SEM, पेड मीडिया, ईकॉमर्स मर्चेंडाइजिंग, एजेंसी समन्वय, एनालिटिक्स और लोकल एक्ज़ीक्यूशन को जोड़कर डिजिटल ग्रोथ में मदद।",
+    "excerpt": "जापान और APAC में SEO, SEM, पेड मीडिया, ईकॉमर्स मर्चेंडाइजिंग, एजेंसी समन्वय, एनालिटिक्स और लोकल एक्ज़ीक्यूशन को जोड़कर डिजिटल ग्रोथ में मदद।",
+    "keywords": [],
+    "tags": [
+      "हिन्दी"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "जापान और APAC में SEO, SEM, पेड मीडिया, ईकॉमर्स मर्चेंडाइजिंग, एजेंसी समन्वय, एनालिटिक्स और लोकल एक्ज़ीक्यूशन को जोड़कर डिजिटल ग्रोथ में मदद। · जापान और APAC में सर्च, मीडिया और ईकॉमर्स ग्रोथ को जोड़ते हैं। · अपने लिए सही रास्ता चुनें · मैं क्या करता हूँ · सर्च · मीडिया · ईकॉमर्स · करियर यात्रा · साइट सर्च · हासिल की गई स्किल्स · चयनित कार्य थीम्स · सर्च और पेड मीडिया ऑप्टिमाइज़ेशन · प्रोडक्ट-लेड ईकॉमर्स SEO · मार्केटप्लेस मर्चेंडाइजिंग · B2B डिमांड जनरेशन · क्रॉस-कल्चरल एक्ज़ीक्यूशन · SEO, SEM, पेड मीडिया, ईकॉमर्स मर्चेंडाइजिंग, एजेंसी समन्वय, एनालिटिक्स और लोकल एक्ज़ीक्यूशन को एक साथ लाकर बिज़नेस चुनौतियों का सीधा सामना करते हैं। इंडस्ट्रियल बिज़नेस, टेक्नोलॉजी, एंटरप्राइज़ कैंपेन, मार्केटप्लेस, ईकॉमर्स, रिटेल और ब्यूटी तक — हमेशा “सही काम को सही समस्या से जोड़ने” पर फोकस। · कहानी का वह हिस्सा चुनें जो अभी ज़रूरी है।",
+    "language": "hi",
+    "topics": []
+  },
+  {
+    "id": "page-hi-contact",
+    "title": "संपर्क",
+    "url": "/hi/contact.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "स्पष्ट और सार्वजनिक-सुरक्षित विषय वाली पेशेवर बातचीत के लिए इस पेज का उपयोग करें।",
+    "excerpt": "स्पष्ट और सार्वजनिक-सुरक्षित विषय वाली पेशेवर बातचीत के लिए इस पेज का उपयोग करें।",
+    "keywords": [],
+    "tags": [
+      "हिन्दी"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "स्पष्ट और सार्वजनिक-सुरक्षित विषय वाली पेशेवर बातचीत के लिए इस पेज का उपयोग करें। · बिज़नेस समस्या से शुरू करें · ग्रोथ, सर्च, पेड मीडिया, ईकॉमर्स, एजेंसी समन्वय, जापान·APAC एक्ज़ीक्यूशन, चयनित सलाह, ट्रेनिंग या रोल पर प्रासंगिक बातचीत के लिए।",
+    "language": "hi",
+    "topics": []
+  },
+  {
+    "id": "page-hi-japan-apac",
+    "title": "जापान·APAC मार्केट एक्ज़ीक्यूशन",
+    "url": "/hi/japan-apac.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "जापान और APAC काम अक्सर अनुवाद से अधिक माँगता है। सर्च व्यवहार, संस्कृति, भरोसा, टीम संचार, एजेंसी भूमिकाएँ और मार्केट-विशिष्ट एक्ज़ीक्यूशन वास्तविकताओं को समझना ज़रूरी है।",
+    "excerpt": "जापान और APAC काम अक्सर अनुवाद से अधिक माँगता है। सर्च व्यवहार, संस्कृति, भरोसा, टीम संचार, एजेंसी भूमिकाएँ और मार्केट-विशिष्ट एक्ज़ीक्यूशन वास्तविकताओं को समझना ज़रूरी है।",
+    "keywords": [],
+    "tags": [
+      "हिन्दी"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "जापान और APAC काम अक्सर अनुवाद से अधिक माँगता है। सर्च व्यवहार, संस्कृति, भरोसा, टीम संचार, एजेंसी भूमिकाएँ और मार्केट-विशिष्ट एक्ज़ीक्यूशन वास्तविकताओं को समझना ज़रूरी है। · ग्लोबल रणनीति को लोकल एक्ज़ीक्यूशन अनुशासन की ज़रूरत होती है। · जापान मार्केट समझ · APAC एक्ज़ीक्यूशन · क्रॉस-कल्चरल काम · इनके लिए उपयोगी · जापान अनुभव में जापानी स्मार्टफोन ईकॉमर्स व्यवहार पर MBA शोध और डिजिटल, ईकॉमर्स, मार्केटप्लेस, SEO तथा परफ़ॉर्मेंस मार्केटिंग वातावरण में काम शामिल है।",
+    "language": "hi",
+    "topics": []
+  },
+  {
+    "id": "page-hi-journey",
+    "title": "यात्रा",
+    "url": "/hi/journey.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "हर चरण ने व्यावहारिक क्षमता जोड़ी: ग्राहक समझ, B2B एक्ज़ीक्यूशन, क्रॉस-कल्चरल समन्वय, एंटरप्राइज़ SEO, मार्केटप्लेस ग्रोथ, प्रोडक्ट-लेड ईकॉमर्स SEO, परफ़ॉर्मेंस मीडिया और ग्रोथ मार्केटिंग।",
+    "excerpt": "हर चरण ने व्यावहारिक क्षमता जोड़ी: ग्राहक समझ, B2B एक्ज़ीक्यूशन, क्रॉस-कल्चरल समन्वय, एंटरप्राइज़ SEO, मार्केटप्लेस ग्रोथ, प्रोडक्ट-लेड ईकॉमर्स SEO, परफ़ॉर्मेंस मीडिया और ग्रोथ मार्केटिंग।",
+    "keywords": [],
+    "tags": [
+      "हिन्दी"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "हर चरण ने व्यावहारिक क्षमता जोड़ी: ग्राहक समझ, B2B एक्ज़ीक्यूशन, क्रॉस-कल्चरल समन्वय, एंटरप्राइज़ SEO, मार्केटप्लेस ग्रोथ, प्रोडक्ट-लेड ईकॉमर्स SEO, परफ़ॉर्मेंस मीडिया और ग्रोथ मार्केटिंग। · बिज़नेस चुनौतियों के माध्यम से बताई गई करियर कहानी · सेल्स और मार्केटिंग नींव · B2B इंडस्ट्रियल एक्ज़ीक्यूशन · भारत–कोरिया समन्वय · एंटरप्राइज़ SEO और डिमांड जनरेशन · जापान ईकॉमर्स व्यवहार अनुसंधान · मार्केटप्लेस मर्चेंडाइजिंग · जापान डिजिटल एक्ज़ीक्यूशन · प्रोडक्ट-लेड ईकॉमर्स SEO · रीजनल परफ़ॉर्मेंस मीडिया · ग्रोथ मार्केटिंग और सर्च परफ़ॉर्मेंस · शुरुआती बिज़नेस में सीधे ग्राहक समझ, भरोसा बनाना और अंत तक फॉलो-थ्रू ज़रूरी था।",
+    "language": "hi",
+    "topics": []
+  },
+  {
+    "id": "page-hi-privacy",
+    "title": "गोपनीयता नीति",
+    "url": "/hi/privacy.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "यह नीति बताती है कि Shashi Kant (इसके बाद “मैं”) द्वारा संचालित वेबसाइट (shashikant.jp और संबंधित पेज) पर व्यक्तिगत जानकारी कैसे एकत्र, उपयोग, संग्रहीत और सुरक्षित की जाती है। संपर्क फ़ॉर्म या अन्य माध्यम से जानकारी भेजने पर यह नीति लागू होती है।",
+    "excerpt": "यह नीति बताती है कि Shashi Kant (इसके बाद “मैं”) द्वारा संचालित वेबसाइट (shashikant.jp और संबंधित पेज) पर व्यक्तिगत जानकारी कैसे एकत्र, उपयोग, संग्रहीत और सुरक्षित की जाती है। संपर्क फ़ॉर्म या अन्य माध्यम से जानकारी भेजने पर यह…",
+    "keywords": [],
+    "tags": [
+      "हिन्दी"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "यह नीति बताती है कि Shashi Kant (इसके बाद “मैं”) द्वारा संचालित वेबसाइट (shashikant.jp और संबंधित पेज) पर व्यक्तिगत जानकारी कैसे एकत्र, उपयोग, संग्रहीत और सुरक्षित की जाती है। संपर्क फ़ॉर्म या अन्य माध्यम से जानकारी भेजने पर यह नीति लागू होती है। · गोपनीयता नीति · 1. एकत्र की जाने वाली जानकारी · 2. उपयोग का उद्देश्य · 3. संग्रहण अवधि · 4. तीसरे पक्ष को प्रदान और विदेश स्थानांतरण · 5. सुरक्षा · 6. आपके अधिकार · 7. बच्चे · 8. नीति में बदलाव · 9. संपर्क · जब आप संपर्क फ़ॉर्म या ईमेल से संपर्क करते हैं, तो निम्नलिखित जानकारी एकत्र की जा सकती है:",
+    "language": "hi",
+    "topics": []
+  },
+  {
+    "id": "page-hi-search-media-ecommerce",
+    "title": "सर्च · मीडिया · ईकॉमर्स ग्रोथ",
+    "url": "/hi/search-media-ecommerce.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "सर्च विज़िबिलिटी, पेड सर्च, ईकॉमर्स पेज, प्रोडक्ट जानकारी, एजेंसी और रिपोर्टिंग अक्सर अलग-अलग लेन में रहते हैं। मेरा काम उन लेनों को जोड़कर स्पष्ट एक्शन बनाना है।",
+    "excerpt": "सर्च विज़िबिलिटी, पेड सर्च, ईकॉमर्स पेज, प्रोडक्ट जानकारी, एजेंसी और रिपोर्टिंग अक्सर अलग-अलग लेन में रहते हैं। मेरा काम उन लेनों को जोड़कर स्पष्ट एक्शन बनाना है।",
+    "keywords": [],
+    "tags": [
+      "हिन्दी"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "सर्च विज़िबिलिटी, पेड सर्च, ईकॉमर्स पेज, प्रोडक्ट जानकारी, एजेंसी और रिपोर्टिंग अक्सर अलग-अलग लेन में रहते हैं। मेरा काम उन लेनों को जोड़कर स्पष्ट एक्शन बनाना है। · जब सर्च, मीडिया और प्रोडक्ट डिस्कवरी एक साथ काम करते हैं तो ग्रोथ सुधरती है। · SEO · SEM · ईकॉमर्स · एजेंसी समन्वय · एनालिटिक्स · लोकल एक्ज़ीक्यूशन · सर्च इंटेंट, टेक्निकल सिग्नल, कंटेंट संरचना, मेटाडेटा, इंटरनल लिंक और पेज क्वालिटी।",
+    "language": "hi",
+    "topics": []
+  },
+  {
+    "id": "page-hi-selected-work",
+    "title": "चयनित कार्य",
+    "url": "/hi/selected-work.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "यह पेज बिना गोपनीय नियोक्ता जानकारी या असमर्थित आंकड़ों के उन बिज़नेस समस्याओं के प्रकार दिखाता है जिन पर काम किया गया है।",
+    "excerpt": "यह पेज बिना गोपनीय नियोक्ता जानकारी या असमर्थित आंकड़ों के उन बिज़नेस समस्याओं के प्रकार दिखाता है जिन पर काम किया गया है।",
+    "keywords": [],
+    "tags": [
+      "हिन्दी"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "यह पेज बिना गोपनीय नियोक्ता जानकारी या असमर्थित आंकड़ों के उन बिज़नेस समस्याओं के प्रकार दिखाता है जिन पर काम किया गया है। · सुरक्षित और स्पष्ट रूप से लिखी गई अनुभव थीम्स · सर्च और पेड मीडिया ऑप्टिमाइज़ेशन · प्रोडक्ट-लेड ईकॉमर्स SEO · मार्केटप्लेस मर्चेंडाइजिंग · B2B डिमांड जनरेशन · क्रॉस-कल्चरल एक्ज़ीक्यूशन · इंडस्ट्रियल प्रोजेक्ट समन्वय · SEO, SEM, पेड सर्च और परफ़ॉर्मेंस एनालिसिस को जोड़कर निर्णय स्पष्टता बढ़ाते हैं।",
+    "language": "hi",
+    "topics": []
+  },
+  {
+    "id": "page-hi-services",
+    "title": "सेवाएँ",
+    "url": "/hi/services.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "ये सेवाएँ पेशेवर दायित्वों से टकराव के बिना, सार्वजनिक-सुरक्षित विकल्पों के रूप में लिखी गई हैं। प्रासंगिक बातचीत के लिए उपयुक्त।",
+    "excerpt": "ये सेवाएँ पेशेवर दायित्वों से टकराव के बिना, सार्वजनिक-सुरक्षित विकल्पों के रूप में लिखी गई हैं। प्रासंगिक बातचीत के लिए उपयुक्त।",
+    "keywords": [],
+    "tags": [
+      "हिन्दी"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "ये सेवाएँ पेशेवर दायित्वों से टकराव के बिना, सार्वजनिक-सुरक्षित विकल्पों के रूप में लिखी गई हैं। प्रासंगिक बातचीत के लिए उपयुक्त। · चयनित ग्रोथ, सर्च और एक्ज़ीक्यूशन समस्याओं के लिए सपोर्ट · SEO & सर्च ग्रोथ रिव्यू · SEM & पेड सर्च रिव्यू · ईकॉमर्स डिस्कवरी रिव्यू · एजेंसी समन्वय रिव्यू · जापान & APAC एक्ज़ीक्यूशन रिव्यू · ट्रेनिंग & वर्किंग सेशन · जिन वेबसाइटों को मज़बूत, उच्च-गुणवत्ता ऑर्गेनिक विज़िबिलिटी चाहिए।",
+    "language": "hi",
+    "topics": []
+  },
+  {
+    "id": "page-ja",
+    "title": "シャシカント｜検索・メディア・eコマース成長｜日本・APAC",
+    "url": "/ja/",
+    "type": "Page",
+    "status": "Live",
+    "description": "日本・APACでSEO、SEM、eコマース、エージェンシー連携を繋げ、デジタル成長を支援。東京を拠点に実践的なレビューと実行を提供します。",
+    "excerpt": "日本・APACでSEO、SEM、eコマース、エージェンシー連携を繋げ、デジタル成長を支援。東京を拠点に実践的なレビューと実行を提供します。",
+    "keywords": [],
+    "tags": [
+      "日本語"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "日本・APACでSEO、SEM、eコマース、エージェンシー連携を繋げ、デジタル成長を支援。東京を拠点に実践的なレビューと実行を提供します。 · 日本とAPACで、 検索・メディア・eコマース の成長を繋ぐ",
+    "language": "ja",
+    "topics": []
+  },
+  {
+    "id": "page-ja-about",
+    "title": "プロフィール｜シャシカント – 検索・メディア・eコマース成長",
+    "url": "/ja/about.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "シャシカントのプロフィール。日本・APACでSEO、SEM、eコマース、エージェンシー連携を実践してきた経歴とスキルをご紹介します。",
+    "excerpt": "シャシカントのプロフィール。日本・APACでSEO、SEM、eコマース、エージェンシー連携を実践してきた経歴とスキルをご紹介します。",
+    "keywords": [],
+    "tags": [
+      "日本語"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "シャシカントのプロフィール。日本・APACでSEO、SEM、eコマース、エージェンシー連携を実践してきた経歴とスキルをご紹介します。 · シャシカント プロフィール",
+    "language": "ja",
+    "topics": []
+  },
+  {
+    "id": "page-ja-area",
+    "title": "対応エリア｜東京・日本全国・APAC｜Shashi Kant",
+    "url": "/ja/area.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "Shashi Kantの対応エリア。東京・日本全国・APAC（アジア太平洋）でのSEO、SEM、eコマース成長支援に対応しています。",
+    "excerpt": "Shashi Kantの対応エリア。東京・日本全国・APAC（アジア太平洋）でのSEO、SEM、eコマース成長支援に対応しています。",
+    "keywords": [],
+    "tags": [
+      "日本語"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Shashi Kantの対応エリア。東京・日本全国・APAC（アジア太平洋）でのSEO、SEM、eコマース成長支援に対応しています。 · 対応エリア 東京 · 日本全国 · APAC",
+    "language": "ja",
+    "topics": []
+  },
+  {
+    "id": "page-ja-contact",
+    "title": "お問い合わせ｜ビジネス課題から始める｜シャシカント",
+    "url": "/ja/contact.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "成長・検索・メディア・eコマース・日本APAC実行に関する対話はこちらから。ビジネス課題を教えてください。",
+    "excerpt": "成長・検索・メディア・eコマース・日本APAC実行に関する対話はこちらから。ビジネス課題を教えてください。",
+    "keywords": [],
+    "tags": [
+      "日本語"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "成長・検索・メディア・eコマース・日本APAC実行に関する対話はこちらから。ビジネス課題を教えてください。 · ビジネス課題から 始めましょう",
+    "language": "ja",
+    "topics": []
+  },
+  {
+    "id": "page-ja-faq",
+    "title": "よくある質問｜しゃしかんと – SEO・SEM・eコマース成長",
+    "url": "/ja/faq.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "Shashi Kantへのよくある質問。サービス内容、対応エリア、進め方、日本・APACでの支援についてお答えします。",
+    "excerpt": "Shashi Kantへのよくある質問。サービス内容、対応エリア、進め方、日本・APACでの支援についてお答えします。",
+    "keywords": [],
+    "tags": [
+      "日本語"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Shashi Kantへのよくある質問。サービス内容、対応エリア、進め方、日本・APACでの支援についてお答えします。 · よくある質問",
+    "language": "ja",
+    "topics": []
+  },
+  {
+    "id": "page-ja-journey",
+    "title": "キャリアの旅｜POSCO・Samsung・IBM・Google Play・H&M・Estee Lauder｜Shashi Kant",
+    "url": "/ja/journey.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "Shashi Kantのキャリアストーリー。POSCO、Samsung、IBM、Google Play、Thirdwave、H&M、Estee Lauderで培ったSEO・SEM・eコマース・異文化調整の経験。",
+    "excerpt": "Shashi Kantのキャリアストーリー。POSCO、Samsung、IBM、Google Play、Thirdwave、H&M、Estee Lauderで培ったSEO・SEM・eコマース・異文化調整の経験。",
+    "keywords": [],
+    "tags": [
+      "日本語"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Shashi Kantのキャリアストーリー。POSCO、Samsung、IBM、Google Play、Thirdwave、H&M、Estee Lauderで培ったSEO・SEM・eコマース・異文化調整の経験。 · ビジネス課題を通じて語る キャリアストーリー",
+    "language": "ja",
+    "topics": []
+  },
+  {
+    "id": "page-ja-marketing-manga-index",
+    "title": "隅っこのブランド | The Brand in the Corner",
+    "url": "/ja/marketing-manga/index.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "The Brand in the Corner",
+    "excerpt": "The Brand in the Corner",
+    "keywords": [
+      "マーケティング",
+      "漫画",
+      "marketing manga"
+    ],
+    "tags": [
+      "日本語"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "The Brand in the Corner · 隅っこのブランド",
+    "language": "ja",
+    "topics": []
+  },
+  {
+    "id": "page-ja-privacy",
+    "title": "プライバシーポリシー | シャシカント",
+    "url": "/ja/privacy.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "本ポリシーは、Shashi Kant（以下「当方」）が運営するウェブサイト（shashikant.jpおよび関連ページ）において、個人情報をどのように収集・利用・保管・保護するかを説明するものです。お問い合わせフォーム、メール等でご連絡いただいた場合に適用されます。",
+    "excerpt": "本ポリシーは、Shashi Kant（以下「当方」）が運営するウェブサイト（shashikant.jpおよび関連ページ）において、個人情報をどのように収集・利用・保管・保護するかを説明するものです。お問い合わせフォーム、メール等でご連絡いただいた場合に適用されます。",
+    "keywords": [],
+    "tags": [
+      "日本語"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "本ポリシーは、Shashi Kant（以下「当方」）が運営するウェブサイト（shashikant.jpおよび関連ページ）において、個人情報をどのように収集・利用・保管・保護するかを説明するものです。お問い合わせフォーム、メール等でご連絡いただいた場合に適用されます。 · プライバシーポリシー · 1. 収集する情報 · 2. 利用目的 · 3. 保管期間 · 4. 第三者提供および国外への移転 · 5. 安全管理 · 6. ご本人の権利 · 7. 子どもについて · 8. ポリシーの変更 · 9. お問い合わせ · お問い合わせフォームやメールでご連絡いただく際、次の情報を収集することがあります。",
+    "language": "ja",
+    "topics": []
+  },
+  {
+    "id": "page-ja-search-media-ecommerce",
+    "title": "検索・メディア・eコマース成長｜SEO SEM エージェンシー｜Shashi Kant",
+    "url": "/ja/search-media-ecommerce.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "SEO、SEM、eコマース、エージェンシー連携、アナリティクス、日本・APAC現地実行を繋げ、成長を加速させる方法を解説。",
+    "excerpt": "SEO、SEM、eコマース、エージェンシー連携、アナリティクス、日本・APAC現地実行を繋げ、成長を加速させる方法を解説。",
+    "keywords": [],
+    "tags": [
+      "日本語"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "SEO、SEM、eコマース、エージェンシー連携、アナリティクス、日本・APAC現地実行を繋げ、成長を加速させる方法を解説。 · 検索・メディア・プロダクト発見が 一緒に動くとき 、成長は加速する",
+    "language": "ja",
+    "topics": []
+  },
+  {
+    "id": "page-ja-services",
+    "title": "サービス｜SEOレビュー・SEMレビュー・eコマース発見｜Shashi Kant",
+    "url": "/ja/services.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "SEO & 検索成長レビュー、SEM & 有料検索レビュー、eコマース発見レビュー、エージェンシー連携、日本・APAC実行支援。東京・日本全国対応。",
+    "excerpt": "SEO & 検索成長レビュー、SEM & 有料検索レビュー、eコマース発見レビュー、エージェンシー連携、日本・APAC実行支援。東京・日本全国対応。",
+    "keywords": [],
+    "tags": [
+      "日本語"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "SEO & 検索成長レビュー、SEM & 有料検索レビュー、eコマース発見レビュー、エージェンシー連携、日本・APAC実行支援。東京・日本全国対応。 · 選ばれた成長・検索・実行課題への 支援",
+    "language": "ja",
+    "topics": []
+  },
+  {
+    "id": "page-ko",
+    "title": "샤시칸트 | 검색 · 미디어 · 이커머스 성장 | 일본·APAC",
+    "url": "/ko/",
+    "type": "Page",
+    "status": "Live",
+    "description": "일본과 APAC에서 SEO, SEM, 유료 미디어, 이커머스 머천다이징, 에이전시 조율, 애널리틱스, 현지 실행을 연결해 디지털 성장을 돕습니다.",
+    "excerpt": "일본과 APAC에서 SEO, SEM, 유료 미디어, 이커머스 머천다이징, 에이전시 조율, 애널리틱스, 현지 실행을 연결해 디지털 성장을 돕습니다.",
+    "keywords": [],
+    "tags": [
+      "한국어"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "일본과 APAC에서 SEO, SEM, 유료 미디어, 이커머스 머천다이징, 에이전시 조율, 애널리틱스, 현지 실행을 연결해 디지털 성장을 돕습니다. · 일본과 APAC에서 검색·미디어·이커머스 성장을 연결합니다. · 나에게 맞는 길을 선택하세요 · 내가 하는 일 · 검색·미디어·이커머스 · 커리어 여정 · 사이트 검색 · 쌓아 온 스킬 · 선별된 작업 테마 · 검색 및 유료 미디어 최적화 · 제품 주도 이커머스 SEO · 마켓플레이스 머천다이징 · B2B 수요 창출 · 이문화 실행 · SEO, SEM, 유료 미디어, 이커머스 머천다이징, 에이전시 조율, 애널리틱스, 현지 실행을 하나로 묶어 비즈니스 과제에 정면으로 대응합니다. 산업, 기술, 엔터프라이즈 캠페인, 마켓플레이스, 이커머스, 리테일, 뷰티를 거쳐 항상 “올바른 일을 올바른 문제에 연결”하는 데 집중해 왔습니다. · 성장·검색·미디어·시장이 함께 작동하는 역할에 이 경력이 어떻게 맞는지 확인하세요.",
+    "language": "ko",
+    "topics": []
+  },
+  {
+    "id": "page-ko-contact",
+    "title": "연락",
+    "url": "/ko/contact.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "주제가 명확하고 공개 가능한 전문적 대화를 위해 이 페이지를 사용하세요.",
+    "excerpt": "주제가 명확하고 공개 가능한 전문적 대화를 위해 이 페이지를 사용하세요.",
+    "keywords": [],
+    "tags": [
+      "한국어"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "주제가 명확하고 공개 가능한 전문적 대화를 위해 이 페이지를 사용하세요. · 비즈니스 과제부터 시작하세요 · 성장, 검색, 유료 미디어, 이커머스, 에이전시 조율, 일본·APAC 실행, 선별 자문, 교육 또는 역할에 대한 관련 대화를 환영합니다.",
+    "language": "ko",
+    "topics": []
+  },
+  {
+    "id": "page-ko-japan-apac",
+    "title": "일본·APAC 시장 실행",
+    "url": "/ko/japan-apac.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "일본·APAC 업무는 번역 이상이 필요한 경우가 많습니다. 검색 행동, 문화, 신뢰, 팀 커뮤니케이션, 에이전시 역할, 시장별 실행 현실을 이해해야 합니다.",
+    "excerpt": "일본·APAC 업무는 번역 이상이 필요한 경우가 많습니다. 검색 행동, 문화, 신뢰, 팀 커뮤니케이션, 에이전시 역할, 시장별 실행 현실을 이해해야 합니다.",
+    "keywords": [],
+    "tags": [
+      "한국어"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "일본·APAC 업무는 번역 이상이 필요한 경우가 많습니다. 검색 행동, 문화, 신뢰, 팀 커뮤니케이션, 에이전시 역할, 시장별 실행 현실을 이해해야 합니다. · 글로벌 전략에는 현지 실행 규율이 필요합니다. · 일본 시장 이해 · APAC 실행 · 이문화 업무 · 이런 경우에 유용합니다 · 일본 경험에는 일본 스마트폰 이커머스 행동에 대한 MBA 연구와 디지털, 이커머스, 마켓플레이스, SEO, 성과 마케팅 환경에서의 실무가 포함됩니다.",
+    "language": "ko",
+    "topics": []
+  },
+  {
+    "id": "page-ko-journey",
+    "title": "여정",
+    "url": "/ko/journey.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "각 단계가 실질적인 역량을 더했습니다: 고객 이해, B2B 실행, 이문화 조율, 엔터프라이즈 SEO, 마켓플레이스 성장, 제품 주도 이커머스 SEO, 성과 미디어, 성장 마케팅.",
+    "excerpt": "각 단계가 실질적인 역량을 더했습니다: 고객 이해, B2B 실행, 이문화 조율, 엔터프라이즈 SEO, 마켓플레이스 성장, 제품 주도 이커머스 SEO, 성과 미디어, 성장 마케팅.",
+    "keywords": [],
+    "tags": [
+      "한국어"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "각 단계가 실질적인 역량을 더했습니다: 고객 이해, B2B 실행, 이문화 조율, 엔터프라이즈 SEO, 마켓플레이스 성장, 제품 주도 이커머스 SEO, 성과 미디어, 성장 마케팅. · 비즈니스 과제로 풀어낸 커리어 이야기 · 영업·마케팅 기초 · B2B 산업 실행 · 인도–한국 조율 · 엔터프라이즈 SEO와 수요 창출 · 일본 이커머스 행동 연구 · 마켓플레이스 머천다이징 · 일본 디지털 실행 · 제품 주도 이커머스 SEO · 지역 성과 미디어 · 성장 마케팅과 검색 성과 · 초기 비즈니스는 직접 고객 이해, 신뢰 구축, 끝까지 책임지는 실행이 필요했습니다.",
+    "language": "ko",
+    "topics": []
+  },
+  {
+    "id": "page-ko-privacy",
+    "title": "개인정보 처리방침",
+    "url": "/ko/privacy.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "본 방침은 Shashi Kant(이하 “본인”)이 운영하는 웹사이트(shashikant.jp 및 관련 페이지)에서 개인정보를 어떻게 수집·이용·보관·보호하는지 설명합니다. 문의 양식 등 연락 수단을 통해 정보를 보내실 경우 본 방침이 적용됩니다.",
+    "excerpt": "본 방침은 Shashi Kant(이하 “본인”)이 운영하는 웹사이트(shashikant.jp 및 관련 페이지)에서 개인정보를 어떻게 수집·이용·보관·보호하는지 설명합니다. 문의 양식 등 연락 수단을 통해 정보를 보내실 경우 본 방침이 적용됩니다.",
+    "keywords": [],
+    "tags": [
+      "한국어"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "본 방침은 Shashi Kant(이하 “본인”)이 운영하는 웹사이트(shashikant.jp 및 관련 페이지)에서 개인정보를 어떻게 수집·이용·보관·보호하는지 설명합니다. 문의 양식 등 연락 수단을 통해 정보를 보내실 경우 본 방침이 적용됩니다. · 개인정보 처리방침 · 1. 수집하는 정보 · 2. 이용 목적 · 3. 보관 기간 · 4. 제3자 제공 및 국외 이전 · 5. 보안 · 6. 귀하의 권리 · 7. 아동 · 8. 방침 변경 · 9. 문의 · 문의 양식 또는 이메일로 연락하실 때 다음과 같은 정보를 수집할 수 있습니다.",
+    "language": "ko",
+    "topics": []
+  },
+  {
+    "id": "page-ko-search-media-ecommerce",
+    "title": "검색·미디어·이커머스 성장",
+    "url": "/ko/search-media-ecommerce.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "검색 가시성, 유료 검색, 이커머스 페이지, 제품 정보, 에이전시, 리포팅이 종종 서로 다른 레일에 있습니다. 제 일은 그 레일을 연결해 더 명확한 행동으로 만드는 데 초점을 둡니다.",
+    "excerpt": "검색 가시성, 유료 검색, 이커머스 페이지, 제품 정보, 에이전시, 리포팅이 종종 서로 다른 레일에 있습니다. 제 일은 그 레일을 연결해 더 명확한 행동으로 만드는 데 초점을 둡니다.",
+    "keywords": [],
+    "tags": [
+      "한국어"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "검색 가시성, 유료 검색, 이커머스 페이지, 제품 정보, 에이전시, 리포팅이 종종 서로 다른 레일에 있습니다. 제 일은 그 레일을 연결해 더 명확한 행동으로 만드는 데 초점을 둡니다. · 검색·미디어·제품 발견이 함께 움직일 때 성장이 개선됩니다. · SEO · SEM · 이커머스 · 에이전시 조율 · 애널리틱스 · 현지 실행 · 검색 의도, 기술 시그널, 콘텐츠 구조, 메타데이터, 내부 링크, 페이지 품질.",
+    "language": "ko",
+    "topics": []
+  },
+  {
+    "id": "page-ko-selected-work",
+    "title": "선별 작업",
+    "url": "/ko/selected-work.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "이 페이지는 기밀 고용주 정보나 지원되지 않는 수치 없이, 다뤄 온 비즈니스 문제의 종류를 보여 줍니다.",
+    "excerpt": "이 페이지는 기밀 고용주 정보나 지원되지 않는 수치 없이, 다뤄 온 비즈니스 문제의 종류를 보여 줍니다.",
+    "keywords": [],
+    "tags": [
+      "한국어"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "이 페이지는 기밀 고용주 정보나 지원되지 않는 수치 없이, 다뤄 온 비즈니스 문제의 종류를 보여 줍니다. · 안전하고 명확하게 쓴 경험 테마 · 검색 및 유료 미디어 최적화 · 제품 주도 이커머스 SEO · 마켓플레이스 머천다이징 · B2B 수요 창출 · 이문화 실행 · 산업 프로젝트 조율 · SEO, SEM, 유료 검색, 성과 분석을 연결해 의사결정의 명확성을 높입니다.",
+    "language": "ko",
+    "topics": []
+  },
+  {
+    "id": "page-ko-services",
+    "title": "서비스",
+    "url": "/ko/services.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "전문적 의무와 충돌하지 않는, 공개 가능한 옵션으로 작성된 서비스입니다. 관련 대화에 적합합니다.",
+    "excerpt": "전문적 의무와 충돌하지 않는, 공개 가능한 옵션으로 작성된 서비스입니다. 관련 대화에 적합합니다.",
+    "keywords": [],
+    "tags": [
+      "한국어"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "전문적 의무와 충돌하지 않는, 공개 가능한 옵션으로 작성된 서비스입니다. 관련 대화에 적합합니다. · 선별된 성장·검색·실행 과제 지원 · SEO & 검색 성장 리뷰 · SEM & 유료 검색 리뷰 · 이커머스 발견성 리뷰 · 에이전시 조율 리뷰 · 일본 & APAC 실행 리뷰 · 교육 & 워킹 세션 · 유기적 가시성을 더 강하고 질 높게 만들고 싶은 웹사이트.",
+    "language": "ko",
+    "topics": []
+  },
+  {
+    "id": "page-marketing-costs-japan",
+    "title": "Cost of Advertising in Japan 2026: Prices by Medium",
+    "url": "/marketing-costs-japan/",
+    "type": "Knowledge Hub",
+    "status": "Live",
+    "description": "Cost of advertising in Japan in 2026: published price ranges for train and station ads, TV, newspapers, search, social, SEO and more, with free tools.",
+    "excerpt": "Cost of advertising in Japan in 2026: published price ranges for train and station ads, TV, newspapers, search, social, SEO and more, with free tools.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 9,
+    "contentSummary": "Cost of advertising in Japan in 2026: published price ranges for train and station ads, TV, newspapers, search, social, SEO and more, with free tools. · Cost of advertising in Japan: every medium, what it costs and how it works · Try it: four quick tools · Is my quote normal? · What will agency fees really cost? · What might one influencer post cost? · Which medium should I look at first? · Quick fun: a fact and a 4-question quiz · How to use this resource · Before you spend serious money — a readiness frame · The real problem this resource tries to reduce · The market in one paragraph · Media map: costs side by side · Explore by medium · A practical, independent reference for understanding advertising and marketing costs, decisions and systems in Japan. · This hub exists to help people and organisations think more clearly before they spend money or make commitments. It explains how the main media are sold, what published sources say they cost, how results are (and are not) measured, and how advertising connects to brand, service and customer experience.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-ad-creative-video-cost-japan",
+    "title": "Ad creative & video costs in Japan",
+    "url": "/marketing-costs-japan/ad-creative-video-cost-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "What video and creative production costs in Japan for social ads, TV and digital. Typical agency and freelancer ranges for short-form, longer video and…",
+    "excerpt": "What video and creative production costs in Japan for social ads, TV and digital. Typical agency and freelancer ranges for short-form, longer video and…",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "What video and creative production costs in Japan for social ads, TV and digital. Typical agency and freelancer ranges for short-form, longer video and… · Ad creative and video production costs in Japan · What it costs · How it works · Before you pay: what to ask and how to measure it · Common pitfalls · Brand and experience implications · How to measure creative, not only media · What you are actually buying · Why creative quality moves results more than most media optimisations · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Video ads range from about ¥30,000 to over ¥1 million. Agree versions, usage period for talent and music, and file ownership before you start. · Creative is the biggest driver of results on social platforms, and production costs are rising with the volume of video advertising.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-advertising-brand-customer-experience-japan",
+    "title": "Brand, service & experience in Japan ads",
+    "url": "/marketing-costs-japan/advertising-brand-customer-experience-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Advertising brings people to a business. Whether they buy, return and recommend depends on brand, service and user experience. How the pieces fit together…",
+    "excerpt": "Advertising brings people to a business. Whether they buy, return and recommend depends on brand, service and user experience. How the pieces fit together…",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Advertising brings people to a business. Whether they buy, return and recommend depends on brand, service and user experience. How the pieces fit together… · Why advertising is part of a bigger system: brand, customer service and user experience · The visible symptom and its likely causes · Brand: the promise that advertising makes · Customer service: the part ads cannot fix · User experience: the step between click and purchase · Closing the loop with data · How to use this in an agency meeting · Why this connection matters especially in Japan · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Advertising multiplies what the business already delivers. Weak service, slow sites or unclear offers show up as high ad costs. · Advertising brings people to a business. Whether they buy, return and recommend depends on everything else: the brand's promise, the product, the website, the price, delivery and how problems are handled. A frequent mistake is to ask an agency to fix a result that originates elsewhere. This page shows how the pieces connect so you can ask better questions.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-advertising-glossary-japan",
+    "title": "Japan advertising glossary (EN & JP)",
+    "url": "/marketing-costs-japan/advertising-glossary-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "A plain-English dictionary of advertising and marketing terms used in Japan, with Japanese terms and romanized readings for quotes, media kits and agency…",
+    "excerpt": "A plain-English dictionary of advertising and marketing terms used in Japan, with Japanese terms and romanized readings for quotes, media kits and agency…",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "A plain-English dictionary of advertising and marketing terms used in Japan, with Japanese terms and romanized readings for quotes, media kits and agency… · Advertising and marketing glossary for Japan: English and Japanese terms · Practical terms you will meet in quotes and meetings · Teaching examples vs real cases · Brand, service and experience as multipliers · Awareness vs conversion roles · What can be measured cleanly vs what cannot · Media cost is only part of the system · Published range vs real price · Core ideas that shape marketing decisions in Japan · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Dozens of advertising terms in English and Japanese, with readings, so you can follow quotes and media kits. · A plain-English dictionary of terms you will meet in quotes, media kits and agency meetings in Japan, with the Japanese term and a reading in Roman letters.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-advertising-rate-card-japan",
+    "title": "Japan Advertising Rate Card 2026: Prices, Sources and Method",
+    "url": "/marketing-costs-japan/advertising-rate-card-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "A sourced rate card for advertising in Japan: search, social, TV, train and station, newspapers and PR, each with reliability class, source link and how the data was collected.",
+    "excerpt": "A sourced rate card for advertising in Japan: search, social, TV, train and station, newspapers and PR, each with reliability class, source link and how the data was collected.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "A sourced rate card for advertising in Japan: search, social, TV, train and station, newspapers and PR, each with reliability class, source link and how the data was collected. · Japan advertising rate card 2026: prices by channel, with sources and method · Market context · How to read the classes · Search, display and agency fees · Social, influencer and creative · Television · Train, station and out-of-home · Print and PR · What is not included · How this table was built · Limits · Traditional and out-of-home media · Digital advertising · This rate card collects public prices for advertising in Japan from media owners, platforms, agencies and price guides, and marks each row A to D by how reliable it is. Only a few figures come straight from the seller. The method is shown below so you can check it. · Collected from public web sources Advertising prices in Japan are scattered across platform pages, media-owner guides, agency lists and price comparisons. This page brings them together by category, shows where each number came from and how reliable it is, and ends with the method used to collect it. All prices are in yen and exclude 10% consumption tax unless stated.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-advertising-results-measurement-japan",
+    "title": "Measuring advertising results in Japan",
+    "url": "/marketing-costs-japan/advertising-results-measurement-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "How advertising results are measured in Japan: ROI, ROAS, CPA, brand lift and what cannot be measured cleanly. Practical guidance for evaluating campaigns.",
+    "excerpt": "How advertising results are measured in Japan: ROI, ROAS, CPA, brand lift and what cannot be measured cleanly. Practical guidance for evaluating campaigns.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "How advertising results are measured in Japan: ROI, ROAS, CPA, brand lift and what cannot be measured cleanly. Practical guidance for evaluating campaigns. · How advertising results are measured in Japan: ROI, ROAS, CPA and what cannot be measured · The core measures · Why ROAS alone misleads · How each medium is usually measured · Attribution: who gets the credit · What \"not measured\" really means · How measurement connects to what you pay · Questions to ask before you pay · Automated and black-box campaign types (including Performance Max) · When platform numbers systematically mislead · Incrementality: the number that matters more than reported ROAS · Traditional and out-of-home media · Digital advertising · A ROAS of 3.0 can still mean zero profit. Learn ROI, CPA and CAC, what each medium can and cannot measure, and how attribution splits credit. · Every advertising quote eventually leads to one question: did it work? Answering it means knowing which numbers exist, how they are calculated, what they leave out, and how they connect to what you pay. This page explains the main measures in plain language and is useful whichever medium you use.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-advertising-scenarios-japan",
+    "title": "Illustrative advertising scenarios in Japan",
+    "url": "/marketing-costs-japan/advertising-scenarios-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Illustrative advertising scenarios in Japan using round numbers. Teaching examples that show how media choices, costs and measurement fit together for…",
+    "excerpt": "Illustrative advertising scenarios in Japan using round numbers. Teaching examples that show how media choices, costs and measurement fit together for…",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Illustrative advertising scenarios in Japan using round numbers. Teaching examples that show how media choices, costs and measurement fit together for… · Illustrative advertising scenarios in Japan: what to watch for · Scenario 1: A shop with a healthy ROAS and no profit · Scenario 2: A poster campaign nobody can measure · Scenario 3: A foreign cosmetics brand with a customer service gap · Scenario 4: Followers up, sales flat · Scenario 5: “We want to be everywhere for one month” — a full-scale teaching example · 1. A transparent cost build-up (one month) · 2. Reach and frequency — transparent assumptions · 3. Simple funnel arithmetic (illustrative only) · 4. What each leader should look at · 5. Brand-aware versus newly reached · 6. When this scale feels good versus wasteful · Common threads · Invented stories showing how healthy-looking numbers, unmeasured posters and service gaps change results. None is a real company. · These scenarios are invented teaching examples, not case studies of real companies. They use round numbers to show how decisions, costs and measurement fit together. Real results depend on the business, the season and the execution.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-agency-types-japan",
+    "title": "Types of advertising agencies in Japan",
+    "url": "/marketing-costs-japan/agency-types-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Japanese marketing suppliers fall into four broad groups—full-service, digital specialists, creative boutiques and freelancers—and price follows the group.…",
+    "excerpt": "Japanese marketing suppliers fall into four broad groups—full-service, digital specialists, creative boutiques and freelancers—and price follows the group.…",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Japanese marketing suppliers fall into four broad groups—full-service, digital specialists, creative boutiques and freelancers—and price follows the group.… · Types of advertising agencies in Japan · General agencies · Internet-specialist agencies · Consulting-style and boutique agencies · Freelancers and very small teams · Brand and experience implications · Measurement culture differs by type · When each type usually fits · How price tends to follow type · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Japan's suppliers range from general agencies like Dentsu and Hakuhodo to internet specialists, boutiques and freelancers, and price follows the group. · Japanese marketing suppliers fall into four broad groups, and price follows the group.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-ai-max-performance-max-ai-mode-japan",
+    "title": "AI Max, Performance Max and Ads in AI Mode in Japan",
+    "url": "/marketing-costs-japan/ai-max-performance-max-ai-mode-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "AI Max, Performance Max and ads in AI Mode in Japan: a dated timeline, what Google claims, what is not confirmed and how to test safely.",
+    "excerpt": "AI Max, Performance Max and ads in AI Mode in Japan: a dated timeline, what Google claims, what is not confirmed and how to test safely.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan",
+      "PMax"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "AI Max, Performance Max and ads in AI Mode in Japan: a dated timeline, what Google claims, what is not confirmed and how to test safely. · AI Max, Performance Max and ads in AI Mode in Japan: what is verified · The three terms · Dated timeline · What Google claims · How ads enter AI Mode · Protecting your claims · A safe way to test · Questions to ask an agency · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · AI Mode launched in Japanese on 9 September 2025 and AI Max for Search reached Japan as a beta in July 2025. Whether ads in AI Mode are live in Japan is not confirmed in the sources I found, so treat it as unverified. · Google's search advertising is moving toward automation. For advertisers in Japan the useful questions are what is available here, what is only announced elsewhere, and how to test without losing control of your claims. This page separates what is verified from what is not.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-choosing-an-agency-japan",
+    "title": "How to choose a marketing agency in Japan",
+    "url": "/marketing-costs-japan/choosing-an-agency-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Practical questions to ask when choosing a marketing agency in Japan: scope, ownership of accounts, who does the work, reporting, exit terms and red flags.",
+    "excerpt": "Practical questions to ask when choosing a marketing agency in Japan: scope, ownership of accounts, who does the work, reporting, exit terms and red flags.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Practical questions to ask when choosing a marketing agency in Japan: scope, ownership of accounts, who does the work, reporting, exit terms and red flags. · How to choose a marketing agency in Japan · Ask these questions · Red flags · Match the provider to your stage · Brand, service and experience implications · How agencies affect what you can measure · Questions that separate competent partners from the rest · What good partnership usually looks like · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Ask what is included each month, who does the work, who owns the accounts and data, and how success is measured. Walk away from guaranteed results. · What exactly is included each month, and what is not? Who will do the work, and can I meet them? Who owns the ad accounts, analytics and content? What happens to my data if we stop? How is success measured, and which numbers will I see each month? Can you show experience in my industry? How are changes and extra work priced?",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-combining-advertising-media-japan",
+    "title": "Combining advertising media in Japan",
+    "url": "/marketing-costs-japan/combining-advertising-media-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "How Japanese advertisers commonly combine mass media, out-of-home and digital. Patterns for awareness + conversion and what to watch when mixing channels.",
+    "excerpt": "How Japanese advertisers commonly combine mass media, out-of-home and digital. Patterns for awareness + conversion and what to watch when mixing channels.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "How Japanese advertisers commonly combine mass media, out-of-home and digital. Patterns for awareness + conversion and what to watch when mixing channels. · How to combine advertising media in Japan · How to buy and what to ask · Common pitfalls when combining media · Brand, service and experience implications · How measurement changes when media are mixed · A practical decision order · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Use mass or location media to build awareness and digital media to capture the interest it creates, and measure each separately. · Interpretation A common pattern is to use mass or location media to create awareness and digital media to capture the interest it creates. A train campaign raises recognition of a name, and search and social advertising convert the people who then look the brand up. Brands that skip the digital layer often lose that attention to competitors who bid on the same searches.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-digital-marketing-guide",
+    "title": "Digital Marketing in Japan: Costs by Service (2026)",
+    "url": "/marketing-costs-japan/digital-marketing-guide/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Digital marketing in Japan: published costs for ads, SEO, websites, social media, influencers, e-commerce and LINE, with links to detailed guides.",
+    "excerpt": "Digital marketing in Japan: published costs for ads, SEO, websites, social media, influencers, e-commerce and LINE, with links to detailed guides.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan",
+      "ecommerce"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Digital marketing in Japan: published costs for ads, SEO, websites, social media, influencers, e-commerce and LINE, with links to detailed guides. · Digital marketing in Japan: costs by service, 2026 overview · The market in numbers · Who does the work: types of agencies in Japan · How agencies charge: the pricing models explained · Paid search and social advertising · SEO (search engine optimisation) · Websites and landing pages · Social media management · Influencer marketing · Creative and video production · E-commerce and marketplaces · LINE official accounts and CRM · Price summary at a glance · A one-page overview of digital costs by service, with links to the detailed guides. · A practical guide to agency types, pricing models and 2026 price ranges for ads, SEO, websites, social media, influencers, e-commerce and LINE, written for brands and founders who want to understand the Japanese market before they spend a yen.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-ecommerce-marketplace-cost-japan",
+    "title": "E-commerce & marketplace costs in Japan",
+    "url": "/marketing-costs-japan/ecommerce-marketplace-cost-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "E-commerce and marketplace costs in Japan: Amazon, Rakuten Ichiba, Yahoo! Shopping fees, agency management fees and what brands typically spend to sell online.",
+    "excerpt": "E-commerce and marketplace costs in Japan: Amazon, Rakuten Ichiba, Yahoo! Shopping fees, agency management fees and what brands typically spend to sell online.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan",
+      "ecommerce"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "E-commerce and marketplace costs in Japan: Amazon, Rakuten Ichiba, Yahoo! Shopping fees, agency management fees and what brands typically spend to sell online. · E-commerce and marketplace management in Japan: costs · Building a shop · Marketplace operation · How it works · Before you pay: what to ask and how to measure it · Brand and experience implications · Measurement realities · Costs that sit outside the fee schedule · Marketplace versus own site · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Shopify or BASE shops cost about ¥100,000–500,000 to build; marketplace operation ¥100,000–400,000 a month or a revenue share. Check what is left after fees. · Online retail in Japan splits between marketplaces (Amazon, Rakuten Ichiba, Yahoo! Shopping) and brand-owned shops (often Shopify, BASE or EC-CUBE). Many brands sell through both.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-google-ads-vs-line-yahoo-ads-japan",
+    "title": "Google Ads vs LINEヤフー広告 (Yahoo! Ads) in Japan",
+    "url": "/marketing-costs-japan/google-ads-vs-line-yahoo-ads-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Google Ads versus LINEヤフー広告 (formerly Yahoo! Ads) in Japan: reach, search share, formats, policy differences and how to test both.",
+    "excerpt": "Google Ads versus LINEヤフー広告 (formerly Yahoo! Ads) in Japan: reach, search share, formats, policy differences and how to test both.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Google Ads versus LINEヤフー広告 (formerly Yahoo! Ads) in Japan: reach, search share, formats, policy differences and how to test both. · Google Ads versus LINEヤフー広告 in Japan: where each one reaches · What changed in 2026 · Reach: what each side claims · Search share: a different picture · Side by side · How to test both · Questions to ask an agency · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Yahoo! search ads were renamed LINEヤフー広告 検索広告 on 1 April 2026. Google carries most search traffic, but LINEヤフー says its services reach most of Japan, so a small test can add reach rather than repeat it. · Many foreign advertisers assume Yahoo! is a smaller copy of Google. In Japan it is a separate advertising platform with its own audience, rules and buying system, and since 2026 it is combined with LINE. This guide explains what each platform reaches and how to decide whether to use both.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-how-agencies-charge-japan",
+    "title": "How marketing agencies charge in Japan",
+    "url": "/marketing-costs-japan/how-agencies-charge-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "How marketing agencies in Japan charge: retainers, project fees, media commissions, performance models and what two similar-looking quotes can actually mean.",
+    "excerpt": "How marketing agencies in Japan charge: retainers, project fees, media commissions, performance models and what two similar-looking quotes can actually mean.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "How marketing agencies in Japan charge: retainers, project fees, media commissions, performance models and what two similar-looking quotes can actually mean. · How marketing agencies charge in Japan · Percentage of ad spend · Minimum fees · Fixed monthly retainer · Project fee · Performance-based pricing · Hybrid pricing · Contract terms and extra costs · Total cost of ownership · How the pricing model shapes behaviour · How to compare two quotes fairly · Traditional and out-of-home media · Digital advertising · Percentage of spend, retainers, project fees and performance fees reward different behaviour. Read the scope, minimum term and data ownership clauses first. · Understanding the pricing model is as important as knowing the price, because two quotes of the same size can mean very different things.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-how-this-hub-is-made",
+    "title": "How this hub is made and checked",
+    "url": "/marketing-costs-japan/how-this-hub-is-made/",
+    "type": "Article",
+    "status": "Live",
+    "description": "How the Advertising in Japan hub is researched, labelled and checked: sources, independence, author and corrections policy.",
+    "excerpt": "How the Advertising in Japan hub is researched, labelled and checked: sources, independence, author and corrections policy.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "How the Advertising in Japan hub is researched, labelled and checked: sources, independence, author and corrections policy. · How this hub is made and checked · Independence · Where the numbers come from · How claims are labelled · The author · Updates and corrections · What this hub is not · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Sources, evidence labels, independence, and how corrections are handled. · This hub explains how advertising is sold in Japan and what published guides say it costs. Because readers make spending decisions from it, this page explains where the information comes from, how it is checked and what its limits are.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-influencer-marketing-cost-japan",
+    "title": "Influencer marketing costs in Japan",
+    "url": "/marketing-costs-japan/influencer-marketing-cost-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Influencer marketing costs and rules in Japan. Typical fees by follower tier, platform differences, disclosure requirements and how agencies structure…",
+    "excerpt": "Influencer marketing costs and rules in Japan. Typical fees by follower tier, platform differences, disclosure requirements and how agencies structure…",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Influencer marketing costs and rules in Japan. Typical fees by follower tier, platform differences, disclosure requirements and how agencies structure… · Influencer marketing in Japan: costs and rules · What it costs · How it works · Watch the rules · Stealth marketing rule: verified summary · Before you pay: what to ask and how to measure it · Brand and experience implications · Measurement · Disclosure and rules · How fees typically work · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Direct deals are often ¥2–6 per follower per post. Sponsored posts must be clearly labelled under the stealth marketing rule in force since October 2023. · Japanese influencer marketing covers Instagram, TikTok, YouTube, X and blogs, with a strong beauty, fashion, food, travel and lifestyle focus. Companies either hire creators directly, use a matching platform or hire a casting agency.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-line-official-account-cost-japan",
+    "title": "LINE Official Account costs in Japan",
+    "url": "/marketing-costs-japan/line-official-account-cost-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "LINE Official Account setup and running costs in Japan. Plan tiers, message fees, enrichment options and typical agency fees for management and automation.",
+    "excerpt": "LINE Official Account setup and running costs in Japan. Plan tiers, message fees, enrichment options and typical agency fees for management and automation.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "LINE Official Account setup and running costs in Japan. Plan tiers, message fees, enrichment options and typical agency fees for management and automation. · LINE official account setup and operation costs in Japan · What it costs · How it works · Before you pay: what to ask and how to measure it · Common pitfalls · Brand, service and experience implications · Measurement and the limits of attribution · What the money actually buys · Why LINE still matters · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Setup ranges from ¥100,000–300,000 with a freelancer to ¥2–5 million at a large agency, plus monthly operation and LINE's own plan fees. · LINE is used by most people in Japan. Businesses use official accounts to send messages, coupons and reservation links, and to run automated step campaigns. It is particularly strong for retail, salons, clinics, restaurants and services.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-marketing-cost-faq-japan",
+    "title": "Marketing cost FAQ for Japan",
+    "url": "/marketing-costs-japan/marketing-cost-faq-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Frequently asked questions about marketing costs in Japan: minimum viable budgets, how agencies price, hidden costs, and how to compare quotes fairly.",
+    "excerpt": "Frequently asked questions about marketing costs in Japan: minimum viable budgets, how agencies price, hidden costs, and how to compare quotes fairly.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Frequently asked questions about marketing costs in Japan: minimum viable budgets, how agencies price, hidden costs, and how to compare quotes fairly. · Marketing costs in Japan: frequently asked questions · How much should I budget to start? · Is it cheaper to hire a freelancer? · Do I need a Japanese-language website? · How long until I see results? · Should I pay on performance only? · Are these prices fixed? · About this guide · What cannot be measured cleanly · How the numbers connect · Questions that protect a budget decision · Traditional and out-of-home media · Digital advertising · Short answers to common questions on budgets, freelancers versus agencies, Japanese-language sites, timelines and fees. · For ads, plan enough budget to gather data: often ¥100,000–300,000 per month in media spend at minimum, plus fees. Websites and landing pages are one-off costs of ¥100,000–1 million depending on scope.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-marketing-decision-frame",
+    "title": "A decision frame for marketing investment",
+    "url": "/marketing-costs-japan/marketing-decision-frame/",
+    "type": "Article",
+    "status": "Live",
+    "description": "The recurring failure mode in marketing decisions and six governing questions that protect against false confidence, misaligned incentives and unclear results.",
+    "excerpt": "The recurring failure mode in marketing decisions and six governing questions that protect against false confidence, misaligned incentives and unclear results.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan",
+      "marketing decision framework"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "The recurring failure mode in marketing decisions and six governing questions that protect against false confidence, misaligned incentives and unclear results. · A decision frame for marketing investment · The six governing questions · Why these questions matter more than channel knowledge · A worked example · How to use this frame · Related material on this hub · Six questions to ask before approving any marketing spend, from what the money is for to whether the business is ready for the attention. · Most organisations and individuals spend money on marketing without a clear, independent answer to three questions: what the money is supposed to achieve, how they will know if it achieved it, and whose interests are shaping the recommendation. This produces activity, reports and expenditure while clarity remains weak.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-marketing-rules-japan",
+    "title": "Advertising rules & compliance in Japan",
+    "url": "/marketing-costs-japan/marketing-rules-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Advertising rules and compliance in Japan: Act against Unjustifiable Premiums and Misleading Representations, pharmaceutical rules, influencer disclosure…",
+    "excerpt": "Advertising rules and compliance in Japan: Act against Unjustifiable Premiums and Misleading Representations, pharmaceutical rules, influencer disclosure…",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan",
+      "marketing regulations",
+      "advertising rules"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Advertising rules and compliance in Japan: Act against Unjustifiable Premiums and Misleading Representations, pharmaceutical rules, influencer disclosure… · Advertising rules and compliance in Japan · Language and localisation · Payment and delivery expectations · Advertising and labelling law · Privacy · Contracts and invoicing · Relationships · Rules and cautions · Stealth marketing rule: verified summary · A practical stance on compliance · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Japan restricts misleading claims, stealth marketing and the handling of personal data. Cosmetics, supplements and medicines carry extra rules, so check claims before production. · Direct translation rarely works. Japanese consumers expect polite, detailed and reassuring copy, with clear information about delivery, returns, ingredients, specifications and company identity. Landing pages in Japan are often longer than Western ones for this reason. Product names, units, size charts and payment methods all need local adaptation.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-newspaper-magazine-radio-advertising-japan",
+    "title": "Newspaper, magazine & radio ads in Japan",
+    "url": "/marketing-costs-japan/newspaper-magazine-radio-advertising-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Newspaper, magazine and radio advertising costs in Japan. Published rate ranges for national and regional placements and how these media are still used.",
+    "excerpt": "Newspaper, magazine and radio advertising costs in Japan. Published rate ranges for national and regional placements and how these media are still used.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Newspaper, magazine and radio advertising costs in Japan. Published rate ranges for national and regional placements and how these media are still used. · Newspaper, magazine and radio advertising in Japan · Brand and experience implications · Measurement limits · Buying realities · Where these media still fit · Sources and evidence notes · Before you pay: what to ask and how to measure it · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Newspaper ads run from hundreds of thousands to tens of millions of yen depending on edition and size. Use a reply code to count responses. · Published range National newspaper ads range from tens of thousands of yen to tens of millions: a national full page can cost tens of millions, while a small regional slot may start at several hundred thousand yen. Prices depend on paper, edition, size and position. Newspapers still reach older and higher-income readers and carry a high level of trust, which is why finance, real estate, health, education and recruitment advertisers continue to use them.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-official-sources-japan-advertising",
+    "title": "Official advertising sources in Japan",
+    "url": "/marketing-costs-japan/official-sources-japan-advertising/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Where to find official information and who to contact for advertising in Japan: JR, TV networks, Dentsu data, government regulators and major platform help…",
+    "excerpt": "Where to find official information and who to contact for advertising in Japan: JR, TV networks, Dentsu data, government regulators and major platform help…",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Where to find official information and who to contact for advertising in Japan: JR, TV networks, Dentsu data, government regulators and major platform help… · Where to find official information and who to contact for advertising in Japan · Market data · Train and station advertising · Rules for advertisers · Price guides and media sheets · What to bring to a first call · Services outside this hub · Independence note · How to use official and published sources · How to read official and published data · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Where to find official data, transit media guides and rules, and what to bring to a first call with an agency. · This hub is an information resource. It explains how advertising is sold in Japan and what published guides say it costs. For a real quote, availability or legal advice, you need to talk to the seller or a qualified professional. These are the places to start.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-paid-ads-japan",
+    "title": "Search Ads in Japan: Costs, Fees and How They Work",
+    "url": "/marketing-costs-japan/paid-ads-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Search ads in Japan: typical agency fees (about 20% of spend), freelancer rates, setup costs and how paid search and social campaigns are run and measured.",
+    "excerpt": "Search ads in Japan: typical agency fees (about 20% of spend), freelancer rates, setup costs and how paid search and social campaigns are run and measured.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan",
+      "paid search",
+      "paid advertising",
+      "SEM",
+      "PPC"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Search ads in Japan: typical agency fees (about 20% of spend), freelancer rates, setup costs and how paid search and social campaigns are run and measured. · Search ads and paid social in Japan: costs, fees and how it works · What management includes · What it costs · How it works month to month · Before you pay: what to ask and how to measure it · Common pitfalls · Brand, service and experience implications · Measurement strengths and traps · Main platforms and their roles · How pricing actually works · Performance Max and highly automated campaigns · Traditional and out-of-home media · Digital advertising · Agencies typically charge about 20% of ad spend; freelancers 10–15% or a fixed ¥30,000–100,000. Expect two to three months of data before results settle, and judge results on profit, not ROAS alone. · Paid advertising in Japan means Google Ads, Yahoo! JAPAN Ads (now part of LY Corporation's advertising business), Meta (Facebook and Instagram), X, TikTok, LINE Ads, YouTube, and for retailers Amazon and Rakuten advertising. Search ads capture people who are already looking. Social and video ads create demand among people who are not.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-paid-media-japan",
+    "title": "Paid Media in Japan: Channels, Costs and How It Works",
+    "url": "/marketing-costs-japan/paid-media-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Paid media in Japan explained: market size, search engine share, the main channels, common mistakes and a map of the guides in this hub.",
+    "excerpt": "Paid media in Japan explained: market size, search engine share, the main channels, common mistakes and a map of the guides in this hub.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Paid media in Japan explained: market size, search engine share, the main channels, common mistakes and a map of the guides in this hub. · Paid media in Japan: channels, costs and how it works · Terms you will hear · The Japanese market in numbers · Who searches where · The map: six branches · How to choose where to start · Six common mistakes · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Paid media is advertising you pay for by click, view or impression. In Japan, search ads are the largest single online type at about ¥1.28 trillion in 2025, with online video above ¥1 trillion. Google leads search, but LINE and Yahoo! JAPAN give a separate route to Japanese audiences. · Paid media means any placement you buy rather than earn: search ads, social ads, video ads, display banners, marketplace ads and sponsored content. This hub explains how it works in Japan, what the market looks like, and where decisions go wrong. It is a map first, and each branch links to a detailed guide.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-sample-marketing-budgets-japan",
+    "title": "Sample marketing budgets in Japan",
+    "url": "/marketing-costs-japan/sample-marketing-budgets-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Sample marketing budgets for Japan: lean, mid-size and growth scenarios showing how media, creative and agency fees can be combined in practice.",
+    "excerpt": "Sample marketing budgets for Japan: lean, mid-size and growth scenarios showing how media, creative and agency fees can be combined in practice.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Sample marketing budgets for Japan: lean, mid-size and growth scenarios showing how media, creative and agency fees can be combined in practice. · Sample marketing budgets in Japan · Small local business (about ¥300,000 per month) · Growing online brand (about ¥1.5 million per month) · Foreign brand entering Japan (first six months) · Questions to ask of any proposed budget · Illustrative scenario: the “almost enough” budget · Linking budget size to measurement ambition · What is usually missing from a simple budget line · How to read these samples · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Three worked budgets: a local business around ¥300,000 a month, a growing online brand around ¥1.5 million, and a foreign brand's first six months in Japan. · Search ads at ¥150,000 with a freelancer charging ¥30,000–45,000, plus a basic LINE account and a simple, well-written landing page built once for around ¥150,000. Keep reporting simple: calls, bookings and cost per booking.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-seo-cost-japan",
+    "title": "SEO costs in Japan",
+    "url": "/marketing-costs-japan/seo-cost-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "SEO costs in Japan: typical agency retainers, project fees and what good technical, content and authority work actually includes in 2026.",
+    "excerpt": "SEO costs in Japan: typical agency retainers, project fees and what good technical, content and authority work actually includes in 2026.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan",
+      "SEO cost",
+      "search engine optimization",
+      "SEO pricing"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "SEO costs in Japan: typical agency retainers, project fees and what good technical, content and authority work actually includes in 2026. · SEO in Japan: costs and how it works · What it includes · What it costs · How it works · Before you pay: what to ask and how to measure it · Brand and experience implications · Measurement · Time horizon and expectations · What you are actually buying · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · SEO consulting runs ¥100,000–500,000 a month and articles ¥25,000–50,000 each. Rankings usually move between months four and nine, so treat guaranteed positions with caution. · SEO builds organic traffic by improving a site's technical health, content and authority. It is slower than ads, but traffic does not stop when payment stops, so it suits businesses with a long horizon.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-social-media-management-cost-japan",
+    "title": "Social Media Agency Pricing in Japan: What It Costs",
+    "url": "/marketing-costs-japan/social-media-management-cost-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Social media agency pricing in Japan: typical monthly fees by platform and service level, what is included, minimum terms and what to ask before you sign.",
+    "excerpt": "Social media agency pricing in Japan: typical monthly fees by platform and service level, what is included, minimum terms and what to ask before you sign.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Social media agency pricing in Japan: typical monthly fees by platform and service level, what is included, minimum terms and what to ask before you sign. · Social media agency pricing in Japan: costs and how it works · What it includes · What it costs · How it works · Before you pay: what to ask and how to measure it · Common pitfalls · Brand, service and experience implications · Measurement realities · What the work actually is in 2026 · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Learn and verify: glossary and official sources · Most social media management costs ¥100,000–500,000 a month with a three- to six-month minimum. Followers are not sales, so agree one business measure up front. · Social media agencies run company accounts on Instagram, X, TikTok, YouTube, Facebook and LINE. By 2026 the work has moved beyond simple posting. Short video is now a standard part of many contracts, and the better providers connect organic content with advertising and e-commerce traffic.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-train-station-advertising-japan",
+    "title": "Train & station advertising in Japan",
+    "url": "/marketing-costs-japan/train-station-advertising-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Train and station advertising in Japan (JR East and others). Published cost ranges for posters, digital screens and Yamanote Line packages, plus how the…",
+    "excerpt": "Train and station advertising in Japan (JR East and others). Published cost ranges for posters, digital screens and Yamanote Line packages, plus how the…",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan",
+      "transit advertising",
+      "rail advertising"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Train and station advertising in Japan (JR East and others). Published cost ranges for posters, digital screens and Yamanote Line packages, plus how the… · Train and station advertising in Japan (JR and others) · Formats · What it costs · How it works · Why advertisers choose it · How booking works in practice · Three common mistakes · Questions to ask when you contact a seller · Who this suits · Brand and experience implications · Measurement approaches · Buying practicalities · Why transport media is distinctive in Japan · A JR East hanging poster is listed at about ¥2.09 million for 7 days, and a 15-second Yamanote video spot at ¥4.8 million for a week. Add a QR code or promotion code so you can measure it. · Transport advertising is one of Japan's most distinctive media. Millions of people commute by rail every day, so the same message reaches the same people repeatedly.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-tv-advertising-japan",
+    "title": "Television advertising costs in Japan",
+    "url": "/marketing-costs-japan/tv-advertising-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Television advertising in Japan: airtime and production costs. Local, regional and national spot ranges, and how TV is still used alongside digital.",
+    "excerpt": "Television advertising in Japan: airtime and production costs. Local, regional and national spot ranges, and how TV is still used alongside digital.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan",
+      "TV advertising",
+      "television ads"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Television advertising in Japan: airtime and production costs. Local, regional and national spot ranges, and how TV is still used alongside digital. · Television advertising in Japan: costs and how it works · What it costs · How it works · Why advertisers choose it · Brand and experience implications · Measurement realities · When television still fits · Two costs that must both be planned · Sources and evidence notes · Before you pay: what to ask and how to measure it · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · National airtime starts around ¥750,000 per 15-second spot, with production at ¥1–6 million. Regional tests can start near ¥300,000. · Two costs apply: airtime and production.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-costs-japan-website-landing-page-cost-japan",
+    "title": "Website & landing page costs in Japan",
+    "url": "/marketing-costs-japan/website-landing-page-cost-japan/",
+    "type": "Article",
+    "status": "Live",
+    "description": "Website and landing page costs in Japan. Agency, freelancer and template price ranges, and what drives the wide variation in quotes.",
+    "excerpt": "Website and landing page costs in Japan. Agency, freelancer and template price ranges, and what drives the wide variation in quotes.",
+    "keywords": [
+      "Marketing Costs Japan",
+      "Japan"
+    ],
+    "tags": [
+      "Marketing Costs Japan"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Website and landing page costs in Japan. Agency, freelancer and template price ranges, and what drives the wide variation in quotes. · Website and landing page costs in Japan · Corporate and service websites · Landing pages · What affects price · How the process works · Before you pay: what to ask and how to measure it · Brand and experience implications · Measurement · Conversion and experience are the real product · Why the price range is so wide · Traditional and out-of-home media · Digital advertising · Foundations: pricing, agencies and rules · Most company sites cost ¥300,000–1 million and a basic landing page ¥100,000–300,000. Ask who owns the files and what maintenance costs. · Prices vary more than almost anywhere else. Agencies commonly charge from ¥100,000 to over ¥5 million, freelancers ¥50,000–300,000, and template or subscription services a few thousand yen per month. At one large Japanese marketplace the average corporate site cost about ¥956,000 while the median was ¥500,000, because a few expensive projects pull the average up. Most small and mid-sized company sites land at ¥300,000–1,000,000 . Recruiting sites with entry forms and staff stories run ¥500,000–1.5 million.",
+    "language": "en",
+    "topics": [
+      "Marketing Costs Japan",
+      "Japan"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence",
+    "title": "Marketing Intelligence",
+    "url": "/marketing-intelligence/",
+    "type": "Knowledge Hub",
+    "status": "Live",
+    "description": "A premium knowledge hub for understanding marketing as the business of creating value. Explore brand strategy, product intelligence, consumer psychology, pricing, retail and opportunity discovery.",
+    "excerpt": "A premium knowledge hub for understanding marketing as the business of creating value. Explore brand strategy, product intelligence, consumer psychology, pricing, retail and opportunity discovery.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 9,
+    "contentSummary": "A premium knowledge hub for understanding marketing as the business of creating value. Explore brand strategy, product intelligence, consumer psychology, pricing, retail and opportunity discovery. · Marketing Is Not Advertising. It Is the Business of Creating Value. · Marketing begins long before the advertisement · The 360-Degree Marketing Philosophy · The Marketing Fishbone Framework · Market & Consumer · Brand, Product & Commercial · Experience & Intelligence · Explore the full curriculum · Brand Intelligence · Luxury & Premium Strategy · Product Intelligence · Consumer Psychology · Campaign Intelligence · Understand how successful brands build desire, develop products, influence consumer behaviour, create competitive differentiation and discover new business opportunities. · Marketing is frequently reduced to advertising, paid media and digital acquisition. In boardrooms and online discourse, the word often collapses into SEO, SEM, social media campaigns and conversion rates.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-360-framework",
+    "title": "360-Degree Marketing Framework",
+    "url": "/marketing-intelligence/pages/360-framework.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "A page in the Marketing Intelligence knowledge hub.",
+    "excerpt": "A page in the Marketing Intelligence knowledge hub.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "A page in the Marketing Intelligence knowledge hub.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-brand-intelligence",
+    "title": "Brand Intelligence",
+    "url": "/marketing-intelligence/pages/brand-intelligence.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "How successful brands build competitive advantage through positioning, identity, equity, storytelling and architecture. Practical frameworks for senior marketers and strategists.",
+    "excerpt": "How successful brands build competitive advantage through positioning, identity, equity, storytelling and architecture. Practical frameworks for senior marketers and strategists.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "How successful brands build competitive advantage through positioning, identity, equity, storytelling and architecture. Practical frameworks for senior marketers and strategists. · Brand Intelligence · What brand intelligence means · Brand Positioning · Functional versus emotional positioning · Premium versus mass-market frames · Key positioning questions · Brand Identity · Brand Equity · Core components · Why equity matters commercially · Brand Storytelling · Brand Architecture · Practical research questions · How brands create distinctive, durable competitive advantage through positioning, identity systems, equity, storytelling and architecture. · Brand intelligence is the disciplined understanding of how a brand occupies space in the minds of customers, how that space is protected or expanded, and how brand decisions interact with product, pricing, distribution and experience. It is not limited to visual identity or advertising campaigns.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-business-opportunities",
+    "title": "Business Opportunity Discovery",
+    "url": "/marketing-intelligence/pages/business-opportunities.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "A seven-stage methodology for identifying unmet needs, market gaps and commercially viable new propositions. Includes scoring matrix and hypothetical examples.",
+    "excerpt": "A seven-stage methodology for identifying unmet needs, market gaps and commercially viable new propositions. Includes scoring matrix and hypothetical examples.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "A seven-stage methodology for identifying unmet needs, market gaps and commercially viable new propositions. Includes scoring matrix and hypothetical examples. · Business Opportunity Discovery · Seven-stage methodology · Opportunity scoring matrix · Hypothetical opportunity examples · Modular repair-friendly furniture · Quiet productivity apparel · Transparent-origin leather goods · Small-space hospitality kits · Post-purchase education platform for complex durables · A structured methodology for turning market observation into prioritised, testable propositions. All opportunity statements remain hypotheses until validated. · Study category trends, product rankings, new launches, competitor movements and visible consumer behaviour. Prefer multi-year series and multiple geographies where available. Record sources and dates.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-campaign-intelligence",
+    "title": "Campaign Intelligence",
+    "url": "/marketing-intelligence/pages/campaign-intelligence.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "A page in the Marketing Intelligence knowledge hub.",
+    "excerpt": "A page in the Marketing Intelligence knowledge hub.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "A page in the Marketing Intelligence knowledge hub.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-case-studies",
+    "title": "Case Studies",
+    "url": "/marketing-intelligence/pages/case-studies.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "Educational case studies of Hermès, UNIQLO, IKEA, MUJI, Apple, Nike, Patagonia, LEGO, Airbnb and Porsche. Facts distinguished from analytical interpretation.",
+    "excerpt": "Educational case studies of Hermès, UNIQLO, IKEA, MUJI, Apple, Nike, Patagonia, LEGO, Airbnb and Porsche. Facts distinguished from analytical interpretation.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Educational case studies of Hermès, UNIQLO, IKEA, MUJI, Apple, Nike, Patagonia, LEGO, Airbnb and Porsche. Facts distinguished from analytical interpretation. · Practical Case Studies · Hermès — Craftsmanship and brand control · Business background · Customer proposition and positioning · Product and distribution logic · Transferable lessons · UNIQLO — Functional product innovation · Customer proposition · Product strategy and retail · IKEA — Accessible design and operating model · Operating model implications · Apple — Ecosystem and customer experience · Competitive advantage and vulnerabilities · Educational analyses of how selected companies create and protect value. Established facts are distinguished from analytical interpretations. No fabricated financial or campaign performance figures. · Verified Fact Supported by public company materials, official websites or reputable published sources. Analytical Interpretation Reasoned conclusion based on available evidence. Hypothesis Idea requiring further validation.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-consumer-psychology",
+    "title": "Consumer Psychology",
+    "url": "/marketing-intelligence/pages/consumer-psychology.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "Why consumers purchase: functional and emotional motivations, decision journeys, cognitive biases and differences across everyday, premium and luxury products.",
+    "excerpt": "Why consumers purchase: functional and emotional motivations, decision journeys, cognitive biases and differences across everyday, premium and luxury products.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Why consumers purchase: functional and emotional motivations, decision journeys, cognitive biases and differences across everyday, premium and luxury products. · Consumer Psychology · Motivations to purchase · Functional · Emotional · Social · Additional drivers · The customer decision journey · Research questions · Why people buy, how they decide, and how the journey differs for everyday, premium and luxury products. · Solve a practical problem, improve performance, reduce effort or risk, or obtain a needed capability.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-fishbone-framework",
+    "title": "The Marketing Fishbone Framework",
+    "url": "/marketing-intelligence/pages/fishbone-framework.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "A detailed fishbone analysis of the nine systems that determine sustainable business growth and customer value: Market, Consumer, Brand, Product, Commercial, Communication, Experience, Distribution and Intelligence.",
+    "excerpt": "A detailed fishbone analysis of the nine systems that determine sustainable business growth and customer value: Market, Consumer, Brand, Product, Commercial, Communication, Experience, Distribution and Intelligence.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "A detailed fishbone analysis of the nine systems that determine sustainable business growth and customer value: Market, Consumer, Brand, Product, Commercial, Communication, Experience, Distribution and Intelligence. · The Marketing Fishbone Framework · Why a fishbone view of marketing · A. Market · What it covers · Why it matters · B. Consumer · C. Brand · D. Product · E. Commercial · F. Communication · G. Customer Experience · H. Distribution · I. Intelligence · Sustainable business growth and customer value are the outcome of nine interconnected systems. Weakness in any branch constrains the whole. · Most marketing discussion focuses on the visible tip of the system: campaigns, media spend and conversion rates. The fishbone (Ishikawa) structure forces attention onto the upstream causes that determine whether those downstream activities can succeed.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-fundamentals",
+    "title": "Marketing Fundamentals",
+    "url": "/marketing-intelligence/pages/fundamentals.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "Marketing as the business of creating value. Beyond advertising, SEO and SEM — the strategic foundations.",
+    "excerpt": "Marketing as the business of creating value. Beyond advertising, SEO and SEM — the strategic foundations.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Marketing as the business of creating value. Beyond advertising, SEO and SEM — the strategic foundations. · Marketing Fundamentals · What marketing is not · What marketing is · The cost of a narrow definition · Where to go next · Marketing is the discipline of understanding people, markets and opportunities, then connecting that understanding to products, brands, experiences and sustainable commercial value. · In common usage, marketing is often reduced to a set of promotional activities: advertising, social media content, search engine optimisation, paid search, influencer posts and conversion-rate optimisation. These activities matter. They are not the whole of marketing.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-luxury-strategy",
+    "title": "Luxury & Premium Brand Strategy",
+    "url": "/marketing-intelligence/pages/luxury-strategy.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "Heritage, exclusivity, craftsmanship, price psychology, retail experience and the risks of brand dilution. Comparison of mass-market, premium and luxury business models.",
+    "excerpt": "Heritage, exclusivity, craftsmanship, price psychology, retail experience and the risks of brand dilution. Comparison of mass-market, premium and luxury business models.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Heritage, exclusivity, craftsmanship, price psychology, retail experience and the risks of brand dilution. Comparison of mass-market, premium and luxury business models. · Luxury & Premium Brand Strategy · The logic of luxury and premium · 1. Heritage and authenticity · 2. Exclusivity · 3. Craftsmanship · 4. Aspirational positioning · 5. Price psychology · 6. Retail experience · 7. Brand consistency · 8. Digital luxury · 9. Younger consumers · 10. Brand dilution · Comparison matrix: Mass-market, Premium and Luxury · How heritage, exclusivity, craftsmanship and controlled experience create and protect desirability. Focused on fashion, watches, leather goods, automobiles, furniture, hospitality and jewellery. · Luxury and premium brands do not compete primarily on functional superiority that can be measured in a laboratory. They compete on meaning, scarcity, craftsmanship signals, social coding and the cumulative experience of ownership. Price is both a consequence and a cause of positioning: high price signals rarity and quality while also restricting access.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-marketing-measurement",
+    "title": "Marketing Measurement",
+    "url": "/marketing-intelligence/pages/marketing-measurement.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "A page in the Marketing Intelligence knowledge hub.",
+    "excerpt": "A page in the Marketing Intelligence knowledge hub.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "A page in the Marketing Intelligence knowledge hub.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-pricing-strategy",
+    "title": "Pricing & Commercial Strategy",
+    "url": "/marketing-intelligence/pages/pricing-strategy.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "Pricing as a strategic marketing decision: value-based pricing, architecture, elasticity, margins, CAC, LTV and why revenue growth is not profit growth.",
+    "excerpt": "Pricing as a strategic marketing decision: value-based pricing, architecture, elasticity, margins, CAC, LTV and why revenue growth is not profit growth.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Pricing as a strategic marketing decision: value-based pricing, architecture, elasticity, margins, CAC, LTV and why revenue growth is not profit growth. · Pricing & Commercial Strategy · Pricing approaches · Architecture and economics · Key research questions · Pricing is a strategic marketing decision that determines how value is captured and how the brand is positioned in the market. · Good-better-best tiering, product-line pricing and clear role for each price point reduce random discounting and help customers self-select. Gross margin, contribution margin, customer acquisition cost (CAC) and customer lifetime value (LTV) must be examined together. Revenue growth that is bought with heavy discounting or high CAC can destroy value even while top-line figures look healthy.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-product-intelligence",
+    "title": "Product Intelligence",
+    "url": "/marketing-intelligence/pages/product-intelligence.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "Product-market fit, differentiation, innovation, lifecycle and the Product Opportunity Discovery Model. How to investigate what is selling and why.",
+    "excerpt": "Product-market fit, differentiation, innovation, lifecycle and the Product Opportunity Discovery Model. How to investigate what is selling and why.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Product-market fit, differentiation, innovation, lifecycle and the Product Opportunity Discovery Model. How to investigate what is selling and why. · Product Intelligence · Product as the centre of value creation · Core product concepts · Product-market fit · Differentiation · Functional and emotional benefits · Lifecycle and renewal · The Product Opportunity Discovery Model · Sample product investigation template · Research questions · Understanding what is selling, why products succeed or fail, and how to discover new product opportunities with discipline. · Brand can create desire and distribution can create access, but the product is what the customer ultimately receives. Product intelligence examines fit with market needs, sources of differentiation, quality and performance, lifecycle dynamics, assortment logic and the signals that indicate where new opportunities may exist.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-research-library",
+    "title": "Research Library",
+    "url": "/marketing-intelligence/pages/research-library.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "A page in the Marketing Intelligence knowledge hub.",
+    "excerpt": "A page in the Marketing Intelligence knowledge hub.",
+    "keywords": [
+      "Marketing Intelligence"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "A page in the Marketing Intelligence knowledge hub.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-marketing-intelligence-pages-retail-distribution",
+    "title": "Retail & Distribution Strategy",
+    "url": "/marketing-intelligence/pages/retail-distribution.html",
+    "type": "Article",
+    "status": "Live",
+    "description": "How products reach customers: flagship, department, specialty, mass, e-commerce, marketplaces, DTC, wholesale and the implications for brand and conversion.",
+    "excerpt": "How products reach customers: flagship, department, specialty, mass, e-commerce, marketplaces, DTC, wholesale and the implications for brand and conversion.",
+    "keywords": [
+      "Marketing Intelligence",
+      "ecommerce"
+    ],
+    "tags": [
+      "Marketing Intelligence"
+    ],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "How products reach customers: flagship, department, specialty, mass, e-commerce, marketplaces, DTC, wholesale and the implications for brand and conversion. · Retail & Distribution Strategy · Channel types · Key diagnostic themes · How products reach customers, and how channel choices shape brand perception, conversion and economics. · Flagship and controlled retail, department stores, specialty retailers, mass retail, e-commerce, marketplaces, direct-to-consumer, wholesale, franchising, pop-ups and travel retail each carry different implications for brand control, margin, customer data and experience quality.",
+    "language": "en",
+    "topics": [
+      "Marketing Intelligence"
+    ]
+  },
+  {
+    "id": "page-privacy",
+    "title": "Privacy Policy",
+    "url": "/privacy.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "This policy explains how Shashi Kant (“I”, “me”) collects, uses, stores and protects personal information on the website shashikant.jp and related pages. It applies when you contact me through the contact form, email or similar means.",
+    "excerpt": "This policy explains how Shashi Kant (“I”, “me”) collects, uses, stores and protects personal information on the website shashikant.jp and related pages. It applies when you contact me through the contact form, email or similar…",
+    "keywords": [],
+    "tags": [],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "This policy explains how Shashi Kant (“I”, “me”) collects, uses, stores and protects personal information on the website shashikant.jp and related pages. It applies when you contact me through the contact form, email or similar means. · Privacy Policy · 1. Information collected · 2. Purpose of use · 3. Retention · 4. Third parties and cross-border processing · 5. Security · 6. Your rights · 7. Children · 8. Changes · 9. Contact · When you use the contact form or email me, I may collect:",
+    "language": "en",
+    "topics": []
+  },
+  {
+    "id": "page-professional-boundaries",
+    "title": "Professional Note",
+    "url": "/professional-boundaries.html",
+    "type": "Page",
+    "status": "Live",
+    "description": "Professional boundaries and public-safe communication notes for Shashi Kant website.",
+    "excerpt": "Professional boundaries and public-safe communication notes for Shashi Kant website.",
+    "keywords": [],
+    "tags": [],
+    "relatedCompanies": [],
+    "relatedSkills": [],
+    "priority": 5,
+    "contentSummary": "Professional boundaries and public-safe communication notes for Shashi Kant website. · Public-safe, conflict-aware and evidence-based. · How this site should be read · This website describes professional experience without publishing confidential employer information or implying endorsement from any past or current employer.",
+    "language": "en",
+    "topics": []
   }
 ]
