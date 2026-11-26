@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Acquisition in Japan: A Complete Guide for International Businesses | shashikant.jp</title>
+  <meta name="description" content="How to find Japanese customers, generate qualified leads, build business relationships, convert enquiries into sales and develop sustainable customer acquisition strategies.">
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --ink: #1b2438;
+      --muted: #4f586d;
+      --accent: #0f6b73;
+      --gold: #9a6a12;
+      --card: #fff;
+      --line: #dde1ec;
+      --tint: #e8f3f4;
+      --tintgold: #fbf1dc;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 17.5px / 1.75 system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif;
+      border-top: 6px solid var(--accent);
+    }
+
+    header.site {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 64rem;
+      margin: 0 auto;
+      padding: 0.85rem 1.25rem;
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    header.site .brand {
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    header.site .menu {
+      display: flex;
+      gap: 0.35rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header.site .menu details {
+      position: relative;
+    }
+
+    header.site .menu summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 0.35rem 0.7rem;
+      border-radius: 6px;
+      font-size: 0.92rem;
+      color: var(--ink);
+    }
+
+    header.site .menu summary::-webkit-details-marker { display: none; }
+    header.site .menu summary::after { content: " ▾"; font-size: 0.7em; opacity: 0.6; }
+
+    header.site .menu .panel {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 0.5rem;
+      min-width: 14rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+      z-index: 60;
+    }
+
+    header.site .menu .panel a {
+      display: block;
+      padding: 0.4rem 0.7rem;
+      color: var(--ink);
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+
+    header.site .menu .panel a:hover { background: var(--tint); }
+
+    header.site .toolslink {
+      background: var(--accent);
+      color: #fff !important;
+      padding: 0.4rem 1rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      margin-left: 0.4rem;
+    }
+
+    main {
+      max-width: 48rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 5rem;
+    }
+
+    nav.crumb {
+      font-size: 0.9rem;
+      margin: 0 0 0.75rem;
+    }
+
+    nav.crumb a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    nav.crumb a + a::before {
+      content: " › ";
+      color: var(--muted);
+      margin: 0 0.15em;
+      pointer-events: none;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: Charter, Georgia, "Times New Roman", serif;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+    }
+
+    h1 {
+      font-size: 2.45rem;
+      margin: 0.4rem 0 0.75rem;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 1.55rem;
+      margin: 2.6rem 0 0.9rem;
+      padding-top: 0.4rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin: 1.8rem 0 0.6rem;
+    }
+
+    h4 {
+      font-size: 1.05rem;
+      margin: 1.4rem 0 0.5rem;
+    }
+
+    p { margin: 0 0 1.15rem; }
+
+    a { color: var(--accent); }
+
+    .byline {
+      display: inline-block;
+      font-size: 0.85rem;
+      color: var(--muted);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 0.25rem 0.9rem;
+      margin: 0 0 1.5rem;
+    }
+
+    .byline a { color: var(--accent); text-decoration: none; }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+      gap: 0.8rem;
+      margin: 1.2rem 0 0.9rem;
+    }
+
+    .stat {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 0.95rem 1rem;
+      border-top: 4px solid var(--accent);
+    }
+
+    .stat b {
+      display: block;
+      font: 800 1.65rem Charter, Georgia, serif;
+      color: var(--accent);
+      line-height: 1.15;
+    }
+
+    .stat span {
+      font-size: 0.82rem;
+      color: var(--muted);
+      display: block;
+      margin-top: 0.25rem;
+    }
+
+    .chips {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      padding: 0;
+      margin: 0 0 1.6rem;
+    }
+
+    .chips li {
+      background: var(--tint);
+      color: var(--accent);
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.28rem 0.8rem;
+      border-radius: 999px;
+    }
+
+    .chips li::before { content: "✓ "; }
+
+    .lead {
+      font-size: 1.2rem;
+      color: var(--muted);
+      border-left: 4px solid var(--gold);
+      padding-left: 1rem;
+      margin: 1.2rem 0 1.6rem;
+    }
+
+    .note {
+      font-size: 0.92rem;
+      color: var(--muted);
+      background: var(--card);
+      border-left: 5px solid var(--gold);
+      border-radius: 8px;
+      padding: 0.85rem 1.1rem;
+      margin: 1.5rem 0;
+    }
+
+    .note strong { color: var(--ink); }
+
+    ul, ol {
+      margin: 0 0 1.3rem;
+      padding-left: 1.35rem;
+    }
+
+    li { margin-bottom: 0.35rem; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.2rem 0 1.6rem;
+      font-size: 0.95rem;
+      background: var(--card);
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+    }
+
+    th, td {
+      padding: 0.7rem 0.9rem;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--tint);
+      font-weight: 700;
+      color: var(--ink);
+      font-size: 0.88rem;
+    }
+
+    tbody tr:nth-child(even) { background: #fafbfd; }
+    tbody tr:hover { background: var(--tintgold); }
+    tr:last-child td { border-bottom: 0; }
+
+    .toc {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1.1rem 1.3rem;
+      margin: 1.8rem 0 2rem;
+    }
+
+    .toc strong {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    .toc ol {
+      margin: 0;
+      padding-left: 1.2rem;
+      columns: 2;
+      column-gap: 1.5rem;
+    }
+
+    .toc li {
+      margin-bottom: 0.25rem;
+      font-size: 0.9rem;
+      break-inside: avoid;
+    }
+
+    .toc a {
+      text-decoration: none;
+      color: var(--ink);
+    }
+
+    .toc a:hover { color: var(--accent); }
+
+    code, .code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.88em;
+      background: var(--tint);
+      padding: 0.15em 0.4em;
+      border-radius: 4px;
+    }
+
+    pre {
+      background: #1b2438;
+      color: #e8eef5;
+      padding: 1rem 1.2rem;
+      border-radius: 10px;
+      overflow-x: auto;
+      font-size: 0.88rem;
+      line-height: 1.55;
+      margin: 1.2rem 0;
+    }
+
+    pre code {
+      background: none;
+      padding: 0;
+      color: inherit;
+    }
+
+    .checklist {
+      list-style: none;
+      padding: 0;
+    }
+
+    .checklist li {
+      position: relative;
+      padding-left: 1.6rem;
+      margin-bottom: 0.45rem;
+    }
+
+    .checklist li::before {
+      content: "☐";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .section-divider {
+      border: 0;
+      border-top: 1px solid var(--line);
+      margin: 2.8rem 0;
+    }
+
+    .faq-item {
+      margin-bottom: 1.4rem;
+    }
+
+    .faq-item h3 {
+      margin: 0 0 0.35rem;
+      font-size: 1.1rem;
+    }
+
+    .funnel-stage {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 0.9rem 1.1rem;
+      margin-bottom: 0.7rem;
+    }
+
+    .funnel-stage strong {
+      color: var(--accent);
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    footer.site {
+      max-width: 48rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+      font-size: 0.88rem;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+    }
+
+    @media (max-width: 640px) {
+      h1 { font-size: 1.85rem; }
+      .toc ol { columns: 1; }
+      header.site { flex-wrap: wrap; gap: 0.5rem; }
+      header.site .menu { width: 100%; }
+    }
+  </style>
+<link rel="canonical" href="https://shashikant.jp/customer-acquisition-japan.html">
+<meta name="referrer" content="origin">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://shashikant.jp/customer-acquisition-japan.html">
+<meta property="og:title" content="Customer Acquisition in Japan: A Complete Guide for International Businesses | shashikant.jp">
+<meta property="og:description" content="How to find Japanese customers, generate qualified leads, build business relationships, convert enquiries into sales and develop sustainable customer acquisition strategies.">
+<meta name="twitter:card" content="summary">
+<script src="/assets/js/analytics-consent.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Customer Acquisition in Japan: A Complete Guide for International Businesses","description":"How to find Japanese customers, generate qualified leads, build business relationships, convert enquiries into sales and develop sustainable customer acquisition strategies.","inLanguage":"en","mainEntityOfPage":"https://shashikant.jp/customer-acquisition-japan.html","author":{"@type":"Person","name":"Shashi Kant","url":"https://shashikant.jp/"}}</script>
+<style>main a{text-decoration:underline}a:focus-visible,button:focus-visible{outline:2px solid #0f6b73;outline-offset:3px}main table{display:block;overflow-x:auto}html{scroll-padding-top:8rem}</style>
+</head>
+<body>
+  <header class="site"><a class="brand" href="/">Shashi Kant</a><nav class="menu" aria-label="Main navigation"><a href="/marketing-intelligence/">Marketing Intelligence</a> · <a href="/search.html">Search</a></nav></header>
+
+  <main id="main-content">
+    <nav class="crumb">
+      <a href="https://shashikant.jp/marketing-intelligence/">Marketing Intelligence</a>
+      <span aria-current="page">Customer Acquisition in Japan</span>
+    </nav>
+
+    <h1>Customer Acquisition in Japan: A Complete Guide for International Businesses</h1>
+
+
+    <p class="byline">
+      By Shashikant · Updated November 2026 · about 20 min read
+    </p>
+
+    <div class="stats">
+      <div class="stat">
+        <b>¥26.1T</b>
+        <span>B2C ecommerce market (METI, 2024)</span>
+      </div>
+      <div class="stat">
+        <b>¥514T</b>
+        <span>B2B ecommerce market (METI, 2024)</span>
+      </div>
+      <div class="stat">
+        <b>7 stages</b>
+        <span>From awareness to referral in the acquisition funnel</span>
+      </div>
+      <div class="stat">
+        <b>90-day plan</b>
+        <span>Practical starting framework included</span>
+      </div>
+    </div>
+
+    <ul class="chips">
+      <li>Practical, independent guide</li>
+      <li>No acquisition guarantees</li>
+      <li>Updated November 2026</li>
+    </ul>
+
+    <p class="note">
+      <strong>Purpose:</strong> A structured, customer-focused guide for international businesses that need to find Japanese customers, generate qualified leads, convert enquiries and build sustainable acquisition systems. Educational only — not a service offer.
+    </p>
+
+    <p class="lead">
+      How to find Japanese customers, generate qualified leads, build business relationships, convert enquiries into sales and develop sustainable customer acquisition strategies.
+    </p>
+
+    <p>
+      Entering a new market is one challenge. Finding customers who are willing to purchase your products or services is another. For international businesses considering Japan, customer acquisition is one of the most important parts of building a sustainable operation.
+    </p>
+
+    <p>
+      A company may have an excellent product, competitive pricing and a professionally designed website. However, these advantages do not automatically generate customers. Potential customers need to discover the business, understand its offering, evaluate its credibility and decide whether it can solve their problems.
+    </p>
+
+    <p>
+      According to Japan’s Ministry of Economy, Trade and Industry (METI), the domestic B2C ecommerce market reached approximately ¥26.1 trillion in 2024, while the B2B ecommerce market reached approximately ¥514.4 trillion. These figures demonstrate the scale of digital commercial activity, although they should not be interpreted as the addressable market for any individual business.
+    </p>
+
+    <h2 id="example-test">A worked acquisition test for a Japan launch</h2>
+<p><strong>Illustrative figures.</strong> A software provider wants to reach operations managers at Japanese retailers with several stores. The Japan lead owns a six-week search test. The sales owner reviews enquiries weekly and qualifies only companies with a relevant workflow, a decision owner and a plausible buying timeframe.</p>
+<p>Assume first-year contribution before acquisition is ¥600,000 per customer and management allows ¥150,000 to acquire one. If one in five qualified leads becomes a customer, the implied ceiling is ¥30,000 per qualified lead. A ¥300,000 test would therefore need at least ten qualified leads to meet that interim target. Treat the close rate as a planning assumption. Track sales effort separately and count it against the acquisition budget if it was excluded from the campaign spend.</p>
+<p>At ¥150,000 of spend, inspect the actual search queries and lead quality. If they consistently show the wrong buyer or use case, pause and rewrite the offer before spending the remainder. At week six, expand only if the lead cost and sales feedback support it. Wait for actual opportunities and wins to check the assumptions before calling the channel viable.</p>
+<div class="toc">
+      <strong>Contents</strong>
+      <ol>
+        <li><a href="#understand">Understand customer acquisition</a></li>
+        <li><a href="#research">Research how customers find suppliers</a></li>
+        <li><a href="#digital-presence">Japanese-language digital presence</a></li>
+        <li><a href="#seo">SEO for customer acquisition</a></li>
+        <li><a href="#paid-ads">Paid advertising</a></li>
+        <li><a href="#social">Social media</a></li>
+        <li><a href="#b2b-leads">B2B lead generation</a></li>
+        <li><a href="#trust">Building trust</a></li>
+        <li><a href="#funnel">Acquisition funnel</a></li>
+        <li><a href="#convert">Converting enquiries</a></li>
+        <li><a href="#legal">Legal and privacy</a></li>
+        <li><a href="#measure">Measuring performance</a></li>
+        <li><a href="#mistakes">Common mistakes</a></li>
+        <li><a href="#90-day">90-day plan</a></li>
+        <li><a href="#checklist">Readiness checklist</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <!-- 1 -->
+    <h2 id="understand">1. Understand customer acquisition before choosing marketing channels</h2>
+
+    <p>
+      Before investing in advertising, SEO or social media, a company should understand what customer acquisition actually involves. Customer acquisition is the process of attracting potential customers and converting them into paying customers. It includes identifying potential customers, understanding their problems, building awareness, generating interest, providing useful information, establishing credibility, responding to enquiries, supporting purchasing decisions and converting opportunities into sales.
+    </p>
+
+    <p>
+      A company that focuses exclusively on attracting visitors may generate considerable website traffic without receiving meaningful business enquiries. Similarly, a business that generates many enquiries but fails to respond effectively may lose potential customers.
+    </p>
+
+    <h3>1.1 Define what a customer means for your business</h3>
+    <p>
+      Customer acquisition means different things depending on the business model. For a B2B software company, a customer may be an organization purchasing an annual subscription. For a consulting company, a customer may be a business signing a professional services agreement. For an ecommerce company, a customer may be an individual completing an online purchase. For a manufacturer, a customer may be a distributor, wholesaler or business purchasing products regularly.
+    </p>
+    <p>
+      These distinctions matter because they influence the marketing channels, sales process and performance measurements. The company should establish its definition of a successful acquisition before launching campaigns.
+    </p>
+
+    <h3>1.2 Identify your ideal customer profile</h3>
+    <p>
+      An ideal customer profile describes the type of customer most likely to benefit from your product or service. For international B2B businesses entering Japan, it might include industry, company size, business location, annual purchasing capacity, operational challenges, existing solutions, technology requirements, decision-making structure and purchasing timeline.
+    </p>
+    <p>
+      The more clearly the business defines its intended customer, the easier it becomes to select appropriate marketing channels.
+    </p>
+
+    <h3>1.3 Understand customer problems before promoting your product</h3>
+    <p>
+      Many marketing campaigns begin by describing product features. However, potential customers are generally more interested in understanding how a product can solve their problems.
+    </p>
+    <p>
+      <strong>Product-focused message:</strong> “Our platform provides advanced automation, reporting and business intelligence.”
+    </p>
+    <p>
+      <strong>Problem-focused message:</strong> “Reduce the time your team spends preparing business reports and make operational information easier to manage.”
+    </p>
+    <p>
+      The second message explains the practical value of the product. For Japanese customers, this explanation should be expressed in natural Japanese when targeting Japanese-language audiences. Do not assume that a feature is valuable simply because it is technically impressive.
+    </p>
+
+    <!-- 2 -->
+    <h2 id="research">2. Research how your target customers find suppliers in Japan</h2>
+
+    <p>
+      Customer acquisition becomes more effective when businesses understand how their target audience discovers and evaluates potential suppliers. Different industries have different purchasing processes. There is no universal customer acquisition channel for every Japanese business.
+    </p>
+
+    <h3>2.1 Research the customer discovery process</h3>
+    <p>Start by asking:</p>
+    <ul>
+      <li>Where do potential customers search for solutions?</li>
+      <li>Which websites do they trust?</li>
+      <li>What information do they need before contacting a supplier?</li>
+      <li>Do they rely on industry recommendations?</li>
+      <li>Do they attend trade exhibitions?</li>
+      <li>Do they compare multiple providers?</li>
+      <li>How important are demonstrations and consultations?</li>
+      <li>Who participates in purchasing decisions?</li>
+    </ul>
+
+    <h3>2.2 Understand the difference between B2B and B2C acquisition</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Area</th>
+          <th>B2B acquisition</th>
+          <th>B2C acquisition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Target audience</td>
+          <td>Organizations and decision-makers</td>
+          <td>Individual consumers</td>
+        </tr>
+        <tr>
+          <td>Sales process</td>
+          <td>Often involves multiple stages</td>
+          <td>Can be relatively direct</td>
+        </tr>
+        <tr>
+          <td>Main objective</td>
+          <td>Qualified business opportunities</td>
+          <td>Purchases and repeat orders</td>
+        </tr>
+        <tr>
+          <td>Content</td>
+          <td>Case studies, technical guides, business information</td>
+          <td>Product information, reviews, demonstrations</td>
+        </tr>
+        <tr>
+          <td>Channels</td>
+          <td>SEO, partnerships, exhibitions, direct sales</td>
+          <td>Search, ecommerce, social media, advertising</td>
+        </tr>
+        <tr>
+          <td>Conversion</td>
+          <td>Meetings, proposals, contracts</td>
+          <td>Purchases, registrations, subscriptions</td>
+        </tr>
+        <tr>
+          <td>Relationship</td>
+          <td>Often ongoing and account-based</td>
+          <td>Depends on product and business model</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>2.3 Investigate competitors and their customer acquisition methods</h3>
+    <p>
+      Review competitor website structure, product positioning, Japanese-language content, pricing, advertising, social media activity, testimonials, distribution partnerships, downloadable resources and enquiry processes. Use competitor research to identify opportunities to provide better information, clearer explanations or a more suitable customer experience — not to copy them.
+    </p>
+
+    <!-- 3 -->
+    <h2 id="digital-presence">3. Build a Japanese-language digital presence that generates customers</h2>
+
+    <p>
+      For many international businesses, the website is an important part of the customer acquisition process. It may be the first place a Japanese customer encounters the company. The website should do more than describe the organization — it should help potential customers understand the product, evaluate its suitability and take the next step.
+    </p>
+
+    <h3>3.1 Create a website for your target audience</h3>
+    <p>A Japanese-language website should answer several important questions:</p>
+    <ol>
+      <li>What does your business offer?</li>
+      <li>Who is your product or service designed for?</li>
+      <li>What problems does it solve?</li>
+      <li>How does it work?</li>
+      <li>What makes the solution relevant?</li>
+      <li>How can customers contact you?</li>
+      <li>What happens after an enquiry?</li>
+    </ol>
+    <p>
+      Avoid vague marketing statements. Saying that your company provides innovative digital transformation solutions is less useful than explaining which business processes you improve and how.
+    </p>
+
+    <h3>3.2 Create dedicated landing pages</h3>
+    <p>
+      A landing page should focus on a particular product, service, audience or customer problem. A useful landing page generally includes a clear headline, a description of the customer problem, the proposed solution, important features and benefits, relevant implementation information, evidence of experience, frequently asked questions and a clear next step. Avoid creating dozens of nearly identical pages simply to target additional keywords.
+    </p>
+
+    <h3>3.3 Make contacting your business straightforward</h3>
+    <p>
+      Potential customers should not have to search extensively to find your contact information. Consider providing an enquiry form, business email, consultation request, product demonstration request, telephone contact (if available) and a clear explanation of response times. For B2B businesses, a consultation or demonstration request may be more appropriate than asking visitors to make an immediate purchase. Keep forms short.
+    </p>
+
+    <h3>3.4 Demonstrate business credibility</h3>
+    <p>
+      An unfamiliar international company must give potential customers sufficient information to evaluate its credibility. Useful information may include company background, business address, management and team information, product documentation, relevant qualifications, industry experience, verified testimonials, genuine case studies, customer support arrangements and clear contact information. Never publish invented testimonials, misleading client logos or unsupported performance claims.
+    </p>
+
+    <h3>3.5 Optimize the mobile experience</h3>
+    <p>
+      Review page loading, navigation, readability, contact forms, buttons and links, product images, technical documentation and language switching. A website that is difficult to use can create unnecessary friction in the acquisition process.
+    </p>
+
+    <!-- 4 -->
+    <h2 id="seo">4. Use SEO to attract customers who are actively searching</h2>
+
+    <p>
+      Search engine optimization is one of the important long-term customer acquisition channels for international businesses. It can help a company become visible when potential customers search for products, services or solutions. Unlike some forms of advertising, organic search visibility does not require payment for every website visit. However, SEO requires research, content development, technical maintenance and ongoing evaluation.
+    </p>
+
+    <h3>4.1 Research Japanese search keywords</h3>
+    <p>
+      International businesses should investigate the actual Japanese expressions customers use. Direct translation from English is not always sufficient. Keyword research should consider product names, industry terminology, customer problems, service categories, comparison searches, pricing searches, implementation questions and local search terms. Understand the search intent behind each query.
+    </p>
+
+    <h3>4.2 Create content for different stages of the customer journey</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Stage</th>
+          <th>Customer need</th>
+          <th>Example topics</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Awareness</strong></td>
+          <td>Learning about a problem</td>
+          <td>Common challenges in business automation · How inventory systems work · Understanding cybersecurity risks</td>
+        </tr>
+        <tr>
+          <td><strong>Consideration</strong></td>
+          <td>Comparing possible solutions</td>
+          <td>Comparing software approaches · Questions before selecting a provider · Features to evaluate</td>
+        </tr>
+        <tr>
+          <td><strong>Decision</strong></td>
+          <td>Evaluating suppliers</td>
+          <td>Product pricing · Implementation services · Technical support · Demonstration requests</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>4.3 Publish educational resources &amp; use internal linking</h3>
+    <p>
+      Useful formats include industry guides, technical tutorials, research articles, practical checklists, comparison guides and product implementation resources. A well-organized website helps visitors discover related information and helps search engines understand relationships between pages. For a deeper explanation of Japanese SEO, see <a href="seo-in-japan.html">SEO in Japan: The Complete Guide for International Businesses</a>.
+    </p>
+
+    <!-- 5 -->
+    <h2 id="paid-ads">5. Use paid advertising to reach potential customers</h2>
+
+    <p>
+      Paid advertising can help businesses reach audiences more quickly than waiting for organic search visibility. However, advertising should be treated as a measurable investment. The objective is not simply to generate clicks — it is to attract relevant visitors who may become customers.
+    </p>
+
+    <h3>5.1 Google Search advertising</h3>
+    <p>
+      A campaign should have clearly defined objectives, relevant Japanese keywords, appropriate geographic targeting, relevant advertisements, suitable landing pages, conversion measurement and a controlled budget. The landing page must match the promise made in the advertisement.
+    </p>
+
+    <h3>5.2 Measure advertising conversions</h3>
+    <p>
+      Before spending substantial money, establish what counts as a valuable conversion: product purchases, consultation requests, demonstration bookings, enquiry form submissions, telephone enquiries or newsletter registrations. For a B2B company, a completed contact form should not automatically be treated as a successful customer acquisition — assess whether the enquiry represents a suitable prospect.
+    </p>
+
+    <h3>5.3 Start with controlled campaigns &amp; avoid optimizing for clicks alone</h3>
+    <p>
+      Select a small number of relevant services, research Japanese keywords, create dedicated landing pages, launch controlled campaigns, monitor enquiry quality, evaluate acquisition costs and improve based on results. A campaign attracting 150 visits and generating ten relevant enquiries may be more commercially valuable than one attracting 1,000 visits and generating only two relevant enquiries.
+    </p>
+
+    <!-- 6 -->
+    <h2 id="social">6. Use social media to build awareness and relationships</h2>
+
+    <p>
+      Social media can support customer acquisition, but its role varies depending on the industry and target audience. Choose platforms based on actual customer behaviour rather than treating them as interchangeable.
+    </p>
+
+    <h3>6.1 Choose platforms according to your audience</h3>
+    <p>
+      Potential platforms include LinkedIn, YouTube, Instagram, Facebook, X, LINE and industry-specific online communities. A company targeting enterprise decision-makers may prioritize professional networking and educational content. A consumer brand may find visual product demonstrations more relevant.
+    </p>
+
+    <h3>6.2 Publish useful content &amp; use video</h3>
+    <p>
+      Provide industry insights, product demonstrations, educational explanations, company updates, technical discussions and practical advice. Avoid publishing only advertisements. Video can help customers understand products that are difficult to explain through text alone. For Japanese audiences, consider Japanese subtitles or professionally localized narration.
+    </p>
+
+    <h3>6.3 Respond to customer interactions</h3>
+    <p>
+      Establish responsibilities for responding to comments, handling enquiries, correcting inaccurate information, escalating complaints and protecting confidential information. Avoid publishing confidential customer details or discussing sensitive business matters publicly.
+    </p>
+
+    <!-- 7 -->
+    <h2 id="b2b-leads">7. Develop B2B lead generation strategies in Japan</h2>
+
+    <p>
+      For international companies selling to Japanese businesses, lead generation is often an important part of customer acquisition. A lead is a person or organization that has shown some level of interest. However, not all leads are equally valuable. A business receiving 100 enquiries from unsuitable companies may generate less revenue than one receiving five enquiries from well-matched prospects.
+    </p>
+
+    <h3>7.1 Build a targeted prospect list</h3>
+    <p>
+      Start by identifying companies that match your ideal customer profile using industry directories, company websites, trade associations, business exhibitions, business matching platforms, professional networks and public company information. Research each prospect before contacting it. Avoid purchasing or collecting personal contact information without understanding applicable privacy and marketing requirements.
+    </p>
+
+    <h3>7.2 Use JETRO business matching resources</h3>
+    <ul>
+      <li><strong>JETRO e-Venue</strong> — international business matching platform. <a href="https://www.jetro.go.jp/en/database/" rel="noopener">jetro.go.jp/en/database</a></li>
+      <li><strong>JETRO J-Bridge</strong> — supports collaboration between Japanese companies and overseas businesses (digital, green technology, life sciences). <a href="https://www.jetro.go.jp/en/j-bridge/" rel="noopener">jetro.go.jp/en/j-bridge</a></li>
+      <li><strong>SME Support Japan – J-GoodTech</strong> — business matching platform. <a href="https://jgoodtech.smrj.go.jp/" rel="noopener">jgoodtech.smrj.go.jp</a></li>
+    </ul>
+    <p class="note">
+      These resources are useful starting points, not guaranteed sources of customers or contracts. Assess whether each program matches your actual objectives.
+    </p>
+
+    <h3>7.3 Participate in relevant trade exhibitions</h3>
+    <p>
+      Trade exhibitions can provide opportunities to meet potential customers, distributors, suppliers and business partners. Before attending: identify relevant events, research participating companies, define target contacts, prepare Japanese-language materials, arrange meetings where possible, prepare product demonstrations and establish a follow-up process. JETRO provides an online trade fair database known as J-messe.
+    </p>
+
+    <h3>7.4 Develop strategic partnerships &amp; use direct outreach carefully</h3>
+    <p>
+      Potential partners include distributors, resellers, system integrators, consultants, technology providers, industry associations and professional service firms. A partnership should offer genuine value to both parties. Clearly define responsibilities, payment arrangements, confidentiality and intellectual property rights.
+    </p>
+    <p>
+      Direct outreach may be suitable for specialist products, but it should be relevant and respectful. Identify the sender, explain why you are contacting the recipient, demonstrate understanding of their business, explain potential value and provide an appropriate next step. Research relevant legal requirements before conducting email, telephone or other direct marketing activities in Japan.
+    </p>
+
+    <!-- 8 -->
+    <h2 id="trust">8. Build trust before asking customers to buy</h2>
+
+    <p>
+      Trust is an important consideration when an international company enters an unfamiliar market. Potential customers may have questions about whether the company is reliable, capable and prepared to support them — particularly for services involving long-term contracts, business data, technical integration or significant financial commitments.
+    </p>
+
+    <h3>8.1 Demonstrate actual experience &amp; publish useful case studies</h3>
+    <p>
+      Show relevant projects, industry experience, product development, technical capabilities, verified customer feedback, professional qualifications and actual partnerships. A strong case study should explain the customer’s situation, the problem, the approach taken, the work performed, the outcome and relevant limitations. Only publish customer information with appropriate permission. Do not invent results.
+    </p>
+
+    <h3>8.2 Provide transparent information &amp; offer demonstrations</h3>
+    <p>
+      Trust can be strengthened by providing clear answers about pricing, contract terms, service scope, implementation, delivery, support, refunds (where applicable), data handling and limitations. A product demonstration or initial consultation can help potential customers evaluate whether a solution meets their needs. Do not promise outcomes that have not been validated.
+    </p>
+
+    <h3>8.3 Maintain consistent communication</h3>
+    <p>
+      Establish a process for acknowledging enquiries, assigning responsibility, providing accurate information, following up, answering technical questions, communicating delays and maintaining customer records appropriately. Set response-time expectations the business can actually meet.
+    </p>
+
+    <!-- 9 -->
+    <h2 id="funnel">9. Design a customer acquisition funnel</h2>
+
+    <p>
+      A customer acquisition funnel describes the stages through which potential customers move before becoming paying customers. It helps businesses understand where they are attracting interest and where potential customers may be leaving the process.
+    </p>
+
+    <div class="funnel-stage">
+      <strong>Stage 1: Awareness</strong>
+      Potential customers discover your business through organic search, paid search, social media, trade exhibitions, public relations or business partnerships. Objective: help relevant customers discover your offering.
+    </div>
+    <div class="funnel-stage">
+      <strong>Stage 2: Interest</strong>
+      Visitors explore your product or service — reading articles, viewing product pages, watching demonstrations, downloading resources. Objective: explain the value of the solution.
+    </div>
+    <div class="funnel-stage">
+      <strong>Stage 3: Consideration</strong>
+      Potential customers evaluate whether the product is appropriate by comparing providers, features, pricing, experience, technical capabilities, support and contracts. Objective: provide reliable information that supports evaluation.
+    </div>
+    <div class="funnel-stage">
+      <strong>Stage 4: Enquiry</strong>
+      A potential customer contacts your business requesting a consultation, quotation, demonstration, product information or meeting. Objective: respond effectively and understand the customer’s requirements.
+    </div>
+    <div class="funnel-stage">
+      <strong>Stage 5: Conversion</strong>
+      The customer agrees to purchase — signed contract, completed order or subscription. Objective: make the purchasing process clear and efficient.
+    </div>
+    <div class="funnel-stage">
+      <strong>Stage 6: Retention</strong>
+      Support after purchase: onboarding, customer service, training, product updates, regular communication, performance reviews. Objective: deliver value and develop a sustainable relationship.
+    </div>
+    <div class="funnel-stage">
+      <strong>Stage 7: Referral and expansion</strong>
+      Satisfied customers may recommend the business or purchase additional services. Referrals should be earned through actual customer satisfaction.
+    </div>
+
+    <!-- 10 -->
+    <h2 id="convert">10. Convert enquiries into paying customers</h2>
+
+    <p>
+      Generating enquiries is only part of customer acquisition. Businesses also need an effective sales process.
+    </p>
+
+    <h3>10.1 Respond to enquiries professionally &amp; qualify leads</h3>
+    <p>
+      The first response should acknowledge the enquiry and establish the next step. Ask questions that help understand whether the product is suitable. Lead qualification helps determine whether an enquiry represents a realistic business opportunity: Is the organization within your target market? Does it have a relevant business problem? Can your product solve it? Is there a realistic budget and appropriate timing?
+    </p>
+
+    <h3>10.2 Prepare clear proposals &amp; follow up without creating pressure</h3>
+    <p>
+      A business proposal should explain the customer’s requirements, the proposed solution, work included, expected deliverables, pricing, timelines, responsibilities, support arrangements and relevant conditions. Follow up at an appropriate interval with additional technical information, answers to outstanding questions or clarification of pricing. Respect the customer’s preferences.
+    </p>
+
+    <h3>10.3 Use a customer relationship management system</h3>
+    <p>
+      A CRM can record contact information, company details, enquiry sources, customer requirements, meetings, proposals, follow-up activities and sales outcomes. Even a small business can benefit from organized customer records. Consider access controls, retention policies and appropriate handling of personal information.
+    </p>
+
+    <!-- 11 -->
+    <h2 id="legal">11. Understand the legal and privacy responsibilities of customer acquisition</h2>
+<p>For current guidance on personal information, see Japan’s <a href="https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/">Personal Information Protection Commission guidelines</a>.</p>
+
+    <p>
+      Customer acquisition involves collecting and using information about potential and existing customers. Japan’s Act on the Protection of Personal Information (APPI) is particularly important when handling personal information. The Personal Information Protection Commission (PPC) publishes official legal texts, guidelines and explanatory materials.
+    </p>
+
+    <h3>11.1 Handle personal information appropriately</h3>
+    <p>
+      Companies should understand what personal information they collect, why they collect it, how it will be used, who can access it, whether it is shared with third parties, how long it is retained and how it is protected. Do not assume that publicly accessible contact information can be used for every marketing purpose without restriction.
+    </p>
+
+    <h3>11.2 Prepare a clear privacy policy &amp; review direct marketing requirements</h3>
+    <p>
+      A business collecting customer information should provide accurate information about its handling of personal data. Email marketing, telephone marketing and other direct marketing activities may be subject to specific legal requirements. Respect opt-out requests and maintain suitable internal procedures. For international businesses, transferring information between countries can introduce additional considerations — obtain qualified legal advice when handling sensitive or complex data arrangements.
+    </p>
+
+    <!-- 12 -->
+    <h2 id="measure">12. Measure customer acquisition performance</h2>
+
+    <p>
+      A business should measure whether its customer acquisition strategy is generating commercially valuable results. Without measurement, it can be difficult to understand which activities deserve additional investment.
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>What it measures</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Website traffic</td>
+          <td>Visitors by channel, page, location, device</td>
+          <td>Useful context, not the ultimate measure of success</td>
+        </tr>
+        <tr>
+          <td>Lead generation</td>
+          <td>Enquiry submissions, consultation requests, demos</td>
+          <td>Review quality, not just quantity</td>
+        </tr>
+        <tr>
+          <td>Lead-to-customer conversion rate</td>
+          <td>(New customers ÷ Leads) × 100</td>
+          <td>Define lead criteria consistently</td>
+        </tr>
+        <tr>
+          <td>Cost per lead</td>
+          <td>Marketing expenditure ÷ Number of leads</td>
+          <td>Does not indicate whether leads become customers</td>
+        </tr>
+        <tr>
+          <td>Customer acquisition cost (CAC)</td>
+          <td>Sales &amp; marketing costs ÷ New customers</td>
+          <td>Include relevant expenses consistently</td>
+        </tr>
+        <tr>
+          <td>Customer lifetime value (CLV/LTV)</td>
+          <td>Economic value over the relationship</td>
+          <td>Compare with acquisition costs using consistent assumptions</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      Track the complete customer journey whenever possible. A visitor may discover a company through Google Search, read an educational article, visit a product page, request a demonstration and eventually sign a contract. Measuring only the first website visit may miss the value of the content and activities that supported the eventual sale.
+    </p>
+
+    <!-- 13 -->
+    <h2 id="mistakes">13. Common customer acquisition mistakes international businesses should avoid</h2>
+
+    <ol>
+      <li><strong>Targeting everyone</strong> — Identify a specific customer segment and understand its needs.</li>
+      <li><strong>Relying entirely on paid advertising</strong> — Combine paid campaigns with useful content, strong product information and an effective sales process.</li>
+      <li><strong>Translating marketing messages without localization</strong> — Use professional localization and validate the message with the target audience.</li>
+      <li><strong>Focusing on website traffic instead of customers</strong> — Track relevant enquiries, qualified opportunities, conversions and revenue.</li>
+      <li><strong>Sending generic business emails</strong> — Understand the recipient’s business and communicate a relevant reason for contact while following applicable laws.</li>
+      <li><strong>Failing to follow up</strong> — Establish a clear enquiry management and follow-up process.</li>
+      <li><strong>Publishing unsupported claims</strong> — Use verified evidence and explain limitations honestly.</li>
+      <li><strong>Ignoring customer retention</strong> — Invest in onboarding, support, customer communication and service quality.</li>
+      <li><strong>Choosing too many marketing channels</strong> — Start with a few relevant channels and expand when evidence justifies additional investment.</li>
+      <li><strong>Failing to measure profitability</strong> — Evaluate acquisition costs, gross margins, customer value and operating expenses.</li>
+    </ol>
+
+    <!-- 14 -->
+    <h2 id="90-day">14. A practical 90-day customer acquisition plan for Japan</h2>
+
+    <p class="note">
+      The following example provides a structured starting point. It is not a guarantee of customer acquisition within 90 days. The actual timeframe depends on industry, product, sales cycle, budget and regulatory requirements.
+    </p>
+
+    <h3>Days 1–30: Build the foundation</h3>
+    <ul>
+      <li><strong>Week 1:</strong> Identify primary customer segment, ideal customer profile, problems solved, purchasing behaviour and competitors.</li>
+      <li><strong>Week 2:</strong> Review English website, identify Japanese localization requirements, prepare a clear Japanese-language service page, improve contact information and enquiry process.</li>
+      <li><strong>Week 3:</strong> Research Japanese search keywords, identify customer questions, create an educational article, prepare product information and FAQ.</li>
+      <li><strong>Week 4:</strong> Configure analytics and Search Console, define conversion actions, prepare lead tracking and establish baseline measurements.</li>
+    </ul>
+
+    <h3>Days 31–60: Generate awareness and interest</h3>
+    <ul>
+      <li><strong>Week 5:</strong> Publish relevant Japanese content, improve internal linking, review technical SEO, monitor indexing.</li>
+      <li><strong>Week 6:</strong> Test paid campaigns with limited keywords, Japanese advertisements, dedicated landing pages and a controlled budget. Monitor enquiry quality.</li>
+      <li><strong>Week 7:</strong> Research potential partners, explore JETRO business matching, identify industry events, prepare introduction materials.</li>
+      <li><strong>Week 8:</strong> Identify suitable prospects, research their activities, prepare relevant introductions, contact through appropriate channels and record responses.</li>
+    </ul>
+
+    <h3>Days 61–90: Convert and improve</h3>
+    <ul>
+      <li><strong>Week 9:</strong> Respond to enquiries, arrange consultations, conduct demonstrations, understand requirements and identify qualified opportunities.</li>
+      <li><strong>Week 10:</strong> Review landing page performance, improve product explanations, answer common objections, refine pricing communication.</li>
+      <li><strong>Week 11:</strong> Review meetings, prepare proposals, follow up appropriately, record purchasing concerns.</li>
+      <li><strong>Week 12:</strong> Analyze traffic sources, review qualified leads, calculate acquisition costs, identify effective channels and prepare the next 90-day plan.</li>
+    </ul>
+
+    <!-- 15 -->
+    <h2 id="checklist">15. Customer acquisition readiness checklist</h2>
+
+    <h3>Customer research</h3>
+    <ul class="checklist">
+      <li>Target customer clearly defined</li>
+      <li>Customer problems documented</li>
+      <li>Competitors researched</li>
+      <li>Purchasing process investigated</li>
+      <li>Customer acquisition objectives established</li>
+    </ul>
+
+    <h3>Website and localization</h3>
+    <ul class="checklist">
+      <li>Japanese-language website reviewed</li>
+      <li>Service pages prepared</li>
+      <li>Product information localized</li>
+      <li>Contact information visible</li>
+      <li>Enquiry process tested</li>
+      <li>Mobile usability reviewed</li>
+    </ul>
+
+    <h3>Marketing channels</h3>
+    <ul class="checklist">
+      <li>Japanese SEO strategy prepared</li>
+      <li>Paid search opportunities evaluated</li>
+      <li>Relevant social media platforms selected</li>
+      <li>Business matching opportunities researched</li>
+      <li>Relevant exhibitions investigated</li>
+      <li>Partnership opportunities evaluated</li>
+    </ul>
+
+    <h3>Sales readiness</h3>
+    <ul class="checklist">
+      <li>Enquiry response process established</li>
+      <li>Lead qualification criteria defined</li>
+      <li>Demonstration process prepared</li>
+      <li>Proposal templates available</li>
+      <li>Follow-up responsibilities assigned</li>
+      <li>CRM or lead tracking system prepared</li>
+    </ul>
+
+    <h3>Trust and compliance</h3>
+    <ul class="checklist">
+      <li>Company information accurate</li>
+      <li>Experience and testimonials verified</li>
+      <li>Privacy policy reviewed</li>
+      <li>Customer information handling assessed</li>
+      <li>Marketing communication practices reviewed</li>
+      <li>Customer support responsibilities defined</li>
+    </ul>
+
+    <h3>Measurement</h3>
+    <ul class="checklist">
+      <li>Website analytics configured</li>
+      <li>Search performance monitored</li>
+      <li>Conversion actions defined</li>
+      <li>Lead sources recorded</li>
+      <li>Customer acquisition costs evaluated</li>
+      <li>Sales outcomes reviewed</li>
+    </ul>
+
+    <!-- 16 -->
+    <h2 id="faq">16. Frequently asked questions about customer acquisition in Japan</h2>
+
+    <div class="faq-item">
+      <h3>1. How can an international company find its first customers in Japan?</h3>
+      <p>Begin by identifying a specific customer segment and researching its problems. Then develop a suitable Japanese-language digital presence, approach relevant business partners, investigate industry events and conduct controlled marketing activities. For B2B companies, direct business development and partnerships may be particularly useful alongside SEO and advertising.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>2. Is SEO effective for acquiring customers in Japan?</h3>
+      <p>SEO can help businesses reach people actively searching for relevant products, services and solutions. Its effectiveness depends on keyword relevance, content quality, competition, technical website performance and the ability to convert visitors into enquiries or purchases. Treat SEO as a long-term acquisition channel rather than an immediate sales guarantee.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>3. Should international businesses use Google Ads in Japan?</h3>
+      <p>Google Ads can be useful for reaching customers searching for relevant products and services. Research Japanese keywords, prepare appropriate landing pages and establish conversion tracking before investing substantial advertising budgets.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>4. Is social media important for customer acquisition in Japan?</h3>
+      <p>Social media can support awareness, education, customer communication and brand development. Its importance depends on the target audience and industry. Select platforms based on customer behaviour rather than assuming every platform is necessary.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>5. How can a foreign B2B company find Japanese business partners?</h3>
+      <p>Investigate JETRO’s business matching resources, industry associations, trade exhibitions and relevant professional networks. Evaluate potential partners carefully before entering commercial agreements.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>6. Are trade exhibitions useful for acquiring Japanese customers?</h3>
+      <p>They can be particularly valuable for industries where products require demonstrations, technical discussions or direct evaluation. Prepare before attending and establish a follow-up process for potential customers.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>7. Do Japanese customers require Japanese-language customer support?</h3>
+      <p>Requirements vary by customer and industry. Businesses targeting Japanese-speaking customers should carefully consider how they will provide product information, answer questions and handle support requests — and clearly communicate what they can actually provide.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>8. How much should a company spend on customer acquisition in Japan?</h3>
+      <p>There is no universal marketing budget. The appropriate investment depends on the business model, customer value, competition, sales cycle and available resources. Begin with a controlled budget, measure results and increase investment when there is evidence of commercially sustainable performance.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>9. How long does it take to acquire customers in Japan?</h3>
+      <p>The timeframe varies considerably. Some consumer products can generate online purchases relatively quickly. B2B services involving technical evaluation, multiple decision-makers and contractual agreements may require a much longer sales process. Establish realistic expectations based on your industry.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>10. What is the difference between lead generation and customer acquisition?</h3>
+      <p>Lead generation focuses on attracting potential customers and collecting expressions of interest. Customer acquisition covers the wider process of turning those potential customers into paying customers. A successful lead generation campaign does not necessarily produce successful customer acquisition.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>11. What is customer acquisition cost?</h3>
+      <p>Customer acquisition cost is the amount a company spends to acquire a new customer. It can include relevant sales and marketing expenses divided by the number of customers acquired during a defined period. Use consistent calculations and include relevant costs.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>12. Should a new company prioritize SEO or paid advertising?</h3>
+      <p>It depends on objectives and resources. Paid advertising may help test demand and generate immediate visibility. SEO can develop long-term organic visibility. Many businesses benefit from using both, provided they have appropriate measurement and realistic expectations.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>13. Can educational content generate business enquiries?</h3>
+      <p>Yes. Educational content can help potential customers understand problems, compare solutions and discover a company’s expertise. The content must address genuine customer needs and provide value even when the reader is not immediately ready to purchase.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>14. How important are customer reviews and testimonials?</h3>
+      <p>Verified reviews and testimonials can help potential customers evaluate a business. They should be genuine, accurate and published with appropriate permission. Never fabricate customer experiences or manipulate reviews.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>15. What should a company measure when evaluating customer acquisition?</h3>
+      <p>Useful measurements include relevant website traffic, qualified enquiries, cost per lead, lead-to-customer conversion rate, customer acquisition cost, revenue generated, gross margin, customer retention and customer lifetime value. The most important measurements depend on the company’s business model.</p>
+    </div>
+
+    <hr class="section-divider">
+
+    <h2>Conclusion: Build a customer acquisition system, not just a marketing campaign</h2>
+
+    <p>
+      Acquiring customers in Japan requires a clear understanding of the market, the target audience and the purchasing process. International companies should not expect a website, an advertising campaign or a social media account to generate sustainable business automatically.
+    </p>
+
+    <p>
+      Successful customer acquisition involves several connected activities: identifying suitable customers, communicating value, providing useful information, establishing credibility, responding professionally and supporting customers throughout the purchasing process. Select marketing channels according to the business model — for some companies Japanese SEO and educational content matter most; for others, direct business development, industry exhibitions, distributors and strategic partnerships may be more effective.
+    </p>
+
+    <p>
+      The most important principle is to measure actual commercial outcomes. Website visits, advertising clicks and social media engagement can provide useful information, but they are not substitutes for qualified opportunities, paying customers and sustainable revenue.
+    </p>
+
+    <p class="lead">
+      The objective is not simply to find Japanese customers. It is to build a reliable process through which the right customers discover your business, understand its value, choose your solution and continue working with you.
+    </p>
+
+    <p class="note">
+      <strong>Editorial note:</strong> This article provides general educational information for international businesses considering customer acquisition in Japan. It is not legal, tax, financial or professional marketing advice. Marketing regulations, privacy requirements, platform policies and business conditions may change. Readers should verify applicable requirements and consult qualified professionals where necessary. Primary references include METI ecommerce market survey data, JETRO business matching resources, the Personal Information Protection Commission, and Google Ads conversion documentation.
+    </p>
+
+  <h2>Related Japan guides</h2><ul><li><a href="/how-to-enter-japanese-market.html">How to Enter the Japanese Market</a></li><li><a href="/building-credibility-foreign-company-japan.html">Building Credibility as a Foreign Company in Japan</a></li><li><a href="/seo-in-japan.html">SEO in Japan</a></li></ul>
+</main>
+
+  <footer class="site">
+    <p>© Shashikant · Marketing Intelligence · Updated November 2026</p>
+    <p>This page is an independent educational resource. It is not an agency offer, acquisition guarantee or consultancy solicitation.</p>
+  <p><a href="/privacy.html">Privacy policy</a></p>
+</footer>
+</body>
+</html>

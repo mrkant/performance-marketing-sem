@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Building Credibility as a Foreign Company in Japan | shashikant.jp</title>
+  <meta name="description" content="A practical guide for international businesses on how to build trust and credibility with Japanese customers, partners and decision-makers without over-claiming or creating false impressions.">
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --ink: #1b2438;
+      --muted: #4f586d;
+      --accent: #0f6b73;
+      --gold: #9a6a12;
+      --card: #fff;
+      --line: #dde1ec;
+      --tint: #e8f3f4;
+      --tintgold: #fbf1dc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 17.5px / 1.75 system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", Roboto, sans-serif;
+      border-top: 6px solid var(--accent);
+    }
+    header.site {
+      display: flex; align-items: center; justify-content: space-between;
+      max-width: 64rem; margin: 0 auto; padding: 0.85rem 1.25rem;
+      background: #fff; border-bottom: 1px solid var(--line);
+      position: sticky; top: 0; z-index: 50;
+    }
+    header.site .brand { font-weight: 700; font-size: 1.05rem; color: var(--ink); text-decoration: none; }
+    header.site .menu { display: flex; gap: 0.35rem; align-items: center; flex-wrap: wrap; }
+    header.site .menu details { position: relative; }
+    header.site .menu summary {
+      list-style: none; cursor: pointer; padding: 0.35rem 0.7rem;
+      border-radius: 6px; font-size: 0.92rem; color: var(--ink);
+    }
+    header.site .menu summary::-webkit-details-marker { display: none; }
+    header.site .menu summary::after { content: " ▾"; font-size: 0.7em; opacity: 0.6; }
+    header.site .menu .panel {
+      position: absolute; top: 100%; left: 0; background: #fff;
+      border: 1px solid var(--line); border-radius: 10px; padding: 0.5rem;
+      min-width: 14rem; box-shadow: 0 8px 24px rgba(0,0,0,0.08); z-index: 60;
+    }
+    header.site .menu .panel a {
+      display: block; padding: 0.4rem 0.7rem; color: var(--ink);
+      text-decoration: none; border-radius: 6px; font-size: 0.9rem;
+    }
+    header.site .menu .panel a:hover { background: var(--tint); }
+    header.site .toolslink {
+      background: var(--accent); color: #fff !important; padding: 0.4rem 1rem;
+      border-radius: 999px; font-size: 0.9rem; font-weight: 600;
+      text-decoration: none; margin-left: 0.4rem;
+    }
+    main { max-width: 48rem; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
+    nav.crumb { font-size: 0.9rem; margin: 0 0 0.75rem; }
+    nav.crumb a { color: var(--accent); text-decoration: none; }
+    nav.crumb a + a::before { content: " › "; color: var(--muted); margin: 0 0.15em; pointer-events: none; }
+    h1, h2, h3, h4 {
+      font-family: Charter, Georgia, "Times New Roman", serif;
+      line-height: 1.25; letter-spacing: -0.01em; color: var(--ink);
+    }
+    h1 { font-size: 2.35rem; margin: 0.4rem 0 0.75rem; font-weight: 700; }
+    h2 { font-size: 1.55rem; margin: 2.6rem 0 0.9rem; padding-top: 0.4rem; }
+    h3 { font-size: 1.2rem; margin: 1.8rem 0 0.6rem; }
+    h4 { font-size: 1.05rem; margin: 1.4rem 0 0.5rem; }
+    p { margin: 0 0 1.15rem; }
+    a { color: var(--accent); }
+    .byline {
+      display: inline-block; font-size: 0.85rem; color: var(--muted);
+      background: var(--card); border: 1px solid var(--line); border-radius: 999px;
+      padding: 0.25rem 0.9rem; margin: 0 0 1.5rem;
+    }
+    .stats {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+      gap: 0.8rem; margin: 1.2rem 0 0.9rem;
+    }
+    .stat {
+      background: var(--card); border-radius: 14px; padding: 0.95rem 1rem;
+      border-top: 4px solid var(--accent);
+    }
+    .stat b {
+      display: block; font: 800 1.5rem Charter, Georgia, serif;
+      color: var(--accent); line-height: 1.15;
+    }
+    .stat span { font-size: 0.82rem; color: var(--muted); display: block; margin-top: 0.25rem; }
+    .chips {
+      list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem;
+      padding: 0; margin: 0 0 1.6rem;
+    }
+    .chips li {
+      background: var(--tint); color: var(--accent); font-size: 0.8rem;
+      font-weight: 700; padding: 0.28rem 0.8rem; border-radius: 999px;
+    }
+    .chips li::before { content: "✓ "; }
+    .lead {
+      font-size: 1.2rem; color: var(--muted); border-left: 4px solid var(--gold);
+      padding-left: 1rem; margin: 1.2rem 0 1.6rem;
+    }
+    .note {
+      font-size: 0.92rem; color: var(--muted); background: var(--card);
+      border-left: 5px solid var(--gold); border-radius: 8px;
+      padding: 0.85rem 1.1rem; margin: 1.5rem 0;
+    }
+    .note strong { color: var(--ink); }
+    ul, ol { margin: 0 0 1.3rem; padding-left: 1.35rem; }
+    li { margin-bottom: 0.35rem; }
+    table {
+      width: 100%; border-collapse: collapse; margin: 1.2rem 0 1.6rem;
+      font-size: 0.95rem; background: var(--card); border-radius: 10px;
+      overflow: hidden; border: 1px solid var(--line);
+    }
+    th, td {
+      padding: 0.7rem 0.9rem; text-align: left;
+      border-bottom: 1px solid var(--line); vertical-align: top;
+    }
+    th { background: var(--tint); font-weight: 700; color: var(--ink); font-size: 0.88rem; }
+    tbody tr:nth-child(even) { background: #fafbfd; }
+    tbody tr:hover { background: var(--tintgold); }
+    tr:last-child td { border-bottom: 0; }
+    .toc {
+      background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+      padding: 1.1rem 1.3rem; margin: 1.8rem 0 2rem;
+    }
+    .toc strong { display: block; margin-bottom: 0.5rem; font-size: 0.95rem; }
+    .toc ol { margin: 0; padding-left: 1.2rem; columns: 2; column-gap: 1.5rem; }
+    .toc li { margin-bottom: 0.25rem; font-size: 0.9rem; break-inside: avoid; }
+    .toc a { text-decoration: none; color: var(--ink); }
+    .toc a:hover { color: var(--accent); }
+    .checklist { list-style: none; padding: 0; }
+    .checklist li { position: relative; padding-left: 1.6rem; margin-bottom: 0.45rem; }
+    .checklist li::before { content: "☐"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+    .section-divider { border: 0; border-top: 1px solid var(--line); margin: 2.8rem 0; }
+    .faq-item { margin-bottom: 1.4rem; }
+    .faq-item h3 { margin: 0 0 0.35rem; font-size: 1.1rem; }
+    footer.site {
+      max-width: 48rem; margin: 0 auto; padding: 2rem 1.25rem 3rem;
+      font-size: 0.88rem; color: var(--muted); border-top: 1px solid var(--line);
+    }
+    @media (max-width: 640px) {
+      h1 { font-size: 1.75rem; }
+      .toc ol { columns: 1; }
+      header.site { flex-wrap: wrap; gap: 0.5rem; }
+      header.site .menu { width: 100%; }
+    }
+  </style>
+<link rel="canonical" href="https://shashikant.jp/building-credibility-foreign-company-japan.html">
+<meta name="referrer" content="origin">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://shashikant.jp/building-credibility-foreign-company-japan.html">
+<meta property="og:title" content="Building Credibility as a Foreign Company in Japan | shashikant.jp">
+<meta property="og:description" content="A practical guide for international businesses on how to build trust and credibility with Japanese customers, partners and decision-makers without over-claiming or creating false impressions.">
+<meta name="twitter:card" content="summary">
+<script src="/assets/js/analytics-consent.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Building Credibility as a Foreign Company in Japan","description":"A practical guide for international businesses on how to build trust and credibility with Japanese customers, partners and decision-makers without over-claiming or creating false impressions.","inLanguage":"en","mainEntityOfPage":"https://shashikant.jp/building-credibility-foreign-company-japan.html","author":{"@type":"Person","name":"Shashi Kant","url":"https://shashikant.jp/"}}</script>
+<style>main a{text-decoration:underline}a:focus-visible,button:focus-visible{outline:2px solid #0f6b73;outline-offset:3px}main table{display:block;overflow-x:auto}html{scroll-padding-top:8rem}</style>
+</head>
+<body>
+  <header class="site"><a class="brand" href="/">Shashi Kant</a><nav class="menu" aria-label="Main navigation"><a href="/marketing-intelligence/">Marketing Intelligence</a> · <a href="/search.html">Search</a></nav></header>
+
+  <main id="main-content">
+    <nav class="crumb">
+      <a href="https://shashikant.jp/marketing-intelligence/">Marketing Intelligence</a>
+      <span aria-current="page">Building Credibility in Japan</span>
+    </nav>
+
+    <h1>Building Credibility as a Foreign Company in Japan</h1>
+
+
+    <p class="byline">
+      By Shashikant · Updated November 2026 · about 14 min read
+    </p>
+
+    <div class="stats">
+      <div class="stat">
+        <b>Trust first</b>
+        <span>Credibility often precedes serious evaluation</span>
+      </div>
+      <div class="stat">
+        <b>Evidence over claims</b>
+        <span>Show what you can actually deliver</span>
+      </div>
+      <div class="stat">
+        <b>Transparency</b>
+        <span>Clear limits build more confidence than vague promises</span>
+      </div>
+      <div class="stat">
+        <b>Long-term</b>
+        <span>Credibility compounds through consistent delivery</span>
+      </div>
+    </div>
+
+    <ul class="chips">
+      <li>Practical, independent guide</li>
+      <li>No over-claiming</li>
+      <li>Updated November 2026</li>
+    </ul>
+
+    <p class="note">
+      <strong>Scope:</strong> This guide describes common evaluation questions. The questions that matter depend on the buyer, industry and purchase. The worked examples are illustrative.</p>
+
+    <p class="lead">
+      A practical guide for international businesses on how to build trust and credibility with Japanese customers, partners and decision-makers — without over-claiming, inventing experience, or creating false impressions.
+    </p>
+
+    <p>
+      For many foreign companies, the hardest part of entering Japan is not finding potential customers. It is being taken seriously by them.
+    </p>
+
+    <p>
+      Japanese companies and professionals often evaluate overseas suppliers carefully. They look for signs that the company is reliable, capable of supporting them over time, and realistic about what it can deliver. A polished website and confident marketing language are rarely enough on their own.
+    </p>
+
+    <p>
+      Credibility is built through a combination of clear information, consistent behaviour, verifiable experience, and honest communication about limitations. This guide explains practical ways international businesses can strengthen that credibility.
+    </p>
+
+    <h2 id="worked-evidence">What credible evidence looks like in practice</h2>
+<p><strong>Illustrative contact page.</strong> A warehouse software vendor lists its legal name, names the team responsible for Japanese enquiries and states the hours that team actually covers in Japan time. It explains how operational issues are escalated. A buyer can use those details to check whether support will work for an overnight warehouse shift. A Tokyo address alone cannot answer that operational question.</p>
+<p><strong>Illustrative partner evidence pack.</strong> A prospective distributor receives a sample product specification, a dated support process, the returns workflow, and a case summary approved for sharing. The case identifies the market, the work performed and what was measured. It says openly where the company lacks Japanese operating experience. The distributor can use the pack to decide which claims it can repeat to customers and which require a local pilot.</p>
+<p>Choose proof for the decision at hand. Procurement may want contract and support evidence. A channel partner may want a returns process and inventory commitments. A prospective customer may need a Japanese product demo.</p>
+<div class="toc">
+      <strong>Contents</strong>
+      <ol>
+        <li><a href="#why-credibility">Why credibility matters more than many expect</a></li>
+        <li><a href="#what-buyers-look-for">What Japanese buyers often look for</a></li>
+        <li><a href="#company-information">Make company information clear and accurate</a></li>
+        <li><a href="#experience">Present experience honestly</a></li>
+        <li><a href="#localisation">Localisation as a credibility signal</a></li>
+        <li><a href="#support">Support and communication reliability</a></li>
+        <li><a href="#evidence">Evidence, case studies and proof</a></li>
+        <li><a href="#common-mistakes">Common credibility mistakes</a></li>
+        <li><a href="#practical-steps">Practical steps to strengthen credibility</a></li>
+        <li><a href="#checklist">Credibility checklist</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <!-- 1 -->
+    <h2 id="why-credibility">1. Why credibility matters more than many expect</h2>
+
+    <p>
+      For a Japanese retailer adopting software for a critical workflow, procurement may need evidence that the vendor can provide reliable support, handle incidents and keep the service operating after purchase. The weight of each factor depends on the contract and the consequences of downtime.
+    </p>
+
+    <p>
+      Potential customers may worry about:
+    </p>
+    <ul>
+      <li>Whether the company will still support them in two or three years</li>
+      <li>Whether Japanese-language communication will be reliable</li>
+      <li>Whether implementation problems will be handled properly</li>
+      <li>Whether the company understands local business practices</li>
+      <li>Whether promises made in sales conversations will match reality</li>
+    </ul>
+
+    <p>
+      These concerns are rational. Switching suppliers, integrating systems, or depending on a foreign partner for critical operations carries risk. Credibility is one of the main ways buyers reduce that perceived risk.
+    </p>
+
+    <!-- 2 -->
+    <h2 id="what-buyers-look-for">2. What Japanese buyers often look for</h2>
+
+    <p>
+      While every industry and company is different, certain signals appear repeatedly in how Japanese organisations evaluate overseas suppliers:
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Area</th>
+          <th>What buyers often examine</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Company substance</td>
+          <td>Clear identity, history, location, and who is behind the business</td>
+        </tr>
+        <tr>
+          <td>Relevant experience</td>
+          <td>Evidence that the company has solved similar problems before</td>
+        </tr>
+        <tr>
+          <td>Local readiness</td>
+          <td>Japanese-language materials, support arrangements, and realistic communication</td>
+        </tr>
+        <tr>
+          <td>Transparency</td>
+          <td>Clear pricing logic, scope of work, and what is not included</td>
+        </tr>
+        <tr>
+          <td>Consistency</td>
+          <td>Alignment between website claims, sales conversations, and delivery</td>
+        </tr>
+        <tr>
+          <td>Responsiveness</td>
+          <td>How quickly and carefully the company responds to questions</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      No single element guarantees trust. Credibility usually accumulates from several consistent signals over time.
+    </p>
+
+    <!-- 3 -->
+    <h2 id="company-information">3. Make company information clear and accurate</h2>
+
+    <p>
+      One of the simplest and most effective steps is to remove ambiguity about who the company is.
+    </p>
+
+    <h3>3.1 Essential information that should be easy to find</h3>
+    <ul>
+      <li>Legal company name and, if different, the name used in Japan</li>
+      <li>Country of incorporation and main operating location</li>
+      <li>Clear description of what the company actually does</li>
+      <li>Key people or management (with real backgrounds, not invented ones)</li>
+      <li>Contact methods that work</li>
+      <li>Privacy and data-handling information where relevant</li>
+    </ul>
+
+    <p>
+      Vague statements such as “a global leader in innovative solutions” without supporting substance tend to reduce rather than increase confidence.
+    </p>
+
+    <h3>3.2 Be transparent about the stage of Japan presence</h3>
+    <p>
+      If the company is new to Japan, it is usually better to say so clearly than to imply a long local history that does not exist. Many Japanese buyers respect companies that are honest about their current stage and realistic about their support capacity.
+    </p>
+
+    <p class="note">
+      <strong>Practical principle:</strong> It is better to be a clearly competent foreign company than to appear as a vaguely “local” company whose actual capabilities are unclear.
+    </p>
+
+    <!-- 4 -->
+    <h2 id="experience">4. Present experience honestly</h2>
+
+    <p>
+      Experience is one of the strongest credibility signals — when it is real and relevant.
+    </p>
+
+    <h3>4.1 Relevant experience vs inflated claims</h3>
+    <p>
+      Useful experience is experience that helps the Japanese customer believe the company can solve their specific type of problem. Inflated or vaguely worded claims (“trusted by leading companies worldwide”) without context often create more questions than confidence.
+    </p>
+
+    <h3>4.2 How to present international experience usefully</h3>
+    <ul>
+      <li>Describe the type of problem solved, not just the client’s fame</li>
+      <li>Explain what was delivered and what the outcome was (within permission limits)</li>
+      <li>Note any similarities or differences that matter for a Japanese context</li>
+      <li>Avoid implying that work done entirely outside Japan was performed in Japan</li>
+    </ul>
+
+    <h3>4.3 When you have limited Japan experience</h3>
+    <p>
+      Many capable companies enter Japan with strong track records elsewhere but little or no local project history. In these cases, credibility is built by:
+    </p>
+    <ul>
+      <li>Being transparent about the current stage</li>
+      <li>Showing deep understanding of the customer’s problem</li>
+      <li>Demonstrating readiness to support Japanese-language communication and implementation</li>
+      <li>Starting with carefully scoped engagements rather than over-promising large transformations</li>
+    </ul>
+
+    <!-- 5 -->
+    <h2 id="localisation">5. Localisation as a credibility signal</h2>
+
+    <p>
+      Localisation is not only a usability issue. It is also a credibility signal. A carefully localised Japanese website, accurate product explanations, and professional language review communicate that the company has invested attention in the market.
+    </p>
+
+    <p>
+      Conversely, machine-translated pages with awkward phrasing, incorrect terminology, or broken forms can create an early impression of carelessness — even if the underlying product is strong.
+    </p>
+
+    <p>
+      Key areas that affect perceived seriousness:
+    </p>
+    <ul>
+      <li>Quality of Japanese language (grammar, natural expression, industry terms)</li>
+      <li>Clarity of product and service explanations</li>
+      <li>Working contact forms and response processes</li>
+      <li>Accurate information about support hours and languages</li>
+      <li>Consistent naming of the company and products</li>
+    </ul>
+
+    <p>
+      For deeper guidance on localisation and SEO considerations, see <a href="seo-in-japan.html">SEO in Japan</a> and <a href="how-to-enter-japanese-market.html">How to Enter the Japanese Market</a>.
+    </p>
+
+    <!-- 6 -->
+    <h2 id="support">6. Support and communication reliability</h2>
+
+    <p>
+      Many credibility problems appear after the first enquiry. Slow, unclear, or inconsistent responses can undermine even a strong initial impression.
+    </p>
+
+    <h3>6.1 Set realistic response expectations</h3>
+    <p>
+      It is better to state a realistic response time that the company can meet than to promise same-day replies it cannot sustain. Consistency matters more than speed alone.
+    </p>
+
+    <h3>6.2 Language of support</h3>
+    <p>
+      If Japanese-language support is available only during limited hours or through a specific channel, say so clearly. Overstating support capability is one of the faster ways to damage trust once real questions arise.
+    </p>
+
+    <h3>6.3 Handling difficult questions</h3>
+    <p>
+      A procurement or IT team evaluating a critical supplier may ask for specific answers about implementation, data handling, incidents and support. Companies that answer carefully and admit what they do not yet know usually create more confidence than those that give polished but vague answers.
+    </p>
+
+    <!-- 7 -->
+    <h2 id="evidence">7. Evidence, case studies and proof</h2>
+
+    <p>
+      Evidence is powerful when it is specific, permitted, and relevant. It becomes counterproductive when it is exaggerated or difficult to verify.
+    </p>
+
+    <h3>7.1 Principles for using case studies</h3>
+    <ul>
+      <li>Obtain proper permission before naming clients or sharing detailed results</li>
+      <li>Describe the situation, approach, and outcome with enough context to be meaningful</li>
+      <li>Acknowledge limitations and what was outside the scope of the work</li>
+      <li>Prefer accurate anonymised examples over inflated named ones when permission is limited</li>
+    </ul>
+
+    <h3>7.2 Other forms of useful evidence</h3>
+    <ul>
+      <li>Clear product documentation</li>
+      <li>Transparent methodology or process descriptions</li>
+      <li>Relevant certifications or qualifications (only if genuine)</li>
+      <li>Consistent public information across website, LinkedIn, and other channels</li>
+    </ul>
+
+    <p>
+      Invented testimonials, borrowed logos without permission, or fabricated performance numbers destroy credibility when discovered — and the risk of discovery is higher than many companies assume.
+    </p>
+
+    <!-- 8 -->
+    <h2 id="common-mistakes">8. Common credibility mistakes foreign companies make</h2>
+
+    <ol>
+      <li><strong>Overstating Japan experience</strong> — Implying local projects or presence that do not exist.</li>
+      <li><strong>Vague global claims</strong> — “Trusted by leading companies worldwide” without substance.</li>
+      <li><strong>Poor Japanese language quality</strong> — Creating an early impression of carelessness.</li>
+      <li><strong>Promising support that cannot be delivered</strong> — Especially around language and response times.</li>
+      <li><strong>Inconsistent information</strong> — Different company descriptions, names, or claims across pages and materials.</li>
+      <li><strong>Ignoring follow-up quality</strong> — Strong marketing followed by slow or unclear responses.</li>
+      <li><strong>Using unverified social proof</strong> — Testimonials or logos that cannot be substantiated.</li>
+      <li><strong>Treating credibility as a one-time website task</strong> — Rather than an ongoing pattern of behaviour.</li>
+    </ol>
+
+    <!-- 9 -->
+    <h2 id="practical-steps">9. Practical steps to strengthen credibility</h2>
+
+    <h3>Short-term actions (usable within weeks)</h3>
+    <ul>
+      <li>Audit the Japanese website for clarity, accuracy, and language quality</li>
+      <li>Make company identity and contact information easy to find</li>
+      <li>Write honest descriptions of current Japan presence and support capacity</li>
+      <li>Prepare clear answers to common evaluation questions (implementation, support, data, pricing logic)</li>
+      <li>Ensure enquiry response processes are reliable</li>
+    </ul>
+
+    <h3>Medium-term actions</h3>
+    <ul>
+      <li>Develop accurate case studies or anonymised examples with proper permission</li>
+      <li>Improve product documentation and Japanese-language materials</li>
+      <li>Align messaging across website, proposals, and sales conversations</li>
+      <li>Build relationships with relevant professional networks or partners where appropriate</li>
+    </ul>
+
+    <h3>Longer-term actions</h3>
+    <ul>
+      <li>Deliver consistently on the promises made in early engagements</li>
+      <li>Collect and, where permitted, share genuine feedback</li>
+      <li>Refine support and communication processes based on real customer experience</li>
+      <li>Treat every interaction as part of the credibility record</li>
+    </ul>
+
+    <!-- 10 -->
+    <h2 id="checklist">10. Credibility checklist for foreign companies</h2>
+
+    <h3>Company identity</h3>
+    <ul class="checklist">
+      <li>Legal and operating names are clear</li>
+      <li>Location and corporate background are easy to find</li>
+      <li>Key people or management are described accurately</li>
+      <li>Contact methods work and are monitored</li>
+    </ul>
+
+    <h3>Experience and claims</h3>
+    <ul class="checklist">
+      <li>Experience claims are specific and verifiable</li>
+      <li>Japan-related claims match actual history</li>
+      <li>No invented testimonials or unauthorised logos</li>
+      <li>Limitations are acknowledged where relevant</li>
+    </ul>
+
+    <h3>Local readiness</h3>
+    <ul class="checklist">
+      <li>Japanese-language materials are professionally reviewed</li>
+      <li>Support language and hours are stated accurately</li>
+      <li>Enquiry and response processes are reliable</li>
+      <li>Product explanations are understandable to the target audience</li>
+    </ul>
+
+    <h3>Consistency</h3>
+    <ul class="checklist">
+      <li>Website, proposals, and conversations tell the same story</li>
+      <li>Public information is consistent across channels</li>
+      <li>Promises made in sales are deliverable in operations</li>
+    </ul>
+
+    <!-- 11 -->
+    <h2 id="faq">11. Frequently asked questions</h2>
+
+    <div class="faq-item">
+      <h3>1. Do Japanese companies only work with companies that already have local experience?</h3>
+      <p>No. Many Japanese organisations work with capable foreign suppliers. However, they often evaluate risk more carefully when local track record is limited. Transparency and demonstrated readiness matter a great deal in these cases.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>2. Is it better to hide the fact that we are new to Japan?</h3>
+      <p>Usually no. Attempting to appear more established than the company actually is tends to create problems later. Clear communication about the current stage, combined with strong problem understanding and reliable support, is generally more effective.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>3. How important is Japanese-language support for credibility?</h3>
+      <p>It depends on the customer and the product. For many Japanese-speaking buyers, the ability to communicate and receive support in Japanese is a significant factor. What matters most is that the company is accurate about the level of support it can actually provide.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>4. Can strong content and SEO create credibility on their own?</h3>
+      <p>High-quality educational content can help demonstrate expertise and seriousness. However, credibility is ultimately tested through real interactions, delivery, and consistency. Content is one important signal among several. See also <a href="seo-in-japan.html">SEO in Japan</a> and <a href="customer-acquisition-japan.html">Customer Acquisition in Japan</a>.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>5. Should we use customer logos and testimonials?</h3>
+      <p>Only with proper permission and when the representation is accurate. Unauthorised or exaggerated social proof is a common way companies damage their own credibility.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>6. How long does it take to build credibility in Japan?</h3>
+      <p>There is no fixed timeline. Some companies build sufficient trust for initial projects relatively quickly through clear communication and careful early delivery. Broader market reputation usually takes longer and is built through consistent performance.</p>
+    </div>
+
+    <hr class="section-divider">
+
+    <h2>Conclusion: Credibility is built through consistency, not claims</h2>
+
+    <p>
+      For foreign companies entering Japan, credibility is rarely created by a single impressive statement or a polished website. It accumulates from many smaller signals: clear identity, honest presentation of experience, careful language, reliable responses, and delivery that matches what was promised.
+    </p>
+
+    <p>
+      The most durable approach is also the simplest: be accurate about who you are, what you have done, what you can support, and what you are still learning. Japanese buyers are often willing to work with capable overseas companies. They are less willing to work with companies whose claims and reality diverge.
+    </p>
+
+    <p class="lead">
+      Trust is not claimed. It is demonstrated over time through clarity, consistency and care.
+    </p>
+
+    <p class="note">
+      <strong>Limitations of this guide:</strong> This article provides general educational information only. It is not legal, commercial or professional advice. Expectations and evaluation criteria vary by industry, company size and specific situation. Readers should verify current practices in their target sector and seek qualified advice where needed. The content does not guarantee commercial success or any particular outcome.
+    </p>
+
+    <p class="note">
+      Related guides: <a href="how-to-enter-japanese-market.html">How to Enter the Japanese Market</a> · <a href="customer-acquisition-japan.html">Customer Acquisition in Japan</a> · <a href="seo-in-japan.html">SEO in Japan</a>
+    </p>
+
+  <h2>Related Japan guides</h2><ul><li><a href="/how-to-enter-japanese-market.html">How to Enter the Japanese Market</a></li><li><a href="/customer-acquisition-japan.html">Customer Acquisition in Japan</a></li><li><a href="/seo-in-japan.html">SEO in Japan</a></li></ul>
+</main>
+
+  <footer class="site">
+    <p>© Shashikant · Marketing Intelligence · Updated November 2026</p>
+    <p>This page is an independent educational resource. It is not an agency offer or consultancy solicitation.</p>
+  <p><a href="/privacy.html">Privacy policy</a></p>
+</footer>
+</body>
+</html>
