@@ -37,6 +37,10 @@
 
   gtag('config', 'G-L3MNSKHPTR');
 </script>
+  <style>
+    #search-more { margin-top: 12px; }
+    #search-more[hidden] { display: none; }
+  </style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -60,7 +64,66 @@
     </nav>
   </div>
 </header>
-<main id="main"><section class="page-hero search-hero"><div class="shell reveal"><p class="eyebrow">Search</p><h1>Search the Growth Journey</h1><p>Find pages, experience themes, services, skills, companies, career stages and writing topics across this site.</p></div></section><section class="search-app-section"><div class="shell"><div class="search-app reveal" data-search-app><div class="search-input-wrap"><label for="site-search">Search this site</label><input id="site-search" type="search" placeholder="Try SEO, ecommerce, Japan, Google Play, IBM, resume or services" autocomplete="off"></div><div class="popular-searches" aria-label="Popular searches"><button type="button" data-query="SEO">SEO</button><button type="button" data-query="ecommerce">ecommerce</button><button type="button" data-query="Japan">Japan</button><button type="button" data-query="Google Play">Google Play</button><button type="button" data-query="resume">resume</button><button type="button" data-query="services">services</button><button type="button" data-query="agency coordination">agency coordination</button></div><div class="filter-row"><select id="type-filter" aria-label="Filter by type"><option value="All">All types</option><option value="Page">Pages</option><option value="Experience">Experience</option><option value="Service">Services</option><option value="Selected Work">Selected Work</option></select><select id="status-filter" aria-label="Filter by status"><option value="All">All status</option><option value="Live">Live</option><option value="Coming Soon">Coming Soon</option><option value="Work in Progress">Work in Progress</option></select><select id="topic-filter" aria-label="Filter by topic"><option value="All">All topics</option><option value="SEO">SEO</option><option value="SEM">SEM</option><option value="ecommerce">eCommerce</option><option value="Japan">Japan</option><option value="APAC">APAC</option><option value="agency coordination">Agency Coordination</option><option value="marketplace">Marketplace</option></select></div><div class="search-count" id="search-count">Start typing or choose a popular search.</div><div class="search-results" id="search-results"></div></div></div></section></main>
+<main id="main">
+  <section class="page-hero search-hero">
+    <div class="shell reveal">
+      <p class="eyebrow">Search</p>
+      <h1>Search the Growth Journey</h1>
+      <p>Find pages, experience themes, services, skills, companies, career stages and writing topics across this site.</p>
+    </div>
+  </section>
+  <section class="search-app-section">
+    <div class="shell">
+      <noscript><p>Enable JavaScript to search this site. You can also browse using the site navigation.</p></noscript>
+      <div class="search-app reveal" data-search-app data-search-index="search-data.json">
+        <div class="search-input-wrap" role="search" aria-label="Site search">
+          <label for="site-search">Search this site</label>
+          <input id="site-search" type="search" maxlength="200" placeholder="Try SEO, ecommerce, Japan, Google Play, IBM, resume or services" autocomplete="off">
+        </div>
+        <div class="popular-searches" role="group" aria-label="Popular searches">
+          <button type="button" data-query="SEO">SEO</button>
+          <button type="button" data-query="ecommerce">ecommerce</button>
+          <button type="button" data-query="Japan">Japan</button>
+          <button type="button" data-query="Google Play">Google Play</button>
+          <button type="button" data-query="resume">resume</button>
+          <button type="button" data-query="services">services</button>
+          <button type="button" data-query="agency coordination">agency coordination</button>
+        </div>
+        <div class="filter-row">
+          <select id="type-filter" aria-label="Filter by type">
+            <option value="All">All types</option>
+            <option value="Page">Pages</option>
+            <option value="Experience">Experience</option>
+            <option value="Service">Services</option>
+            <option value="Selected Work">Selected Work</option>
+          </select>
+          <select id="status-filter" aria-label="Filter by status">
+            <option value="All">All status</option>
+            <option value="Live">Live</option>
+            <option value="Coming Soon">Coming Soon</option>
+            <option value="Work in Progress">Work in Progress</option>
+          </select>
+          <select id="topic-filter" aria-label="Filter by topic">
+            <option value="All">All topics</option>
+            <option value="SEO">SEO</option>
+            <option value="SEM">SEM</option>
+            <option value="ecommerce">eCommerce</option>
+            <option value="Japan">Japan</option>
+            <option value="APAC">APAC</option>
+            <option value="agency coordination">Agency Coordination</option>
+            <option value="marketplace">Marketplace</option>
+          </select>
+          <select id="language-filter" aria-label="Filter by language">
+            <option value="All">All languages</option>
+          </select>
+        </div>
+        <div class="search-count" id="search-count" role="status" aria-live="polite" aria-atomic="true">Start typing or choose a popular search.</div>
+        <div class="search-results" id="search-results"></div>
+        <button class="btn quiet" id="search-more" type="button" aria-controls="search-results" hidden>Show more results</button>
+      </div>
+    </div>
+  </section>
+</main>
 <footer class="site-footer">
   <div class="shell footer-grid">
     <div>
