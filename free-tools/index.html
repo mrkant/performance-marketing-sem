@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free SEO & Marketing Tools | Shashi Kant</title>
+  <meta name="description" content="Professional free SEO, keyword research and A/B testing tools. Run website audits, generate keyword ideas and calculate statistical significance — no signup required.">
+  <meta name="author" content="Shashi Kant">
+  <link rel="canonical" href="https://shashikant.jp/free-tools/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Free SEO & Marketing Tools | Shashi Kant">
+  <meta property="og:description" content="Run free SEO audits, generate keyword ideas and calculate A/B test significance. Professional tools for marketers and growth teams.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shashikant.jp/free-tools/">
+  <meta property="og:site_name" content="Shashi Kant">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0b1e3a">
+
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- Fonts (match main site) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/tools-hub.css">
+  <link rel="stylesheet" href="css/tool-common.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Free SEO & Marketing Tools Hub",
+    "url": "https://shashikant.jp/free-tools/",
+    "description": "Free professional SEO audit, keyword research and A/B testing calculator tools.",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Shashi Kant",
+      "url": "https://shashikant.jp/"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://shashikant.jp/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Free Tools",
+        "item": "https://shashikant.jp/free-tools/"
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="sth-page">
+
+  <!-- Header -->
+  <header class="sth-header">
+    <div class="sth-shell sth-nav-shell">
+      <a class="sth-brand" href="/free-tools/" aria-label="Free Tools Hub home">
+        <span class="sth-brand-mark">SK</span>
+        <span>
+          Free Tools
+          <span class="sth-brand-sub" style="display:block;margin-top:-2px;">by Shashi Kant</span>
+        </span>
+      </a>
+      <nav class="sth-nav-links" aria-label="Tools navigation">
+        <a href="/free-tools/" class="sth-active">All Tools</a>
+        <a href="/free-tools/seo-ai-audit/">SEO Audit</a>
+        <a href="/free-tools/keyword-research/">Keywords</a>
+        <a href="/free-tools/ab-testing-calculator/">A/B Calculator</a>
+      </nav>
+      <a class="sth-back-main" href="/">← Main site</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="sth-section sth-section--hero">
+      <div class="sth-shell">
+        <div class="sth-hero-inner">
+          <p class="sth-eyebrow">SEO · Keywords · Experimentation</p>
+          <h1>Free SEO &amp; Marketing Tools to Grow Your Website</h1>
+          <p class="sth-hero-lead">
+            Professional-grade utilities for audits, keyword discovery and statistical testing.
+            No signup. No tracking of your data. Process everything in the browser or via free public APIs.
+          </p>
+          <div class="sth-hero-actions">
+            <a class="sth-btn sth-btn--primary" href="#tools">Explore tools</a>
+            <a class="sth-btn sth-btn--secondary" href="/marketing-intelligence/">Marketing Intelligence hub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools section -->
+    <section class="sth-section" id="tools">
+      <div class="sth-shell">
+        <div class="sth-section-head">
+          <h2>Featured free tools</h2>
+          <p>Start with the three core tools. More utilities will be added over time.</p>
+        </div>
+
+        <!-- Simple client-side search -->
+        <div class="sth-search-bar" role="search">
+          <label class="sth-sr-only" for="sth-tool-search">Search tools</label>
+          <input type="search" id="sth-tool-search" placeholder="Search tools (e.g. SEO, keywords, A/B)…" autocomplete="off">
+          <button type="button" class="sth-btn sth-btn--primary sth-btn--sm" id="sth-search-btn">Search</button>
+        </div>
+
+        <div class="sth-categories" role="tablist" aria-label="Tool categories">
+          <button type="button" class="sth-cat-chip sth-active" data-cat="all">All</button>
+          <button type="button" class="sth-cat-chip" data-cat="seo">SEO</button>
+          <button type="button" class="sth-cat-chip" data-cat="keywords">Keywords</button>
+          <button type="button" class="sth-cat-chip" data-cat="experimentation">Experimentation</button>
+          <button type="button" class="sth-cat-chip" data-cat="ai">AI readiness</button>
+        </div>
+
+        <div class="sth-tools-grid" id="sth-tools-grid">
+
+          <!-- Tool 1 -->
+          <article class="sth-tool-card" data-cats="seo ai" data-name="Free SEO + AI Audit">
+            <div class="sth-tool-icon" aria-hidden="true">🔍</div>
+            <div class="sth-tool-meta">
+              <span class="sth-badge sth-badge--free">Free</span>
+              <span class="sth-badge">SEO</span>
+              <span class="sth-badge">AI readiness</span>
+            </div>
+            <h3>Free SEO + AI Audit</h3>
+            <p>
+              Analyse any public URL with PageSpeed Insights or upload an HTML file.
+              Get technical SEO checks, Core Web Vitals signals and content readiness indicators for AI search.
+            </p>
+            <a class="sth-btn sth-btn--primary sth-btn--block" href="/free-tools/seo-ai-audit/">Start SEO Audit</a>
+          </article>
+
+          <!-- Tool 2 -->
+          <article class="sth-tool-card" data-cats="keywords" data-name="Free Keyword Research">
+            <div class="sth-tool-icon sth-tool-icon--green" aria-hidden="true">🔑</div>
+            <div class="sth-tool-meta">
+              <span class="sth-badge sth-badge--free">Free</span>
+              <span class="sth-badge">Keywords</span>
+            </div>
+            <h3>Free Keyword Research</h3>
+            <p>
+              Generate keyword variations, long-tail ideas, questions and content topics from a seed keyword.
+              Group by search intent. Export CSV. Works fully offline in your browser.
+            </p>
+            <a class="sth-btn sth-btn--primary sth-btn--block" href="/free-tools/keyword-research/">Start Keyword Research</a>
+          </article>
+
+          <!-- Tool 3 -->
+          <article class="sth-tool-card" data-cats="experimentation" data-name="Free A/B Testing Calculator">
+            <div class="sth-tool-icon sth-tool-icon--amber" aria-hidden="true">📊</div>
+            <div class="sth-tool-meta">
+              <span class="sth-badge sth-badge--free">Free</span>
+              <span class="sth-badge">Statistics</span>
+            </div>
+            <h3>Free A/B Testing Calculator</h3>
+            <p>
+              Enter visitors and conversions for two variations. Get conversion rates, relative lift,
+              statistical significance, p-value and sample-size guidance. Clear “winner or inconclusive” output.
+            </p>
+            <a class="sth-btn sth-btn--primary sth-btn--block" href="/free-tools/ab-testing-calculator/">Open A/B Calculator</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="sth-section sth-benefits">
+      <div class="sth-shell">
+        <h2>Why these tools exist</h2>
+        <div class="sth-benefits-grid">
+          <div class="sth-benefit">
+            <div class="sth-benefit-icon" aria-hidden="true">⚡</div>
+            <h3>Actually functional</h3>
+            <p>Not landing pages. Real calculations, real file analysis and real API calls where free tiers allow.</p>
+          </div>
+          <div class="sth-benefit">
+            <div class="sth-benefit-icon" aria-hidden="true">🔒</div>
+            <h3>Privacy first</h3>
+            <p>HTML files are processed in your browser. No forced accounts. We do not store your uploaded content.</p>
+          </div>
+          <div class="sth-benefit">
+            <div class="sth-benefit-icon" aria-hidden="true">📐</div>
+            <h3>Honest limits</h3>
+            <p>No invented search volumes or ranking claims. Statistical significance is clearly separated from business impact.</p>
+          </div>
+          <div class="sth-benefit">
+            <div class="sth-benefit-icon" aria-hidden="true">🧩</div>
+            <h3>Built to expand</h3>
+            <p>Architecture supports more free tools later (schema generator, GEO checks, ROI calculators and more).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="sth-section" id="faq">
+      <div class="sth-shell">
+        <div class="sth-section-head">
+          <h2>Frequently asked questions</h2>
+          <p>Quick answers about scope, privacy and how the tools work.</p>
+        </div>
+        <div class="sth-faq-list" id="sth-faq">
+          <div class="sth-faq-item">
+            <button type="button" class="sth-faq-q" aria-expanded="false">Are these tools really free?</button>
+            <div class="sth-faq-a">
+              <div class="sth-faq-a-inner">
+                Yes. All three tools are free to use with no account required. Some features rely on free public APIs (for example Google PageSpeed Insights) that may have fair-use rate limits. Those limits are explained inside each tool.
+              </div>
+            </div>
+          </div>
+          <div class="sth-faq-item">
+            <button type="button" class="sth-faq-q" aria-expanded="false">Do you store the websites or files I analyse?</button>
+            <div class="sth-faq-a">
+              <div class="sth-faq-a-inner">
+                HTML file uploads are processed entirely in your browser and never leave your device. URL analysis may send the public URL to Google’s PageSpeed Insights API. We do not log or store your analysis results on our servers.
+              </div>
+            </div>
+          </div>
+          <div class="sth-faq-item">
+            <button type="button" class="sth-faq-q" aria-expanded="false">Will the keyword tool show search volume or difficulty?</button>
+            <div class="sth-faq-a">
+              <div class="sth-faq-a-inner">
+                No. The initial version generates keyword ideas, long-tails, questions and intent groups from linguistic patterns. It does not invent or scrape monthly search volume, CPC or difficulty scores. That distinction is clearly labelled inside the tool.
+              </div>
+            </div>
+          </div>
+          <div class="sth-faq-item">
+            <button type="button" class="sth-faq-q" aria-expanded="false">How accurate is the A/B testing calculator?</button>
+            <div class="sth-faq-a">
+              <div class="sth-faq-a-inner">
+                It uses a standard two-proportion z-test for statistical significance and common sample-size formulas. Results include confidence level, p-value and clear messaging when evidence is insufficient. Statistical significance is not the same as practical business significance — the tool states this explicitly.
+              </div>
+            </div>
+          </div>
+          <div class="sth-faq-item">
+            <button type="button" class="sth-faq-q" aria-expanded="false">Can I use these tools on client sites?</button>
+            <div class="sth-faq-a">
+              <div class="sth-faq-a-inner">
+                Yes. The tools are designed for marketers, consultants and in-house teams. Always respect the target site’s robots.txt and terms of service when requesting public pages.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related content from main site -->
+    <section class="sth-section sth-section--tight" style="background:#f1f5f9;">
+      <div class="sth-shell">
+        <div class="sth-section-head">
+          <h2>Related guides on this site</h2>
+          <p>Context that helps you use the tools with better judgement.</p>
+        </div>
+        <div class="sth-related">
+          <a class="sth-related-card" href="/marketing-intelligence/">
+            <h3>Marketing Intelligence</h3>
+            <p>Structured thinking on market, consumer, brand, product and measurement.</p>
+          </a>
+          <a class="sth-related-card" href="/marketing-costs-japan/">
+            <h3>Marketing Costs Japan</h3>
+            <p>Published cost ranges, agency realities and decision questions for Japan.</p>
+          </a>
+          <a class="sth-related-card" href="/marketing-costs-japan/seo-cost-japan/">
+            <h3>SEO Cost Japan</h3>
+            <p>What SEO work typically costs and the questions that matter before you buy.</p>
+          </a>
+          <a class="sth-related-card" href="/marketing-intelligence/pages/seo-in-japan.html">
+            <h3>SEO in Japan</h3>
+            <p>Local context for search visibility and content strategy in the Japanese market.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="sth-footer">
+    <div class="sth-shell">
+      <div class="sth-footer-grid">
+        <div>
+          <div class="sth-footer-brand">Shashi Kant · Free Tools</div>
+          <p>Practical SEO and marketing utilities built for clearer decisions. Part of the broader Marketing Intelligence work on shashikant.jp.</p>
+        </div>
+        <div>
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="/free-tools/seo-ai-audit/">SEO + AI Audit</a></li>
+            <li><a href="/free-tools/keyword-research/">Keyword Research</a></li>
+            <li><a href="/free-tools/ab-testing-calculator/">A/B Testing Calculator</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Main site</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/marketing-intelligence/">Marketing Intelligence</a></li>
+            <li><a href="/marketing-costs-japan/">Japan Cost Hub</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sth-footer-bottom">
+        <span>© <span id="sth-year"></span> Shashi Kant. All tools free for professional use.</span>
+        <span><a href="/privacy.html">Privacy</a> · <a href="/">shashikant.jp</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/tools-hub.js"></script>
+</body>
+</html>

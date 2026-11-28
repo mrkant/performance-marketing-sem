@@ -1,0 +1,556 @@
+/* ============================================================
+   Marketing Incrementality Intelligence (mii-)
+   Application shell styles — scoped, no global leakage
+   ============================================================ */
+
+:root {
+  --mii-bg: #0b1220;
+  --mii-bg-elevated: #111827;
+  --mii-surface: #1a2332;
+  --mii-surface-2: #243044;
+  --mii-border: rgba(148, 163, 184, 0.14);
+  --mii-border-strong: rgba(148, 163, 184, 0.28);
+  --mii-text: #e8eef7;
+  --mii-text-muted: #94a3b8;
+  --mii-text-soft: #64748b;
+  --mii-blue: #3b82f6;
+  --mii-blue-soft: rgba(59, 130, 246, 0.15);
+  --mii-emerald: #10b981;
+  --mii-emerald-soft: rgba(16, 185, 129, 0.15);
+  --mii-amber: #f59e0b;
+  --mii-amber-soft: rgba(245, 158, 11, 0.15);
+  --mii-red: #ef4444;
+  --mii-purple: #8b5cf6;
+  --mii-radius: 12px;
+  --mii-radius-lg: 16px;
+  --mii-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+  --mii-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --mii-sidebar-w: 260px;
+  --mii-header-h: 56px;
+  --mii-transition: 0.18s ease;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+.mii-app {
+  margin: 0;
+  font-family: var(--mii-font);
+  background: var(--mii-bg);
+  color: var(--mii-text);
+  line-height: 1.5;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mii-app a { color: inherit; text-decoration: none; }
+
+/* ---------- Layout shell ---------- */
+.mii-shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.mii-sidebar {
+  width: var(--mii-sidebar-w);
+  flex-shrink: 0;
+  background: var(--mii-bg-elevated);
+  border-right: 1px solid var(--mii-border);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 40;
+  transition: transform var(--mii-transition);
+}
+
+.mii-sidebar-brand {
+  height: var(--mii-header-h);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 18px;
+  border-bottom: 1px solid var(--mii-border);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  font-size: 0.95rem;
+}
+
+.mii-brand-mark {
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, #10b981, #3b82f6);
+  display: grid;
+  place-items: center;
+  font-size: 0.7rem;
+  font-weight: 900;
+  color: #041015;
+  flex-shrink: 0;
+}
+
+.mii-brand-text span {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--mii-text-muted);
+  letter-spacing: 0.02em;
+  margin-top: -1px;
+}
+
+.mii-nav {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px 10px;
+}
+
+.mii-nav-section {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--mii-text-soft);
+  padding: 12px 12px 6px;
+}
+
+.mii-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: 10px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--mii-text-muted);
+  cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  transition: background var(--mii-transition), color var(--mii-transition);
+}
+
+.mii-nav-item:hover {
+  background: rgba(148, 163, 184, 0.08);
+  color: var(--mii-text);
+}
+
+.mii-nav-item.mii-active {
+  background: var(--mii-blue-soft);
+  color: #93c5fd;
+}
+
+.mii-nav-icon {
+  width: 20px;
+  text-align: center;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.mii-sidebar-footer {
+  padding: 12px 14px;
+  border-top: 1px solid var(--mii-border);
+  font-size: 0.75rem;
+  color: var(--mii-text-soft);
+}
+
+.mii-sidebar-footer a {
+  color: var(--mii-text-muted);
+  font-weight: 600;
+}
+.mii-sidebar-footer a:hover { color: #93c5fd; }
+
+/* ---------- Main area ---------- */
+.mii-main {
+  flex: 1;
+  margin-left: var(--mii-sidebar-w);
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mii-topbar {
+  height: var(--mii-header-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--mii-border);
+  background: rgba(11, 18, 32, 0.85);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.mii-topbar-title {
+  font-weight: 750;
+  font-size: 1rem;
+  letter-spacing: -0.02em;
+}
+
+.mii-topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mii-mode-toggle {
+  display: inline-flex;
+  background: var(--mii-surface);
+  border: 1px solid var(--mii-border);
+  border-radius: 999px;
+  padding: 3px;
+}
+
+.mii-mode-btn {
+  border: none;
+  background: transparent;
+  color: var(--mii-text-muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all var(--mii-transition);
+}
+
+.mii-mode-btn.mii-active {
+  background: var(--mii-blue);
+  color: #fff;
+}
+
+.mii-content {
+  flex: 1;
+  padding: 24px;
+  overflow-x: hidden;
+}
+
+/* ---------- Cards & grid ---------- */
+.mii-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.mii-grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.mii-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.mii-grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mii-card {
+  background: var(--mii-surface);
+  border: 1px solid var(--mii-border);
+  border-radius: var(--mii-radius-lg);
+  padding: 18px 20px;
+}
+
+.mii-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.mii-card-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--mii-text);
+  margin: 0;
+}
+
+.mii-card-subtitle {
+  font-size: 0.78rem;
+  color: var(--mii-text-muted);
+  margin: 2px 0 0;
+}
+
+.mii-kpi-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--mii-text);
+  line-height: 1.15;
+}
+
+.mii-kpi-label {
+  font-size: 0.78rem;
+  color: var(--mii-text-muted);
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.mii-kpi-delta {
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.mii-kpi-delta.up { color: var(--mii-emerald); }
+.mii-kpi-delta.down { color: var(--mii-red); }
+.mii-kpi-delta.neutral { color: var(--mii-text-muted); }
+
+.mii-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+
+.mii-badge--demo {
+  background: var(--mii-amber-soft);
+  color: #fbbf24;
+}
+
+.mii-badge--live {
+  background: var(--mii-emerald-soft);
+  color: #34d399;
+}
+
+.mii-badge--info {
+  background: var(--mii-blue-soft);
+  color: #93c5fd;
+}
+
+/* ---------- Buttons ---------- */
+.mii-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: transform var(--mii-transition), background var(--mii-transition);
+}
+
+.mii-btn:hover { transform: translateY(-1px); }
+
+.mii-btn--primary {
+  background: var(--mii-blue);
+  color: #fff;
+}
+
+.mii-btn--ghost {
+  background: transparent;
+  color: var(--mii-text-muted);
+  border: 1px solid var(--mii-border);
+}
+
+.mii-btn--ghost:hover {
+  border-color: var(--mii-border-strong);
+  color: var(--mii-text);
+}
+
+.mii-btn--sm {
+  padding: 5px 10px;
+  font-size: 0.78rem;
+}
+
+/* ---------- Tables ---------- */
+.mii-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--mii-border);
+  border-radius: var(--mii-radius);
+}
+
+.mii-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.mii-table th,
+.mii-table td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--mii-border);
+}
+
+.mii-table th {
+  background: rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  color: var(--mii-text-muted);
+  white-space: nowrap;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.mii-table tr:last-child td { border-bottom: none; }
+
+.mii-table td { color: var(--mii-text); }
+
+/* ---------- Chart container ---------- */
+.mii-chart-box {
+  position: relative;
+  height: 260px;
+  width: 100%;
+}
+
+/* ---------- Empty / placeholder panels ---------- */
+.mii-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--mii-text-muted);
+  min-height: 280px;
+}
+
+.mii-placeholder h3 {
+  margin: 0 0 8px;
+  color: var(--mii-text);
+  font-size: 1.1rem;
+}
+
+.mii-placeholder p {
+  margin: 0 0 16px;
+  max-width: 420px;
+  font-size: 0.9rem;
+}
+
+/* ---------- Demo banner ---------- */
+.mii-demo-banner {
+  background: linear-gradient(90deg, rgba(245, 158, 11, 0.12), rgba(59, 130, 246, 0.1));
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: var(--mii-radius);
+  padding: 12px 16px;
+  font-size: 0.85rem;
+  color: #fde68a;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.mii-demo-banner strong { color: #fbbf24; }
+
+/* ---------- Mobile ---------- */
+.mii-menu-toggle {
+  display: none;
+  background: var(--mii-surface);
+  border: 1px solid var(--mii-border);
+  color: var(--mii-text);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.mii-sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 35;
+}
+
+@media (max-width: 1100px) {
+  .mii-grid-4 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 900px) {
+  .mii-sidebar {
+    transform: translateX(-100%);
+  }
+  .mii-sidebar.mii-open {
+    transform: translateX(0);
+  }
+  .mii-sidebar-overlay.mii-show {
+    display: block;
+  }
+  .mii-main {
+    margin-left: 0;
+  }
+  .mii-menu-toggle {
+    display: inline-flex;
+  }
+  .mii-grid-3,
+  .mii-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .mii-grid-4 { grid-template-columns: 1fr; }
+  .mii-content { padding: 16px; }
+  .mii-topbar { padding: 0 14px; }
+}
+
+/* Utility */
+.mii-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.mii-mt-16 { margin-top: 16px; }
+.mii-mt-20 { margin-top: 20px; }
+.mii-mb-0 { margin-bottom: 0; }
+.mii-text-muted { color: var(--mii-text-muted); }
+.mii-text-soft { color: var(--mii-text-soft); }
+
+
+/* ---------- Print / PDF for Reports ---------- */
+@media print {
+  .mii-sidebar,
+  .mii-topbar,
+  .mii-sidebar-overlay,
+  .mii-menu-toggle,
+  .mii-demo-banner,
+  #rp-build, #rp-csv, #rp-json, #rp-print,
+  .mii-btn {
+    display: none !important;
+  }
+  .mii-main {
+    margin-left: 0 !important;
+  }
+  .mii-content {
+    padding: 0 !important;
+  }
+  .mii-card {
+    break-inside: avoid;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    background: #fff !important;
+    color: #111 !important;
+  }
+  .mii-app, .mii-page, body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+  .mii-text-muted, .mii-kpi-label, .mii-card-subtitle {
+    color: #444 !important;
+  }
+  .mii-table th {
+    background: #eee !important;
+    color: #111 !important;
+  }
+}

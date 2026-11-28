@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Keyword Research Tool | Shashi Kant</title>
+  <meta name="description" content="Free keyword idea generator. Create variations, long-tails, questions, intent groups, blog titles and FAQ ideas from a seed keyword. Export CSV. Fully browser-based — no invented search volumes.">
+  <meta name="author" content="Shashi Kant">
+  <link rel="canonical" href="https://shashikant.jp/free-tools/keyword-research/">
+
+  <meta property="og:title" content="Free Keyword Research Tool | Shashi Kant">
+  <meta property="og:description" content="Generate keyword variations, long-tails, questions and content ideas. Filter by intent, export CSV, save lists locally. No search volume invention.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shashikant.jp/free-tools/keyword-research/">
+  <meta property="og:site_name" content="Shashi Kant">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#0b1e3a">
+
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/tools-hub.css">
+  <link rel="stylesheet" href="../css/tool-common.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Free Keyword Research",
+    "url": "https://shashikant.jp/free-tools/keyword-research/",
+    "description": "Free browser-based keyword idea generator with intent grouping and CSV export.",
+    "applicationCategory": "BusinessApplication",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "author": { "@type": "Person", "name": "Shashi Kant", "url": "https://shashikant.jp/" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://shashikant.jp/" },
+      { "@type": "ListItem", "position": 2, "name": "Free Tools", "item": "https://shashikant.jp/free-tools/" },
+      { "@type": "ListItem", "position": 3, "name": "Keyword Research", "item": "https://shashikant.jp/free-tools/keyword-research/" }
+    ]
+  }
+  </script>
+</head>
+<body class="sth-page sth-tool-page">
+
+  <header class="sth-header">
+    <div class="sth-shell sth-nav-shell">
+      <a class="sth-brand" href="/free-tools/" aria-label="Free Tools Hub">
+        <span class="sth-brand-mark">SK</span>
+        <span>
+          Free Tools
+          <span class="sth-brand-sub" style="display:block;margin-top:-2px;">Keyword Research</span>
+        </span>
+      </a>
+      <nav class="sth-nav-links" aria-label="Tools">
+        <a href="/free-tools/">All Tools</a>
+        <a href="/free-tools/seo-ai-audit/">SEO Audit</a>
+        <a href="/free-tools/keyword-research/" class="sth-active">Keywords</a>
+        <a href="/free-tools/ab-testing-calculator/">A/B Calculator</a>
+      </nav>
+      <a class="sth-back-main" href="/">← Main site</a>
+    </div>
+  </header>
+
+  <main class="sth-tool-main" id="main">
+    <section class="sth-section" style="padding-top:40px;">
+      <div class="sth-shell" style="max-width:900px;">
+
+        <nav class="sth-breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a> <span>/</span>
+          <a href="/free-tools/">Free Tools</a> <span>/</span>
+          <span>Keyword Research</span>
+        </nav>
+
+        <h1 style="font-size:clamp(1.6rem,3vw,2.1rem);font-weight:800;letter-spacing:-0.03em;color:var(--sth-navy);margin:0 0 10px;">
+          Free Keyword Research
+        </h1>
+        <p style="color:var(--sth-text-muted);margin:0 0 28px;font-size:1.05rem;line-height:1.6;">
+          Generate keyword variations, long-tails, questions, intent groups, blog titles and content topics from a seed keyword.
+          Fully browser-based. No invented search volumes, CPC or difficulty scores.
+        </p>
+
+        <!-- Input -->
+        <div class="sth-card">
+          <div class="sth-form-group">
+            <label class="sth-label" for="sth-kw-seed">Seed keyword</label>
+            <input class="sth-input" type="text" id="sth-kw-seed" placeholder="e.g. seo audit, content marketing, japan ecommerce" autocomplete="off">
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+            <div class="sth-form-group">
+              <label class="sth-label" for="sth-kw-lang">Language</label>
+              <select class="sth-select" id="sth-kw-lang">
+                <option value="en" selected>English</option>
+                <!-- Architecture ready for more languages -->
+              </select>
+            </div>
+            <div class="sth-form-group">
+              <label class="sth-label" for="sth-kw-country">Country focus</label>
+              <select class="sth-select" id="sth-kw-country">
+                <option value="us">United States</option>
+                <option value="gb">United Kingdom</option>
+                <option value="jp">Japan</option>
+                <option value="au">Australia</option>
+                <option value="ca">Canada</option>
+                <option value="in">India</option>
+                <option value="sg">Singapore</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div id="sth-kw-error" class="sth-alert sth-alert--error" hidden role="alert"></div>
+          <button type="button" class="sth-btn sth-btn--primary" id="sth-kw-run">Generate keyword ideas</button>
+          <p class="sth-hint" style="margin-top:12px;">
+            Ideas are generated from linguistic patterns. Always validate demand with a real keyword tool before investing in content or ads.
+          </p>
+        </div>
+
+        <!-- Results -->
+        <div id="sth-kw-results" hidden style="margin-top:28px;"></div>
+
+        <!-- Saved lists -->
+        <div class="sth-card" style="margin-top:28px;">
+          <h2 style="margin:0 0 12px;font-size:1.05rem;color:var(--sth-navy);">Saved lists (this browser)</h2>
+          <div id="sth-saved-lists">
+            <p style="color:#94a3b8;font-size:0.9rem;margin:0;">No saved lists yet.</p>
+          </div>
+        </div>
+
+        <!-- Limitations -->
+        <div class="sth-card" style="margin-top:28px;background:#f8fafc;">
+          <h2 style="margin:0 0 12px;font-size:1.05rem;color:var(--sth-navy);">What this tool does and does not do</h2>
+          <ul style="margin:0;padding-left:18px;font-size:0.9rem;color:var(--sth-text-muted);line-height:1.6;">
+            <li><strong>Does:</strong> Generate variations, long-tails, questions, alphabetical expansions, intent groups, blog titles, FAQ questions and topic ideas.</li>
+            <li><strong>Does not:</strong> Provide real monthly search volume, CPC, keyword difficulty or competition scores.</li>
+            <li><strong>Intent labels</strong> are heuristic (based on common modifier words), not from search engine data.</li>
+            <li><strong>Privacy:</strong> Everything runs in your browser. Saved lists use localStorage only on this device.</li>
+            <li>Language packs beyond English can be added later without changing the architecture.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="sth-footer">
+    <div class="sth-shell">
+      <div class="sth-footer-bottom" style="border:none;padding-top:0;">
+        <span>© <span id="sth-year"></span> Shashi Kant · <a href="/free-tools/">Free Tools</a></span>
+        <span><a href="/privacy.html">Privacy</a> · <a href="/">shashikant.jp</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/tools-hub.js"></script>
+  <script src="../js/keyword-research.js"></script>
+</body>
+</html>
